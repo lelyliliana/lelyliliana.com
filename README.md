@@ -70,9 +70,9 @@ Publicar estos archivos en la raíz de la rama configurada en **Settings → Pag
 
 ## Blog
 
-El índice contiene 16 tarjetas: “Educar en el uso de la tecnología, no simplemente prohibirla” está migrado íntegramente a partir del texto suministrado por la autora, con fecha julio de 2026 (`datetime="2026-07"`, sin día inventado). Las otras 15 fichas siguen pendientes de contenido. No se ha accedido ni modificado Google Sites.
+El índice contiene 16 tarjetas: “Educar en el uso de la tecnología, no simplemente prohibirla” está migrado íntegramente a partir del texto suministrado por la autora, con fecha julio de 2026 (`datetime="2026-07"`, sin día inventado). También está migrado íntegramente “Cuando no hay internet, el problema no es enseñar… es con qué hacerlo”, con fecha 2026 (`datetime="2026"`, sin mes ni día inventados), nota final y enlace al video suministrado. Las otras 14 fichas siguen pendientes de contenido. No se ha accedido ni modificado Google Sites.
 
-Los títulos se han recuperado de los nombres de archivo indicados; los dos proyectos usan los títulos expresos suministrados. Las categorías son una organización temática inicial basada en esos títulos y deben revisarse con los textos originales. El artículo migrado tiene fecha, metadatos y extracto derivados del contenido suministrado. Aparece primero en el índice; las fichas sin fecha conservan después el orden suministrado. El artículo publicado no muestra anterior/siguiente hasta que exista otro artículo real; las plantillas pendientes conservan su navegación preparada, sin representar una cronología confirmada.
+Los títulos se han recuperado de los nombres de archivo indicados; los dos proyectos usan los títulos expresos suministrados. Las categorías son una organización temática inicial basada en esos títulos y deben revisarse con los textos originales. Los dos artículos migrados tienen fecha, metadatos y extractos derivados del contenido suministrado. En el índice y “Últimos artículos” se conserva primero el de julio de 2026 y después el que solo tiene año; no se puede determinar una cronología más precisa sin su mes. Las fichas sin fecha quedan después. La navegación une el primero como anterior del segundo, según la instrucción de la autora, y el segundo como siguiente del primero. No se enlazan fichas pendientes como siguientes de los artículos publicados.
 
 `assets/js/blog.js` controla exclusivamente los filtros accesibles del índice. Sin JavaScript todas las tarjetas permanecen visibles. `assets/js/main.js` mantiene menú y tema compartidos. Los artículos usan `../../assets/`, `../../index.html` y `../index.html` para volver al blog. Las imágenes se reservan bajo `assets/img/blog/` y no se insertan etiquetas de imagen hasta disponer de archivos reales.
 
@@ -86,7 +86,7 @@ Los títulos se han recuperado de los nombres de archivo indicados; los dos proy
 
 La portada de la serie “Construyendo Proyectos de Internet” enlaza a los dos proyectos ESP32; cada proyecto incluye un enlace de regreso a la serie. “Proyectos publicados” conserva el encabezado solicitado y los avisos de migración aclaran el estado de sus fichas.
 
-El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información editorial del libro”. Incluye también “Conocer y adquirir el libro”, que abre la URL oficial de ECOE en otra pestaña. Su cuerpo sigue pendiente de migración y aún no se ha añadido el enlace de regreso desde la ficha editorial. “Últimos artículos” muestra el artículo real migrado y se ampliará cuando se incorporen nuevos textos y fechas.
+El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información editorial del libro”. Incluye también “Conocer y adquirir el libro”, que abre la URL oficial de ECOE en otra pestaña. Su cuerpo sigue pendiente de migración y aún no se ha añadido el enlace de regreso desde la ficha editorial. “Últimos artículos” muestra los dos artículos reales migrados y se ampliará cuando se incorporen nuevos textos y fechas.
 
 ## Publicaciones
 
@@ -96,7 +96,7 @@ El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica 
 
 - Editar los textos y enlaces en `index.html`.
 - Ajustar colores y estilos en `assets/css/styles.css`.
-- La fotografía del hero está en `assets/img/perfil.jpg`. Se conserva su proporción original con `object-fit: cover` y texto alternativo descriptivo.
+- La fotografía del hero está en `assets/img/perfil.jpg`. El archivo original permanece intacto. El encuadre se ajusta solo mediante CSS: marco de hasta 340 px en escritorio y 260 px en móvil, proporción cuadrada, `object-fit: cover` y `object-position: center top` para priorizar rostro y hombros sin cortar la cabeza.
 - La portada oficial de Mesa STEM está en `assets/img/mesa-stem/portada.jpg`, extraída del frente de la cubierta PDF, sin lomo, contraportada ni marcas de imprenta. Se muestra completa en la tarjeta y la ficha del libro. Al sustituir imágenes, actualizar sus atributos `width` y `height` si cambian las dimensiones. El botón “Ver en ECOE Ediciones” de la ficha enlaza a `https://ecoeediciones.com/product/mesa-stem-2/` y usa `target="_blank"` y `rel="noopener noreferrer"`.
 - Reemplazar “Próximamente” por enlaces a recursos únicamente cuando estén disponibles.
 
