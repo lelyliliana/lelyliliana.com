@@ -288,6 +288,8 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .reading-page a:hover { color: var(--color-accent-dark); }
 .article-heading h1 { font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.2; letter-spacing: -.035em; overflow-wrap: break-word; }
 .article-heading time { display: block; margin-bottom: 24px; font-size: .9375rem; color: var(--color-muted); }
+.article-heading .article-dates { margin-bottom: 24px; font-size: .9375rem; color: var(--color-muted); }
+.article-heading .article-dates time { display: inline; margin: 0; }
 .reading-page figure { margin: 32px 0; }
 .reading-page img { display: block; max-width: 100%; height: auto; }
 .reading-page figcaption { margin-top: 10px; color: var(--color-muted); font-size: .875rem; }
