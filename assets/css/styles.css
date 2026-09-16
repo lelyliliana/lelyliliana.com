@@ -44,7 +44,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 .brand { flex-shrink: 0; line-height: 1.5; }
 .brand strong { display: block; font-size: 1rem; color: var(--color-primary); }
 .brand span { display: block; font-size: .8125rem; color: var(--color-muted); }
-.navigation { display: flex; gap: 23px; margin-left: auto; align-items: center; }
+.navigation { display: flex; gap: 18px; margin-left: auto; align-items: center; }
 .navigation a { font-size: .875rem; padding: 12px 0; position: relative; }
 .navigation a:hover, .navigation a[aria-current] { color: var(--color-accent); }
 .navigation a[aria-current]::after { content: ""; position: absolute; height: 2px; bottom: 5px; left: 0; right: 0; background: var(--color-accent); }
@@ -139,6 +139,24 @@ h1 span { color: var(--color-accent); }
 blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85rem); line-height: 1.5; font-weight: 300; letter-spacing: -.02em; }
 .copyright { border-top: 1px solid #35516c; margin-top: 45px; margin-bottom: 0; padding-top: 22px; font-size: .75rem; color: #bccde0; }
 .copyright span { float: right; }
+/* Blog y publicación: reutilizan los colores de ambos temas. */
+.book-placeholder { width: 100%; min-height: 112px; display: flex; align-items: center; gap: 16px; padding: 20px; margin-bottom: 24px; border: 1px dashed var(--color-border); border-radius: 6px; background: var(--color-light); color: var(--color-muted); font-size: .8125rem; }
+.book-placeholder .icon { width: 32px; height: 32px; color: var(--color-accent); }
+.book-cover { display: block; max-width: 100%; max-height: 320px; width: auto; height: auto; object-fit: contain; margin: 0 auto 24px; }
+.publication-details small { display: block; color: var(--color-muted); font-size: .75rem; margin-top: 10px; }
+.pending-link { pointer-events: none; color: var(--color-muted); }
+.recent-articles { border-top: 1px solid var(--color-border); }
+.article-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 36px; }
+.article-card { display: flex; flex-direction: column; align-items: flex-start; padding: 28px; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-background); transition: border-color .2s; }
+.article-card:hover { border-color: var(--color-accent); }
+.article-category { padding: 4px 10px; margin-bottom: 24px; border-radius: 5px; background: var(--color-light); color: var(--color-primary); font-size: .8125rem; }
+.article-card h2, .article-card h3 { font-size: 1.25rem; font-weight: 600; letter-spacing: -.02em; margin-bottom: 16px; }
+.article-card p { color: var(--color-muted); font-size: .9375rem; }
+.article-status { margin-top: auto; padding-top: 16px; color: var(--color-muted); font-size: .8125rem; }
+.articles-link { margin-top: 28px; }
+.blog-intro { max-width: 740px; }
+.blog-intro h1 { font-size: clamp(3rem, 5.2vw, 4.8rem); }
+.blog-page { min-height: 65vh; }
 @media (max-width: 1150px) {
   .container { width: calc(100% - 64px); }
   .header-inner { gap: 16px; }
@@ -164,7 +182,7 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
   h1 { font-size: clamp(2.8rem, 6vw, 4rem); }
   .profile-list { grid-template-columns: repeat(3, 1fr); gap: 24px 0; }
   .profile-list li:nth-child(4) { padding-left: 0; border: 0; }
-  .interest-grid, .resource-grid { grid-template-columns: repeat(2, 1fr); }
+  .interest-grid, .resource-grid, .article-grid { grid-template-columns: repeat(2, 1fr); }
   .project-grid { gap: 16px; }
   .project-card { padding: 24px; }
   .featured { padding-top: 22px; }
@@ -200,7 +218,7 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
   h2 { margin-bottom: 16px; }
   .eyebrow { margin-bottom: 12px; }
   .prose .lead { font-size: 1.125rem; }
-  .interest-grid, .project-grid, .resource-grid { grid-template-columns: 1fr; }
+  .interest-grid, .project-grid, .resource-grid, .article-grid { grid-template-columns: 1fr; }
   .interests { margin-top: 36px; }
   .project-grid { margin-top: 28px; }
   .project-card { padding: 28px; }

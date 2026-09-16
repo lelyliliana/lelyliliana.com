@@ -6,6 +6,10 @@
   const menuButton = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('#navegacion');
   const links = [...navigation.querySelectorAll('a')];
+  const sectionLinks = links.filter(link => {
+    const href = link.getAttribute('href');
+    return href.startsWith('#') && href.length > 1 && document.getElementById(href.slice(1));
+  });
   const mobileViewport = window.matchMedia('(max-width: 980px)');
   root.classList.add('js');
   themeButton.hidden = false;
@@ -48,7 +52,8 @@
   links.forEach(link => link.addEventListener('click', () => {
     if (mobileViewport.matches) {
       setMenu(false);
-      const section = document.querySelector(link.getAttribute('href'));
+      if (!sectionLinks.includes(link)) return;
+      const section = document.getElementById(link.getAttribute('href').slice(1));
       section.setAttribute('tabindex', '-1');
       section.focus({ preventScroll: true });
       section.addEventListener('blur', () => section.removeAttribute('tabindex'), { once: true });
@@ -65,12 +70,12 @@
   });
   mobileViewport.addEventListener('change', () => setMenu(false));
 
-  if ('IntersectionObserver' in window) {
+  if ('IntersectionObserver' in window && sectionLinks.length) {
     const observer = new IntersectionObserver(entries => {
       const visible = entries.filter(entry => entry.isIntersecting);
       if (!visible.length) return;
       const section = visible.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0].target;
-      links.forEach(link => {
+      sectionLinks.forEach(link => {
         if (link.getAttribute('href') === `#${section.id}`) {
           link.setAttribute('aria-current', 'location');
         } else {
@@ -78,6 +83,6 @@
         }
       });
     }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
-    links.forEach(link => observer.observe(document.querySelector(link.getAttribute('href'))));
+    sectionLinks.forEach(link => observer.observe(document.getElementById(link.getAttribute('href').slice(1))));
   }
 })();
