@@ -8,6 +8,7 @@
   <title>Blog · Leli Liliana Díaz Izquierdo</title>
   <link rel="stylesheet" href="../assets/css/styles.css">
   <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/blog.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -41,45 +42,137 @@
     <div class="blog-intro">
       <h1>Blog</h1>
       <p class="section-intro">Reflexiones, experiencias y aprendizajes sobre educación, tecnología, inteligencia artificial, robótica, desarrollo de software e investigación.</p>
+      <p class="migration-notice">Los artículos están pendientes de migración. Sus textos se incorporarán próximamente.</p>
     </div>
+    <!-- Sin fechas suministradas: se conserva el orden indicado. Al incorporar fechas verificadas, ordenar de más reciente a más antiguo. -->
+    <div class="blog-filters" role="group" aria-label="Filtrar artículos por categoría" hidden>
+      <button type="button" class="category-filter" data-category="Todas" aria-pressed="true">Todas</button>
+      <button type="button" class="category-filter" data-category="Educación" aria-pressed="false">Educación</button>
+      <button type="button" class="category-filter" data-category="Tecnología" aria-pressed="false">Tecnología</button>
+      <button type="button" class="category-filter" data-category="Inteligencia Artificial" aria-pressed="false">Inteligencia Artificial</button>
+      <button type="button" class="category-filter" data-category="Robótica" aria-pressed="false">Robótica</button>
+      <button type="button" class="category-filter" data-category="Impresión 3D" aria-pressed="false">Impresión 3D</button>
+      <button type="button" class="category-filter" data-category="Investigación" aria-pressed="false">Investigación</button>
+      <button type="button" class="category-filter" data-category="STEM" aria-pressed="false">STEM</button>
+      <button type="button" class="category-filter" data-category="Reflexiones" aria-pressed="false">Reflexiones</button>
+      <button type="button" class="category-filter" data-category="Proyectos" aria-pressed="false">Proyectos</button>
+      <button type="button" class="category-filter" data-category="Publicaciones" aria-pressed="false">Publicaciones</button>
+    </div>
+    <p class="filter-status" role="status" aria-live="polite" hidden></p>
     <!-- Los artículos publicados en el antiguo Google Sites serán migrados posteriormente a esta sección. -->
-    <div class="article-grid">
-        <article class="article-card">
-          <span class="article-category">Educación</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre educación.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
-        <article class="article-card">
-          <span class="article-category">Tecnología</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre tecnología.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
-        <article class="article-card">
-          <span class="article-category">Inteligencia artificial</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre inteligencia artificial.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
-        <article class="article-card">
-          <span class="article-category">Robótica</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre robótica.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
-        <article class="article-card">
-          <span class="article-category">Desarrollo de software</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre desarrollo de software.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
-        <article class="article-card">
-          <span class="article-category">Investigación</span>
-          <h2>Artículo próximamente</h2>
-          <p>Este espacio reunirá reflexiones y aprendizajes sobre investigación.</p>
-          <span class="article-status">Próximamente</span>
-        </article>
+    <div class="article-grid" id="article-list">
+      <article class="article-card" data-categories="STEM|Publicaciones">
+        <div class="article-categories"><span class="article-category">STEM</span><span class="article-category">Publicaciones</span></div>
+        <h2>Mesa STEM: Diseño e implementación de entornos educativos interactivos</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/mesa-stem-diseno-entornos-educativos-interactivos.html" aria-label="Leer artículo: Mesa STEM: Diseño e implementación de entornos educativos interactivos">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Impresión 3D">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Impresión 3D</span></div>
+        <h2>De la robótica educativa a la impresión creativa</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/de-la-robotica-educativa-a-la-impresion-creativa.html" aria-label="Leer artículo: De la robótica educativa a la impresión creativa">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Educación|Tecnología">
+        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Tecnología</span></div>
+        <h2>Educar en el uso de la tecnología, no simplemente prohibirla</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/educar-en-el-uso-de-la-tecnologia-no-simplemente-prohibirla.html" aria-label="Leer artículo: Educar en el uso de la tecnología, no simplemente prohibirla">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Educación|Reflexiones">
+        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Reflexiones</span></div>
+        <h2>Cuando no hay internet, el problema no es enseñar</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/cuando-no-hay-internet-el-problema-no-es-ensenar.html" aria-label="Leer artículo: Cuando no hay internet, el problema no es enseñar">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Educación|Reflexiones">
+        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Reflexiones</span></div>
+        <h2>Por qué los estudiantes sí quieren aprender</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/por-que-los-estudiantes-si-quieren-aprender.html" aria-label="Leer artículo: Por qué los estudiantes sí quieren aprender">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Impresión 3D|Reflexiones">
+        <div class="article-categories"><span class="article-category">Impresión 3D</span><span class="article-category">Reflexiones</span></div>
+        <h2>Lo que he aprendido sobre impresión 3D</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/lo-que-he-aprendido-sobre-impresion-3d.html" aria-label="Leer artículo: Lo que he aprendido sobre impresión 3D">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Tecnología">
+        <div class="article-categories"><span class="article-category">Tecnología</span></div>
+        <h2>Linux nunca había sido tan importante como ahora</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/linux-nunca-habia-sido-tan-importante-como-ahora.html" aria-label="Leer artículo: Linux nunca había sido tan importante como ahora">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Proyectos|Reflexiones">
+        <div class="article-categories"><span class="article-category">Proyectos</span><span class="article-category">Reflexiones</span></div>
+        <h2>Un año después: así cambió mi forma de crear proyectos</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/un-ano-despues-asi-cambio-mi-forma-de-crear-proyectos.html" aria-label="Leer artículo: Un año después: así cambió mi forma de crear proyectos">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Inteligencia Artificial">
+        <div class="article-categories"><span class="article-category">Inteligencia Artificial</span></div>
+        <h2>Tipos de inteligencia artificial aplicada</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/tipos-de-inteligencia-artificial-aplicada.html" aria-label="Leer artículo: Tipos de inteligencia artificial aplicada">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Educación|Reflexiones">
+        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Reflexiones</span></div>
+        <h2>Mujeres, lenguaje y vocaciones en ingeniería</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/mujeres-lenguaje-y-vocaciones-en-ingenieria.html" aria-label="Leer artículo: Mujeres, lenguaje y vocaciones en ingeniería">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Proyectos">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
+        <h2>Lo que aprendimos creando nuestro primer robot</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/lo-que-aprendimos-creando-nuestro-primer-robot.html" aria-label="Leer artículo: Lo que aprendimos creando nuestro primer robot">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Educación">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Educación</span></div>
+        <h2>Robótica educativa: puente entre curiosidad e innovación</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/robotica-educativa-puente-entre-curiosidad-e-innovacion.html" aria-label="Leer artículo: Robótica educativa: puente entre curiosidad e innovación">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Investigación">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Investigación</span></div>
+        <h2>Robótica educativa a investigación aplicada</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/robotica-educativa-a-investigacion-aplicada.html" aria-label="Leer artículo: Robótica educativa a investigación aplicada">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Tecnología|Proyectos">
+        <div class="article-categories"><span class="article-category">Tecnología</span><span class="article-category">Proyectos</span></div>
+        <h2>Construyendo Proyectos de Internet</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/construyendo-proyectos-de-internet.html" aria-label="Leer artículo: Construyendo Proyectos de Internet">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Proyectos">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
+        <h2>Proyecto #1 – Ojo Animatrónico con ESP32</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/ojo-animatronico-con-esp32.html" aria-label="Leer artículo: Proyecto #1 – Ojo Animatrónico con ESP32">Leer artículo</a>
+      </article>
+      <article class="article-card" data-categories="Robótica|Proyectos">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
+        <h2>Proyecto #2 – Una arañita robótica con ESP32</h2>
+        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
+        <p class="article-status">Contenido pendiente de migración</p>
+        <a class="button button-secondary" href="articulos/arana-robotica-con-esp32.html" aria-label="Leer artículo: Proyecto #2 – Una arañita robótica con ESP32">Leer artículo</a>
+      </article>
     </div>
   </main>
   <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
