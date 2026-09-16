@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Pendiente: incorporar la descripción suministrada al migrar el texto, sin inventarla. -->
-  <meta name="description" content="">
+  <meta name="description" content="El proyecto continúa en desarrollo, por lo que esta página documenta el proceso realizado hasta el momento.">
   <meta property="og:title" content="Proyecto #2 – Una arañita robótica con ESP32">
-  <!-- Pendiente: completar og:description con la descripción validada del artículo. -->
-  <meta property="og:description" content="">
+  <meta property="og:description" content="El proyecto continúa en desarrollo, por lo que esta página documenta el proceso realizado hasta el momento.">
   <meta property="og:type" content="article">
   <meta name="color-scheme" content="light dark">
   <title>Proyecto #2 – Una arañita robótica con ESP32 · Leli Liliana Díaz Izquierdo</title>
-  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=eye-20260916">
   <script src="../../assets/js/main.js" defer></script>
 </head>
 <body>
@@ -42,28 +40,44 @@
       </div>
     </div>
   </header>
-  <main id="contenido" class="section container reading-page">
-    <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li aria-current="page">Proyecto #2 – Una arañita robótica con ESP32</li></ol>
-    </nav>
+  <main id="contenido" class="section container reading-page technical-project">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación"><ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li><a href="construyendo-proyectos-de-internet.html">Construyendo Proyectos de Internet</a></li><li aria-current="page">Proyecto #2 – Una arañita robótica con ESP32</li></ol></nav>
     <article>
-      <header class="article-heading">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
-        <h1>Proyecto #2 – Una arañita robótica con ESP32</h1>
-        <!-- Fecha pendiente: añadir <time datetime="AAAA-MM-DD">FECHA ORIGINAL VERIFICADA</time> únicamente cuando sea suministrada. -->
+      <header class="article-heading"><div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">ESP32</span><span class="article-category">Impresión 3D</span><span class="article-category">Proyectos</span></div>
+        <div class="project-labels"><span class="series-label">Proyecto #2</span><span class="series-status series-status-development">En desarrollo</span></div>
+        <h1>Proyecto #2 – Una arañita robótica con ESP32</h1><time datetime="2026-06">Junio de 2026</time>
+        <p>Serie: Construyendo Proyectos de Internet</p>
+        <p><a href="construyendo-proyectos-de-internet.html">← Volver a Construyendo Proyectos de Internet</a></p>
       </header>
-      <!-- Imagen principal opcional: añadir un <figure> con imagen de ../../assets/img/blog/ y alt descriptivo solo cuando se suministre el archivo real. -->
-      <p class="migration-notice">Contenido pendiente de migración.</p>
       <div class="article-body">
-        <!-- Incorporar aquí el texto original completo suministrado por la autora, conservando su voz, párrafos, títulos, listas y referencias. No resumir ni reescribir sustancialmente. -->
+<p>Continuando con la serie ‘Construyendo Proyectos de Internet’, en esta ocasión estoy replicando un pequeño robot cuadrúpedo inspirado en un diseño compartido por la comunidad maker.</p>
+<p>El proyecto consiste en construir una arañita robótica impresa en 3D, equipada con ocho microservos que permitirán mover sus patas y desplazarse de forma similar a un pequeño cuadrúpedo.</p>
+<p>Como controlador principal utilizaré un ESP32, lo que permitirá programar diferentes patrones de movimiento y, en futuras versiones, incorporar nuevas funcionalidades.</p>
+<p>El proyecto continúa en desarrollo, por lo que esta página documenta el proceso realizado hasta el momento.</p><aside class="project-credit" aria-labelledby="credit-title"><h2 id="credit-title">Créditos del diseño original</h2><dl><dt>Diseño original</dt><dd>Kame: 8DOF small quadruped robot</dd><dt>Autor</dt><dd>Javier Isabel</dd><dt>Fuente</dt><dd>Thingiverse</dd></dl><p>El diseño mecánico original y los archivos STL corresponden al proyecto Kame: 8DOF small quadruped robot, publicado por Javier Isabel en Thingiverse.</p><a href="https://www.thingiverse.com/thing:1265766" target="_blank" rel="noopener noreferrer">Ver diseño original de Javier Isabel en Thingiverse</a></aside><h2>Mi aporte al proyecto hasta el momento</h2><ul><li>Impresión 3D de las piezas estructurales.</li><li>Selección y evaluación de microservos SG90 y MG90S.</li><li>Adaptación del proyecto para utilizar ESP32 como controlador principal.</li><li>Diseño inicial del sistema de alimentación y conexiones eléctricas.</li><li>Calibración de servomotores antes del ensamblaje.</li><li>Ensamblaje parcial de la estructura robótica.</li><li>Pruebas mecánicas iniciales.</li><li>Documentación del proceso para fines educativos y de experimentación.</li></ul><h2>Configuración inicial de los servos</h2><p>Antes de instalar los servomotores en la estructura del robot, es recomendable llevar cada servo a su posición central de 90°.</p>
+<p>Esto facilita el ensamblaje mecánico y reduce la necesidad de realizar correcciones posteriores.</p>
+<p>Para la calibración inicial se conecta cada servo al ESP32 utilizando una fuente externa de 5 V.</p>
+<p>Una vez cargado el programa, el servo se mueve automáticamente a la posición de 90°. Después de alcanzar esa posición, pueden instalarse los brazos y piezas mecánicas procurando mantener una posición neutra en cada articulación.</p><aside class="project-power" aria-labelledby="power-title"><h3 id="power-title">Alimentación externa de 5 V</h3><p>Para esta calibración, la señal del servo se conecta al GPIO 13. La fuente externa alimenta el servo y la tierra (GND) se comparte con el ESP32, como muestra el diagrama.</p></aside><figure><a href="../../assets/img/blog/proyectos/arana-robotica/configuracion-servo.png" target="_blank" rel="noopener noreferrer"><img src="../../assets/img/blog/proyectos/arana-robotica/configuracion-servo.png" width="1345" height="1187" alt="Configuración inicial de un servomotor con ESP32 y fuente externa de 5 V" loading="lazy" decoding="async"></a><figcaption>Diagrama real para la calibración de un servo. Abre la imagen para verla a tamaño completo.</figcaption></figure><h2 id="source-title">Código fuente para configurar servos en 90°</h2><pre class="project-code" tabindex="0" aria-labelledby="source-title"><code class="language-cpp">#include &lt;ESP32Servo.h&gt;
+
+Servo servo;
+
+void setup() {
+
+  servo.attach(13);
+  servo.write(90);
+
+}
+
+void loop() {
+
+}</code></pre><p>Este programa utiliza la librería ESP32Servo para controlar un servomotor conectado al GPIO 13 del ESP32.</p>
+<p>Al iniciar el sistema, el servo se posiciona automáticamente en 90°, correspondiente a la posición central de trabajo.</p>
+<p>Esta configuración resulta útil para calibrar los servos antes del ensamblaje del robot cuadrúpedo.</p><h2>Materiales utilizados</h2><div class="project-materials"><section><h3>Electrónica</h3><ul><li>1 ESP32</li><li>8 microservos SG90 y/o MG90S</li><li>cables Dupont</li><li>protoboard para pruebas iniciales</li><li>fuente de alimentación de 5 V</li></ul></section><section><h3>Materiales de ensamblaje</h3><ul><li>tornillos M3</li><li>tuercas M3</li><li>silicona líquida para fijar los brazos de los servos a las piezas impresas</li><li>estaño para soldadura</li><li>cables para conexiones eléctricas</li></ul></section><section><h3>Impresión 3D</h3><ul><li>PLA negro</li><li>PLA amarillo</li><li>PLA azul</li></ul></section><section><h3>Herramientas</h3><ul><li>destornillador</li><li>cautín para soldadura</li><li>alicate de corte</li><li>pinzas de precisión</li></ul></section></div><h2>Ensamblaje parcial</h2><figure class="project-photo"><img src="../../assets/img/blog/proyectos/arana-robotica/ensamble-pata.jpg" width="721" height="527" alt="Ensamblaje parcial de una pata del robot cuadrúpedo con microservo" loading="lazy" decoding="async"><figcaption>Ensamblaje parcial de una pata; el robot continúa en desarrollo.</figcaption></figure><h2>Lo que he aprendido hasta el momento</h2><ul><li>Funcionamiento y control de múltiples servomotores con ESP32.</li><li>Importancia de centrar y calibrar los servos antes del ensamblaje.</li><li>Relación entre diseño mecánico y movimiento de un robot cuadrúpedo.</li><li>Distribución adecuada de la alimentación para evitar caídas de voltaje.</li><li>Ensamblaje de mecanismos impresos en 3D con tornillería y servomotores.</li><li>Diferencias prácticas entre microservos SG90 y MG90S.</li><li>Adaptación de diseños open source para fines educativos y experimentales.</li></ul><h2>Posibles mejoras futuras</h2><p>Estas son ideas futuras, no funcionalidades actuales del proyecto.</p><ul><li>Control remoto mediante interfaz web con WiFi.</li><li>Sensores ultrasónicos para detección de obstáculos.</li><li>Más movimientos mediante interpolación de trayectorias.</li><li>Rutinas de marcha más eficientes y estables.</li><li>Batería recargable para funcionamiento autónomo.</li><li>Cámara ESP32-CAM para visión remota.</li><li>Comportamientos autónomos basados en sensores.</li><li>Optimización de la estructura para reducir peso y consumo energético.</li></ul><h2>Estado actual del proyecto</h2><p>El proyecto continúa en desarrollo.</p>
+<p>Hasta el momento se han realizado la impresión de las piezas, la selección y calibración inicial de los servomotores, pruebas de ensamblaje mecánico y la preparación del ESP32 como controlador principal.</p>
+<p>La documentación se irá actualizando a medida que avance la construcción, programación y puesta en funcionamiento del robot cuadrúpedo.</p>
       </div>
-      <p class="article-related"><a href="construyendo-proyectos-de-internet.html">← Volver a Construyendo Proyectos de Internet</a></p>
+      <aside class="project-series" aria-labelledby="project-series-title"><h2 id="project-series-title">Serie: Construyendo Proyectos de Internet</h2><a class="button button-secondary" href="construyendo-proyectos-de-internet.html">Ver todos los proyectos de la serie</a></aside>
     </article>
-    <!-- Navegación en el orden suministrado; revisar al disponer de fechas originales. -->
-    <nav class="article-pagination" aria-label="Navegación entre artículos">
-      <a href="ojo-animatronico-con-esp32.html" rel="prev"><span>Artículo anterior</span>Proyecto #1 – Ojo Animatrónico con ESP32</a>
-      <span class="pagination-boundary" aria-disabled="true">Artículo siguiente</span>
-    </nav>
+    <nav class="article-pagination" aria-label="Navegación entre proyectos"><a href="ojo-animatronico-con-esp32.html" rel="prev"><span>Proyecto anterior</span>Ojo Animatrónico con ESP32</a></nav>
     <div class="back-to-blog"><a class="button button-secondary" href="../index.html">Volver al blog</a></div>
   </main>
   <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
