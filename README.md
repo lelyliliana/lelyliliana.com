@@ -33,8 +33,10 @@ https://lelyliliana.com
     │   └── main.js
     └── img/
         ├── .gitkeep
+        ├── perfil.jpg
         └── mesa-stem/
-            └── .gitkeep
+            ├── .gitkeep
+            └── portada.jpg
 ```
 
 El sitio no necesita instalación, compilación ni backend. Puede abrirse con `index.html` o servirse como archivos estáticos. Las rutas a CSS, JavaScript e imágenes son relativas y compatibles con GitHub Pages.
@@ -57,8 +59,8 @@ Ambas páginas comparten `assets/css/styles.css` y `assets/js/main.js`. Desde el
 
 - Editar los textos y enlaces en `index.html`.
 - Ajustar colores y estilos en `assets/css/styles.css`.
-- Para agregar la fotografía, guardar `assets/img/perfil.jpg` y sustituir el contenedor `.portrait-placeholder` por la etiqueta `img` indicada en el comentario HTML. Mantener un texto alternativo descriptivo.
-- Para Mesa STEM, guardar la portada real en `assets/img/mesa-stem/portada.jpg` y sustituir `.book-placeholder` por la imagen indicada en los comentarios de `index.html` y `publicaciones/mesa-stem.html`. Hasta entonces se muestra un placeholder sin solicitar una imagen inexistente. El botón “Ver en ECOE Ediciones” de la ficha conserva `href="#"` y está deshabilitado mientras no exista una URL oficial exacta. Al añadirla, retirar `aria-disabled`, `tabindex`, `aria-describedby`, la clase `pending-link` y el aviso `#book-link-status`; añadir `target="_blank"` y `rel="noopener noreferrer"` al enlace externo. No publicar documentación ni información sensible de proyectos institucionales.
+- La fotografía del hero está en `assets/img/perfil.jpg`. Se conserva su proporción original con `object-fit: cover` y texto alternativo descriptivo.
+- La portada oficial de Mesa STEM está en `assets/img/mesa-stem/portada.jpg`, extraída del frente de la cubierta PDF, sin lomo, contraportada ni marcas de imprenta. Se muestra completa en la tarjeta y la ficha del libro. Al sustituir imágenes, actualizar sus atributos `width` y `height` si cambian las dimensiones. El botón “Ver en ECOE Ediciones” de la ficha conserva `href="#"` y está deshabilitado mientras no exista una URL oficial exacta. Al añadirla, retirar `aria-disabled`, `tabindex`, `aria-describedby`, la clase `pending-link` y el aviso `#book-link-status`; añadir `target="_blank"` y `rel="noopener noreferrer"` al enlace externo.
 - Reemplazar “Próximamente” por enlaces a recursos únicamente cuando estén disponibles.
 
 El modo claro es el inicial. La preferencia de tema se guarda en `localStorage` cuando está disponible. El contenido y la navegación siguen accesibles sin JavaScript; el menú móvil desplegable y el cambio de tema requieren JavaScript. Se respeta la preferencia de movimiento reducido.
