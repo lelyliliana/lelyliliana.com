@@ -31,7 +31,7 @@
     <div class="container header-inner">
       <a class="brand" href="../index.html#inicio"><strong>Leli Liliana Díaz Izquierdo</strong><span>Ingeniera de Sistemas</span></a>
       <nav id="navegacion" class="navigation" aria-label="Navegación principal">
-        <a href="../index.html#inicio">Inicio</a><a href="../index.html#sobre-mi">Sobre mí</a><a href="../index.html#proyectos">Proyectos</a><a href="../index.html#docencia">Docencia</a><a href="../index.html#investigacion">Investigación</a><a href="../index.html#recursos">Recursos</a><a href="./" aria-current="page">Blog</a><a href="../index.html#contacto">Contacto</a>
+        <a href="../index.html#inicio">Inicio</a><a href="../index.html#sobre-mi">Sobre mí</a><a href="../proyectos/">Proyectos</a><a href="../index.html#docencia">Docencia</a><a href="../index.html#investigacion">Investigación</a><a href="../index.html#recursos">Recursos</a><a href="./" aria-current="page">Blog</a><a href="../index.html#contacto">Contacto</a>
       </nav>
       <div class="header-actions">
         <button class="icon-button theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" hidden><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A9 9 0 0 1 10 4a9 9 0 1 0 10 10Z"/></svg><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
@@ -43,9 +43,8 @@
     <div class="blog-intro">
       <h1>Blog</h1>
       <p class="section-intro">Reflexiones, experiencias y aprendizajes sobre educación, tecnología, inteligencia artificial, robótica, desarrollo de software e investigación.</p>
-      <p class="migration-notice">La migración del blog está en curso. Las tarjetas indican qué artículos aún tienen contenido pendiente.</p>
     </div>
-    <!-- Artículos con fecha en orden descendente; después, fichas pendientes sin fecha en el orden suministrado. -->
+    <!-- Artículos narrativos y reflexivos en el orden cronológico existente. -->
     <div class="blog-filters" role="group" aria-label="Filtrar artículos por categoría" hidden>
       <button type="button" class="category-filter" data-category="Todas" aria-pressed="true">Todas</button>
       <button type="button" class="category-filter" data-category="Educación" aria-pressed="false">Educación</button>
@@ -53,12 +52,10 @@
       <button type="button" class="category-filter" data-category="Tecnología" aria-pressed="false">Tecnología</button>
       <button type="button" class="category-filter" data-category="Inteligencia Artificial" aria-pressed="false">Inteligencia Artificial</button>
       <button type="button" class="category-filter" data-category="Robótica" aria-pressed="false">Robótica</button>
-      <button type="button" class="category-filter" data-category="ESP32" aria-pressed="false">ESP32</button>
       <button type="button" class="category-filter" data-category="Impresión 3D" aria-pressed="false">Impresión 3D</button>
       <button type="button" class="category-filter" data-category="Investigación" aria-pressed="false">Investigación</button>
       <button type="button" class="category-filter" data-category="STEM" aria-pressed="false">STEM</button>
       <button type="button" class="category-filter" data-category="Reflexiones" aria-pressed="false">Reflexiones</button>
-      <button type="button" class="category-filter" data-category="Proyectos" aria-pressed="false">Proyectos</button>
       <button type="button" class="category-filter" data-category="Publicaciones" aria-pressed="false">Publicaciones</button>
     </div>
     <p class="filter-status" role="status" aria-live="polite" hidden></p>
@@ -159,30 +156,14 @@
 
 
 
-      <article class="article-card series-card" data-categories="Tecnología|Proyectos">
-        <div class="article-categories"><span class="article-category">Tecnología</span><span class="article-category">Proyectos</span></div>
-        <span class="series-label">Serie</span>
-        <h2>Construyendo Proyectos de Internet</h2>
-        <p>Construyo, pruebo y documento proyectos encontrados en comunidades maker para aprender, adaptar ideas y compartir el proceso.</p>
-        <a class="button button-secondary" href="articulos/construyendo-proyectos-de-internet.html" aria-label="Ver serie: Construyendo Proyectos de Internet">Ver serie</a>
-      </article>
-      <article class="article-card" data-categories="Robótica|ESP32|Impresión 3D|Proyectos">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">ESP32</span><span class="article-category">Impresión 3D</span><span class="article-category">Proyectos</span></div>
-        <span class="series-label">Proyecto #1</span>
-        <h2>Proyecto #1 – Ojo Animatrónico con ESP32</h2>
-        <time datetime="2026-06">Junio de 2026</time>
-        <p>En este proyecto construí un ojo animatrónico impreso en 3D utilizando tres servomotores MG90S y un ESP32 como controlador principal.</p>
-        <a class="button button-secondary" href="articulos/ojo-animatronico-con-esp32.html" aria-label="Ver proyecto: Proyecto #1 – Ojo Animatrónico con ESP32">Ver proyecto</a>
-      </article>
-      <article class="article-card" data-categories="Robótica|ESP32|Impresión 3D|Proyectos">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">ESP32</span><span class="article-category">Impresión 3D</span><span class="article-category">Proyectos</span></div>
-        <span class="series-label">Proyecto #2 · En desarrollo</span>
-        <h2>Proyecto #2 – Una arañita robótica con ESP32</h2>
-        <time datetime="2026-06">Junio de 2026</time>
-        <p>El proyecto continúa en desarrollo, por lo que esta página documenta el proceso realizado hasta el momento.</p>
-        <a class="button button-secondary" href="articulos/arana-robotica-con-esp32.html" aria-label="Ver avance: Proyecto #2 – Una arañita robótica con ESP32">Ver avance</a>
-      </article>
+
+
     </div>
+    <aside class="project-series" aria-labelledby="technical-projects-title">
+      <h2 id="technical-projects-title">Proyectos técnicos</h2>
+      <p>También documento procesos de construcción, código, materiales y prototipos en la sección de proyectos.</p>
+      <a class="button button-secondary" href="../proyectos/">Ver proyectos</a>
+    </aside>
   </main>
   <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
     <li><a href="https://www.linkedin.com/in/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg></a></li>
