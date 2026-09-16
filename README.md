@@ -86,7 +86,7 @@ Los títulos se han recuperado de los nombres de archivo indicados; los dos proy
 
 La portada de la serie “Construyendo Proyectos de Internet” enlaza a los dos proyectos ESP32; cada proyecto incluye un enlace de regreso a la serie. “Proyectos publicados” conserva el encabezado solicitado y los avisos de migración aclaran el estado de sus fichas.
 
-El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información del libro”. No se ha modificado la página editorial ni añadido aún el enlace de regreso al artículo. Las tarjetas de “Últimos artículos” de la portada se actualizarán cuando se incorporen textos y fechas reales.
+El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información editorial del libro”. Incluye también “Conocer y adquirir el libro”, que abre la URL oficial de ECOE en otra pestaña. Su cuerpo sigue pendiente de migración y aún no se ha añadido el enlace de regreso desde la ficha editorial. Las tarjetas de “Últimos artículos” de la portada se actualizarán cuando se incorporen textos y fechas reales.
 
 ## Publicaciones
 
@@ -97,7 +97,7 @@ El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica 
 - Editar los textos y enlaces en `index.html`.
 - Ajustar colores y estilos en `assets/css/styles.css`.
 - La fotografía del hero está en `assets/img/perfil.jpg`. Se conserva su proporción original con `object-fit: cover` y texto alternativo descriptivo.
-- La portada oficial de Mesa STEM está en `assets/img/mesa-stem/portada.jpg`, extraída del frente de la cubierta PDF, sin lomo, contraportada ni marcas de imprenta. Se muestra completa en la tarjeta y la ficha del libro. Al sustituir imágenes, actualizar sus atributos `width` y `height` si cambian las dimensiones. El botón “Ver en ECOE Ediciones” de la ficha conserva `href="#"` y está deshabilitado mientras no exista una URL oficial exacta. Al añadirla, retirar `aria-disabled`, `tabindex`, `aria-describedby`, la clase `pending-link` y el aviso `#book-link-status`; añadir `target="_blank"` y `rel="noopener noreferrer"` al enlace externo.
+- La portada oficial de Mesa STEM está en `assets/img/mesa-stem/portada.jpg`, extraída del frente de la cubierta PDF, sin lomo, contraportada ni marcas de imprenta. Se muestra completa en la tarjeta y la ficha del libro. Al sustituir imágenes, actualizar sus atributos `width` y `height` si cambian las dimensiones. El botón “Ver en ECOE Ediciones” de la ficha enlaza a `https://ecoeediciones.com/product/mesa-stem-2/` y usa `target="_blank"` y `rel="noopener noreferrer"`.
 - Reemplazar “Próximamente” por enlaces a recursos únicamente cuando estén disponibles.
 
 El modo claro es el inicial. La preferencia de tema se guarda en `localStorage` cuando está disponible. El contenido y la navegación siguen accesibles sin JavaScript; el menú móvil desplegable y el cambio de tema requieren JavaScript. Se respeta la preferencia de movimiento reducido.
