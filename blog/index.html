@@ -42,9 +42,9 @@
     <div class="blog-intro">
       <h1>Blog</h1>
       <p class="section-intro">Reflexiones, experiencias y aprendizajes sobre educación, tecnología, inteligencia artificial, robótica, desarrollo de software e investigación.</p>
-      <p class="migration-notice">Los artículos están pendientes de migración. Sus textos se incorporarán próximamente.</p>
+      <p class="migration-notice">La migración del blog está en curso. Las tarjetas indican qué artículos aún tienen contenido pendiente.</p>
     </div>
-    <!-- Sin fechas suministradas: se conserva el orden indicado. Al incorporar fechas verificadas, ordenar de más reciente a más antiguo. -->
+    <!-- Artículos con fecha en orden descendente; después, fichas pendientes sin fecha en el orden suministrado. -->
     <div class="blog-filters" role="group" aria-label="Filtrar artículos por categoría" hidden>
       <button type="button" class="category-filter" data-category="Todas" aria-pressed="true">Todas</button>
       <button type="button" class="category-filter" data-category="Educación" aria-pressed="false">Educación</button>
@@ -61,6 +61,13 @@
     <p class="filter-status" role="status" aria-live="polite" hidden></p>
     <!-- Los artículos publicados en el antiguo Google Sites serán migrados posteriormente a esta sección. -->
     <div class="article-grid" id="article-list">
+      <article class="article-card" data-categories="Educación|Tecnología|Reflexiones">
+        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Tecnología</span><span class="article-category">Reflexiones</span></div>
+        <h2>Educar en el uso de la tecnología, no simplemente prohibirla</h2>
+        <time datetime="2026-07">Julio de 2026</time>
+        <p>La tecnología debe ampliar las posibilidades del aprendizaje, no crear nuevas barreras. Incorporar tecnología también exige planear desde la inclusión.</p>
+        <a class="button button-secondary" href="articulos/educar-en-el-uso-de-la-tecnologia-no-simplemente-prohibirla.html" aria-label="Leer artículo: Educar en el uso de la tecnología, no simplemente prohibirla">Leer artículo</a>
+      </article>
       <article class="article-card" data-categories="STEM|Publicaciones">
         <div class="article-categories"><span class="article-category">STEM</span><span class="article-category">Publicaciones</span></div>
         <h2>Mesa STEM: Diseño e implementación de entornos educativos interactivos</h2>
@@ -75,13 +82,7 @@
         <p class="article-status">Contenido pendiente de migración</p>
         <a class="button button-secondary" href="articulos/de-la-robotica-educativa-a-la-impresion-creativa.html" aria-label="Leer artículo: De la robótica educativa a la impresión creativa">Leer artículo</a>
       </article>
-      <article class="article-card" data-categories="Educación|Tecnología">
-        <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Tecnología</span></div>
-        <h2>Educar en el uso de la tecnología, no simplemente prohibirla</h2>
-        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
-        <p class="article-status">Contenido pendiente de migración</p>
-        <a class="button button-secondary" href="articulos/educar-en-el-uso-de-la-tecnologia-no-simplemente-prohibirla.html" aria-label="Leer artículo: Educar en el uso de la tecnología, no simplemente prohibirla">Leer artículo</a>
-      </article>
+
       <article class="article-card" data-categories="Educación|Reflexiones">
         <div class="article-categories"><span class="article-category">Educación</span><span class="article-category">Reflexiones</span></div>
         <h2>Cuando no hay internet, el problema no es enseñar</h2>

@@ -70,9 +70,9 @@ Publicar estos archivos en la raíz de la rama configurada en **Settings → Pag
 
 ## Blog
 
-El índice contiene 16 tarjetas enlazadas a archivos preparados, con aviso de contenido pendiente. Los cuerpos de los artículos están vacíos: se incorporarán únicamente los textos suministrados por la autora, sin resumir ni reescribir sustancialmente. No se ha migrado ni modificado Google Sites.
+El índice contiene 16 tarjetas: “Educar en el uso de la tecnología, no simplemente prohibirla” está migrado íntegramente a partir del texto suministrado por la autora, con fecha julio de 2026 (`datetime="2026-07"`, sin día inventado). Las otras 15 fichas siguen pendientes de contenido. No se ha accedido ni modificado Google Sites.
 
-Los títulos se han recuperado de los nombres de archivo indicados; los dos proyectos usan los títulos expresos suministrados. Las categorías son una organización temática inicial basada en esos títulos y deben revisarse con los textos originales. No se han añadido fechas ni descripciones. Hasta recibir fechas verificadas se conserva el orden de la lista suministrada, también en anterior/siguiente; no representa una cronología confirmada.
+Los títulos se han recuperado de los nombres de archivo indicados; los dos proyectos usan los títulos expresos suministrados. Las categorías son una organización temática inicial basada en esos títulos y deben revisarse con los textos originales. El artículo migrado tiene fecha, metadatos y extracto derivados del contenido suministrado. Aparece primero en el índice; las fichas sin fecha conservan después el orden suministrado. El artículo publicado no muestra anterior/siguiente hasta que exista otro artículo real; las plantillas pendientes conservan su navegación preparada, sin representar una cronología confirmada.
 
 `assets/js/blog.js` controla exclusivamente los filtros accesibles del índice. Sin JavaScript todas las tarjetas permanecen visibles. `assets/js/main.js` mantiene menú y tema compartidos. Los artículos usan `../../assets/`, `../../index.html` y `../index.html` para volver al blog. Las imágenes se reservan bajo `assets/img/blog/` y no se insertan etiquetas de imagen hasta disponer de archivos reales.
 
@@ -86,7 +86,7 @@ Los títulos se han recuperado de los nombres de archivo indicados; los dos proy
 
 La portada de la serie “Construyendo Proyectos de Internet” enlaza a los dos proyectos ESP32; cada proyecto incluye un enlace de regreso a la serie. “Proyectos publicados” conserva el encabezado solicitado y los avisos de migración aclaran el estado de sus fichas.
 
-El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información editorial del libro”. Incluye también “Conocer y adquirir el libro”, que abre la URL oficial de ECOE en otra pestaña. Su cuerpo sigue pendiente de migración y aún no se ha añadido el enlace de regreso desde la ficha editorial. Las tarjetas de “Últimos artículos” de la portada se actualizarán cuando se incorporen textos y fechas reales.
+El artículo narrativo de Mesa STEM es independiente de la ficha bibliográfica y enlaza a ella mediante “Información editorial del libro”. Incluye también “Conocer y adquirir el libro”, que abre la URL oficial de ECOE en otra pestaña. Su cuerpo sigue pendiente de migración y aún no se ha añadido el enlace de regreso desde la ficha editorial. “Últimos artículos” muestra el artículo real migrado y se ampliará cuando se incorporen nuevos textos y fechas.
 
 ## Publicaciones
 
