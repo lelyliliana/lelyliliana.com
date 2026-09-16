@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Pendiente: incorporar la descripción suministrada al migrar el texto, sin inventarla. -->
-  <meta name="description" content="">
+  <meta name="description" content="En este proyecto construí un ojo animatrónico impreso en 3D utilizando tres servomotores MG90S y un ESP32 como controlador principal.">
   <meta property="og:title" content="Proyecto #1 – Ojo Animatrónico con ESP32">
-  <!-- Pendiente: completar og:description con la descripción validada del artículo. -->
-  <meta property="og:description" content="">
+  <meta property="og:description" content="En este proyecto construí un ojo animatrónico impreso en 3D utilizando tres servomotores MG90S y un ESP32 como controlador principal.">
   <meta property="og:type" content="article">
   <meta name="color-scheme" content="light dark">
   <title>Proyecto #1 – Ojo Animatrónico con ESP32 · Leli Liliana Díaz Izquierdo</title>
-  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=eye-20260916">
   <script src="../../assets/js/main.js" defer></script>
 </head>
 <body>
@@ -42,28 +40,146 @@
       </div>
     </div>
   </header>
-  <main id="contenido" class="section container reading-page">
+  <main id="contenido" class="section container reading-page technical-project">
     <nav class="breadcrumbs" aria-label="Ruta de navegación">
-      <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li aria-current="page">Proyecto #1 – Ojo Animatrónico con ESP32</li></ol>
+      <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li><a href="construyendo-proyectos-de-internet.html">Construyendo Proyectos de Internet</a></li><li aria-current="page">Proyecto #1 – Ojo Animatrónico con ESP32</li></ol>
     </nav>
     <article>
       <header class="article-heading">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">ESP32</span><span class="article-category">Impresión 3D</span><span class="article-category">Proyectos</span></div>
+        <div class="project-labels"><span class="series-label">Proyecto #1</span><span class="series-label">Serie: Construyendo Proyectos de Internet</span></div>
         <h1>Proyecto #1 – Ojo Animatrónico con ESP32</h1>
-        <!-- Fecha pendiente: añadir <time datetime="AAAA-MM-DD">FECHA ORIGINAL VERIFICADA</time> únicamente cuando sea suministrada. -->
+        <time datetime="2026-06">Junio de 2026</time>
+        <p><a href="construyendo-proyectos-de-internet.html">← Volver a Construyendo Proyectos de Internet</a></p>
       </header>
-      <!-- Imagen principal opcional: añadir un <figure> con imagen de ../../assets/img/blog/ y alt descriptivo solo cuando se suministre el archivo real. -->
-      <p class="migration-notice">Contenido pendiente de migración.</p>
       <div class="article-body">
-        <!-- Incorporar aquí el texto original completo suministrado por la autora, conservando su voz, párrafos, títulos, listas y referencias. No resumir ni reescribir sustancialmente. -->
+        <p>En este proyecto construí un ojo animatrónico impreso en 3D utilizando tres servomotores MG90S y un ESP32 como controlador principal.</p>
+        <p>El objetivo fue replicar y probar un diseño encontrado en la comunidad maker para comprender su funcionamiento mecánico, electrónico y de programación.</p>
+        <p>Este proyecto forma parte de la serie ‘Construyendo Proyectos de Internet’, donde selecciono proyectos interesantes, los construyo, los pruebo, los adapto cuando es necesario y documento mi experiencia.</p>
+        <aside class="project-credit" aria-labelledby="credit-title">
+          <h2 id="credit-title">Créditos del diseño original</h2>
+          <dl><dt>Diseño original</dt><dd>Ojo animatrónico V4</dd><dt>Autor</dt><dd>Morgan Manly</dd><dt>Fuente</dt><dd>MakerWorld</dd></dl>
+          <p>El diseño mecánico y los archivos STL corresponden al proyecto original publicado por Morgan Manly en MakerWorld.</p>
+          <a href="https://makerworld.com/es/models/1217249-animatronic-eye-v4#profileId-1233372" target="_blank" rel="noopener noreferrer">Ver diseño original de Morgan Manly en MakerWorld</a>
+        </aside>
+        <figure class="project-photo"><img src="../../assets/img/blog/proyectos/ojo-animatronico/ojo-animatronico.jpg" width="1441" height="1311" alt="Ojo animatrónico construido con impresión 3D, ESP32 y servomotores" decoding="async"><figcaption>Ojo animatrónico ensamblado, con el iris pintado manualmente.</figcaption></figure>
+        <h2>Mi aporte al proyecto</h2>
+        <ul>
+          <li>Impresión 3D de todas las piezas.</li><li>Ensamble mecánico completo.</li><li>Pintura manual del iris utilizando marcadores.</li><li>Instalación de tres servomotores MG90S.</li><li>Adaptación del proyecto para ESP32.</li><li>Desarrollo y ajuste del código de control.</li><li>Pruebas de funcionamiento y calibración de movimientos.</li>
+        </ul>
+        <h2>Conexiones utilizadas</h2>
+        <p>Tres servomotores MG90S controlan el movimiento horizontal, el movimiento vertical y el párpado.</p>
+        <table class="project-connections"><caption>Pines utilizados en ESP32</caption><thead><tr><th scope="col">Servomotor MG90S</th><th scope="col">Señal</th></tr></thead><tbody><tr><th scope="row">Horizontal</th><td>GPIO 18</td></tr><tr><th scope="row">Vertical</th><td>GPIO 19</td></tr><tr><th scope="row">Párpado</th><td>GPIO 21</td></tr></tbody></table>
+        <aside class="project-power" aria-labelledby="power-title"><h3 id="power-title">Alimentación externa y tierra común</h3><p>Todos los servos comparten una <strong>alimentación externa de 5 V</strong>. La <strong>tierra (GND) debe compartirse con el ESP32</strong>.</p></aside>
+        <figure><a href="../../assets/img/blog/proyectos/ojo-animatronico/conexiones-ojo-animatronico.png" target="_blank" rel="noopener noreferrer"><img src="../../assets/img/blog/proyectos/ojo-animatronico/conexiones-ojo-animatronico.png" width="1488" height="1627" alt="Diagrama de conexiones del ojo animatrónico con ESP32 y tres servomotores MG90S" loading="lazy" decoding="async"></a><figcaption>Diagrama de conexiones. Abre la imagen para consultar los detalles a tamaño completo.</figcaption></figure>
+        <h2>Materiales utilizados</h2>
+        <div class="project-materials">
+          <section><h3>Electrónica</h3><ul><li>ESP32</li><li>3 servomotores MG90S</li><li>fuente de alimentación de 5 V</li><li>protoboard</li><li>cables Dupont</li></ul></section>
+          <section><h3>Impresión 3D</h3><ul><li>PLA blanco</li><li>PLA negro</li></ul></section>
+          <section><h3>Herramientas</h3><ul><li>destornillador</li><li>tornillos</li><li>marcadores para colorear el iris</li></ul></section>
+        </div>
+        <h2 id="source-title">Código fuente</h2>
+        <pre class="project-code" tabindex="0" aria-labelledby="source-title"><code class="language-cpp">#include &lt;ESP32Servo.h&gt;
+
+Servo servoHorizontal;
+Servo servoVertical;
+Servo servoParpado;
+
+const int pinHorizontal = 18;
+const int pinVertical = 19;
+const int pinParpado = 21;
+
+// Horizontal
+int centroHorizontal = 90;
+int izquierda = 70;
+int derecha = 120;
+
+// Vertical
+int centroVertical = 90;
+int arriba = 30;
+int abajo = 115;
+
+// Párpado
+int parpadoCasiCerrado = 40;
+int parpadoMedio = 70;
+int parpadoAbierto = 90;
+
+void setup() {
+
+  servoHorizontal.attach(pinHorizontal, 500, 2400);
+  servoVertical.attach(pinVertical, 500, 2400);
+  servoParpado.attach(pinParpado, 500, 2400);
+
+  servoHorizontal.write(centroHorizontal);
+  servoVertical.write(centroVertical);
+  servoParpado.write(parpadoCasiCerrado);
+
+  delay(1000);
+}
+
+void loop() {
+
+  // Despierta el ojo
+  servoParpado.write(parpadoMedio);
+  delay(500);
+
+  servoParpado.write(parpadoAbierto);
+  delay(1000);
+
+  // Mirar izquierda
+  servoHorizontal.write(izquierda);
+  delay(1000);
+
+  // Centro
+  servoHorizontal.write(centroHorizontal);
+  delay(500);
+
+  // Mirar derecha
+  servoHorizontal.write(derecha);
+  delay(1000);
+
+  // Centro
+  servoHorizontal.write(centroHorizontal);
+  delay(500);
+
+  // Mirar arriba
+  servoVertical.write(arriba);
+  delay(1000);
+
+  // Centro
+  servoVertical.write(centroVertical);
+  delay(500);
+
+  // Mirar abajo
+  servoVertical.write(abajo);
+  delay(1000);
+
+  // Centro
+  servoVertical.write(centroVertical);
+  delay(1000);
+
+  // Cerrar un poco el ojo
+  servoParpado.write(parpadoMedio);
+  delay(400);
+
+  servoParpado.write(parpadoCasiCerrado);
+  delay(1000);
+}</code></pre>
+        <h2>Lo que aprendí</h2>
+        <ul><li>Control de servomotores con ESP32.</li><li>Alimentación adecuada de múltiples servos.</li><li>Calibración de movimientos mecánicos.</li><li>Integración entre impresión 3D y electrónica.</li><li>Adaptación de proyectos open source para fines educativos.</li></ul>
+        <h2>Posibles mejoras futuras</h2>
+        <p>Estas son ideas futuras, no funcionalidades implementadas actualmente.</p>
+        <ul><li>Seguimiento ocular mediante cámara.</li><li>Control remoto desde aplicación web.</li><li>Integración con reconocimiento facial.</li><li>Movimiento más natural mediante interpolación de posiciones.</li><li>Versión binocular con dos ojos sincronizados.</li></ul>
+        <h2>Resultado final</h2>
+        <p>El proyecto fue ensamblado y probado exitosamente. El ojo puede mover el iris en diferentes direcciones y controlar el párpado mediante tres servomotores, demostrando una plataforma interesante para futuros desarrollos en robótica educativa y animatrónica.</p>
+        <section class="project-video" aria-labelledby="video-title" hidden>
+          <h2 id="video-title">Video del proyecto</h2>
+          <!-- Pendiente: agregar URL real del video/Short de YouTube del proyecto -->
+        </section>
       </div>
-      <p class="article-related"><a href="construyendo-proyectos-de-internet.html">← Volver a Construyendo Proyectos de Internet</a></p>
+      <aside class="project-series" aria-labelledby="project-series-title"><h2 id="project-series-title">Serie: Construyendo Proyectos de Internet</h2><a class="button button-secondary" href="construyendo-proyectos-de-internet.html">Ver todos los proyectos de la serie</a></aside>
     </article>
-    <!-- Navegación en el orden suministrado; revisar al disponer de fechas originales. -->
-    <nav class="article-pagination" aria-label="Navegación entre artículos">
-      <a href="construyendo-proyectos-de-internet.html" rel="prev"><span>Artículo anterior</span>Construyendo Proyectos de Internet</a>
-      <a href="arana-robotica-con-esp32.html" rel="next"><span>Artículo siguiente</span>Proyecto #2 – Una arañita robótica con ESP32</a>
-    </nav>
+    <nav class="article-pagination" aria-label="Navegación entre proyectos"><a href="construyendo-proyectos-de-internet.html" rel="prev"><span>Portada de la serie</span>Construyendo Proyectos de Internet</a><a href="arana-robotica-con-esp32.html" rel="next"><span>Proyecto siguiente · En desarrollo</span>Una arañita robótica con ESP32</a></nav>
     <div class="back-to-blog"><a class="button button-secondary" href="../index.html">Volver al blog</a></div>
   </main>
   <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">

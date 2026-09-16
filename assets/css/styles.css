@@ -346,3 +346,30 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 @media (max-width: 760px) {
   .series-overview { grid-template-columns: 1fr; }
 }
+
+/* Documentación técnica de proyectos. */
+.technical-project { max-width: 1000px; }
+.project-labels { display: flex; flex-wrap: wrap; gap: 8px; }
+.project-credit, .project-power, .project-series { padding: clamp(20px, 3vw, 32px); margin-block: 32px; border: 1px solid var(--color-border); border-left: 4px solid var(--color-accent); border-radius: 8px; background: var(--color-light); }
+.project-credit h2, .project-power h3 { margin-top: 0; }
+.project-credit dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 20px; }
+.project-credit dt { font-weight: 600; }
+.project-credit dd { margin: 0; }
+.project-photo { max-width: 650px; margin-inline: auto !important; }
+.technical-project figure img { height: auto; width: 100%; border-radius: 8px; }
+.project-connections { width: 100%; border-collapse: collapse; margin-block: 24px; }
+.project-connections caption { text-align: left; font-weight: 600; margin-bottom: 12px; }
+.project-connections th, .project-connections td { padding: 12px; text-align: left; border: 1px solid var(--color-border); }
+.project-connections thead { background: var(--color-light); }
+.project-materials { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.project-materials section { min-width: 0; border: 1px solid var(--color-border); border-radius: 8px; padding: 20px; }
+.project-materials h3 { margin-top: 0; }
+.project-materials ul { margin-bottom: 0; }
+.project-code { border: 1px solid var(--color-border); border-radius: 8px; white-space: pre; overflow-x: auto; font-size: .9375rem; line-height: 1.65; }
+.project-code code { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+.project-series h2 { font-size: 1.6rem; }
+@media (max-width: 680px) {
+  .project-materials { grid-template-columns: 1fr; }
+  .project-credit dl { grid-template-columns: 1fr; gap: 4px; }
+  .project-credit dd { margin-bottom: 12px; }
+}
