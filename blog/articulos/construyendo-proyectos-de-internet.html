@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Pendiente: incorporar la descripción suministrada al migrar el texto, sin inventarla. -->
-  <meta name="description" content="">
-  <meta property="og:title" content="Construyendo Proyectos de Internet">
-  <!-- Pendiente: completar og:description con la descripción validada del artículo. -->
-  <meta property="og:description" content="">
-  <meta property="og:type" content="article">
+  <meta name="description" content="Construyo, pruebo y documento proyectos encontrados en comunidades maker para aprender, adaptar ideas y compartir el proceso.">
+  <meta property="og:title" content="Serie: Construyendo Proyectos de Internet">
+  <meta property="og:description" content="Construyo, pruebo y documento proyectos encontrados en comunidades maker para aprender, adaptar ideas y compartir el proceso.">
+  <meta property="og:type" content="website">
   <meta name="color-scheme" content="light dark">
-  <title>Construyendo Proyectos de Internet · Leli Liliana Díaz Izquierdo</title>
-  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <title>Serie: Construyendo Proyectos de Internet · Leli Liliana Díaz Izquierdo</title>
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=series-20260916">
   <script src="../../assets/js/main.js" defer></script>
 </head>
 <body>
@@ -42,48 +40,73 @@
       </div>
     </div>
   </header>
-  <main id="contenido" class="section container reading-page">
+  <main id="contenido" class="section container series-page">
     <nav class="breadcrumbs" aria-label="Ruta de navegación">
       <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li aria-current="page">Construyendo Proyectos de Internet</li></ol>
     </nav>
-    <article>
-      <header class="article-heading">
-        <div class="article-categories"><span class="article-category">Tecnología</span><span class="article-category">Proyectos</span></div>
-        <span class="series-label">Serie</span>
-        <h1>Construyendo Proyectos de Internet</h1>
-        <!-- Fecha pendiente: añadir <time datetime="AAAA-MM-DD">FECHA ORIGINAL VERIFICADA</time> únicamente cuando sea suministrada. -->
-      </header>
-      <!-- Imagen principal opcional: añadir un <figure> con imagen de ../../assets/img/blog/ y alt descriptivo solo cuando se suministre el archivo real. -->
-      <p class="migration-notice">Contenido pendiente de migración.</p>
-      <div class="article-body">
-        <!-- Incorporar aquí el texto original completo suministrado por la autora, conservando su voz, párrafos, títulos, listas y referencias. No resumir ni reescribir sustancialmente. -->
-      </div>
-      <section class="series-projects" aria-labelledby="series-projects-title">
-        <h2 id="series-projects-title">Proyectos publicados</h2>
-        <div class="article-grid">
-      <article class="article-card">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
-        <h3>Proyecto #1 – Ojo Animatrónico con ESP32</h3>
-        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
-        <p class="article-status">Contenido pendiente de migración</p>
-        <a class="button button-secondary" href="ojo-animatronico-con-esp32.html" aria-label="Leer artículo: Proyecto #1 – Ojo Animatrónico con ESP32">Leer artículo</a>
-      </article>
-      <article class="article-card">
-        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Proyectos</span></div>
-        <h3>Proyecto #2 – Una arañita robótica con ESP32</h3>
-        <!-- Fecha pendiente: incorporar la fecha original verificada con <time datetime="AAAA-MM-DD">. -->
-        <p class="article-status">Contenido pendiente de migración</p>
-        <a class="button button-secondary" href="arana-robotica-con-esp32.html" aria-label="Leer artículo: Proyecto #2 – Una arañita robótica con ESP32">Leer artículo</a>
-      </article>
-        </div>
+    <header class="series-hero">
+      <span class="series-label">Serie</span>
+      <h1>Serie: Construyendo Proyectos de Internet</h1>
+      <p>A partir de ideas encontradas en comunidades maker de todo el mundo, construyo, pruebo, adapto y documento proyectos reales para aprender y compartir conocimiento.</p>
+      <a class="button button-secondary" href="#series-projects-title">Explorar los proyectos</a>
+    </header>
+    <div class="series-overview">
+      <section class="series-panel" aria-labelledby="series-about-title">
+        <h2 id="series-about-title">¿De qué trata esta serie?</h2>
+        <p>Internet está lleno de proyectos interesantes de robótica, electrónica, impresión 3D e inteligencia artificial.</p>
+        <p>En esta serie selecciono algunos de ellos, los construyo, los pruebo y documento mi experiencia.</p>
+        <p>Mi objetivo no es simplemente copiar un diseño, sino comprender cómo funciona, aprender de él y, cuando sea posible, adaptarlo o mejorarlo para fines educativos, de experimentación e investigación.</p>
       </section>
-    </article>
-    <!-- Navegación en el orden suministrado; revisar al disponer de fechas originales. -->
-    <nav class="article-pagination" aria-label="Navegación entre artículos">
-      <a href="robotica-educativa-a-investigacion-aplicada.html" rel="prev"><span>Artículo anterior</span>Robótica educativa a investigación aplicada</a>
-      <a href="ojo-animatronico-con-esp32.html" rel="next"><span>Artículo siguiente</span>Proyecto #1 – Ojo Animatrónico con ESP32</a>
-    </nav>
-    <div class="back-to-blog"><a class="button button-secondary" href="../index.html">Volver al blog</a></div>
+      <aside class="series-panel series-credits" aria-labelledby="series-credits-title">
+        <h2 id="series-credits-title">Créditos y autoría</h2>
+        <p>No todos los proyectos publicados en esta serie son diseños de mi autoría. Cuando corresponda, se reconocerá y enlazará siempre al creador original del diseño, código o recurso utilizado.</p>
+        <p>Mi aporte puede incluir construcción, adaptación, programación, pruebas, documentación, modificaciones y análisis de la experiencia.</p>
+      </aside>
+    </div>
+    <section class="series-panel series-sources" aria-labelledby="series-sources-title">
+      <h2 id="series-sources-title">¿De dónde surgen los proyectos?</h2>
+      <ul class="series-source-list">
+        <li>MakerWorld</li><li>Thingiverse</li><li>Printables</li><li>Pinshape</li><li>MyMiniFactory</li><li>Cults3D</li><li>Instructables</li><li>GitHub</li><li>Pinterest</li><li>YouTube</li><li>RobotShop</li><li>tiendas de electrónica y robótica</li><li>comunidades maker y de código abierto</li>
+      </ul>
+    </section>
+    <div class="series-overview">
+      <section class="series-panel" aria-labelledby="series-content-title">
+        <h2 id="series-content-title">¿Qué encontrarás en cada publicación?</h2>
+        <ul class="series-content-list">
+          <li>Fotografías del proceso de construcción</li>
+          <li>Video del resultado final</li>
+          <li>Lista de materiales utilizados</li>
+          <li>Código fuente desarrollado o adaptado</li>
+          <li>Diagramas de conexión</li>
+          <li>Enlaces a los autores originales</li>
+          <li>Comentarios sobre las dificultades encontradas</li>
+          <li>Posibles mejoras o modificaciones futuras</li>
+        </ul>
+        <p class="series-note">Cada publicación incluirá estos elementos cuando estén disponibles y sean relevantes para el proyecto.</p>
+      </section>
+      <section class="series-panel series-purpose" aria-labelledby="series-purpose-title">
+        <h2 id="series-purpose-title">Objetivo personal</h2>
+        <p>Esta serie me permite aprender nuevas tecnologías, fortalecer habilidades en robótica educativa e identificar ideas que puedan convertirse en futuros proyectos de investigación, prototipos educativos o desarrollos propios.</p>
+      </section>
+    </div>
+    <section class="series-projects" aria-labelledby="series-projects-title">
+      <h2 id="series-projects-title">Proyectos publicados</h2>
+      <div class="article-grid">
+        <article class="article-card">
+          <div class="series-project-meta"><span class="eyebrow">Proyecto #1</span><span class="series-status">Publicado</span></div>
+          <h3>Ojo Animatrónico con ESP32</h3>
+          <ul class="series-project-tags"><li>Impresión 3D</li><li>ESP32</li><li>Servomotores</li><li>Robótica</li></ul>
+          <a class="button button-secondary" href="ojo-animatronico-con-esp32.html" aria-label="Ver proyecto: Ojo Animatrónico con ESP32">Ver proyecto</a>
+        </article>
+        <article class="article-card">
+          <div class="series-project-meta"><span class="eyebrow">Proyecto #2</span><span class="series-status series-status-development">En desarrollo</span></div>
+          <h3>Una arañita robótica con ESP32</h3>
+          <ul class="series-project-tags"><li>Impresión 3D</li><li>ESP32</li><li>Robótica cuadrúpeda</li><li>Servomotores</li></ul>
+          <a class="button button-secondary" href="arana-robotica-con-esp32.html" aria-label="Ver proyecto: Una arañita robótica con ESP32">Ver proyecto</a>
+        </article>
+      </div>
+    </section>
+    <div class="back-to-blog"><a class="button button-secondary" href="../index.html">← Volver al blog</a></div>
   </main>
   <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
     <li><a href="https://www.linkedin.com/in/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg></a></li>
