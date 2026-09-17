@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una reflexión sobre diseño robótico y selección tecnológica a partir de la misión, el entorno, las restricciones y las capacidades realmente necesarias.">
+  <meta property="og:title" content="No existe el mejor robot: existe el más adecuado para la misión">
+  <meta property="og:description" content="Una reflexión sobre diseño robótico y selección tecnológica a partir de la misión, el entorno, las restricciones y las capacidades realmente necesarias.">
+  <meta property="og:type" content="article">
+  <meta name="color-scheme" content="light dark">
+  <title>No existe el mejor robot: existe el más adecuado para la misión · Leli Liliana Díaz Izquierdo</title>
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=ia-portada-20260917">
+  <script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18"/></symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 6v15M3 3c4 0 6 1 9 3 3-2 5-3 9-3v15c-4 0-6 1-9 3-3-2-5-3-9-3Z"/></symbol>
+      <symbol id="icon-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><path d="m10 8-4 8m8-8 4 8M8 19h8"/></symbol>
+      <symbol id="icon-chip" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4M9 9h6v6H9Z"/></symbol>
+      <symbol id="icon-people" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M2 21v-3a7 7 0 0 1 14 0v3m1-17a3 3 0 0 1 0 6m2 4a6 6 0 0 1 3 5v2"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24"><path d="M9 21v-4c-4 1-6-1-6-5a6 6 0 0 1 2-5V3l4 2a14 14 0 0 1 6 0l4-2v4a6 6 0 0 1 2 5c0 4-2 6-6 5v4M3 16c0 3 2 4 6 3"/></symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7m4 0v-7m0 3c0-4 6-4 6 0v4M7 7h.01"/></symbol>
+      <symbol id="icon-orcid" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7 10v7m0-10h.01M11 7h2a5 5 0 0 1 0 10h-2Z"/></symbol>
+      <symbol id="icon-youtube" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z"/></symbol>
+      <symbol id="icon-tiktok" viewBox="0 0 24 24"><path d="M14 3v12a5 5 0 1 1-4-4.9V14a2 2 0 1 0 1 1V3h3c.5 3 2 4.5 5 5v3a8 8 0 0 1-5-2"/></symbol>
+    </defs>
+  </svg>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../../index.html#inicio"><strong>Leli Liliana Díaz Izquierdo</strong><span>Ingeniera de Sistemas</span></a>
+      <nav id="navegacion" class="navigation" aria-label="Navegación principal">
+        <a href="../../index.html#inicio">Inicio</a><a href="../../index.html#sobre-mi">Sobre mí</a><a href="../../proyectos/">Proyectos</a><a href="../../index.html#docencia">Docencia</a><a href="../../index.html#investigacion">Investigación</a><a href="../../index.html#recursos">Recursos</a><a href="../index.html">Blog</a><a href="../../index.html#contacto">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" hidden><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A9 9 0 0 1 10 4a9 9 0 1 0 10 10Z"/></svg><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
+        <button class="icon-button menu-toggle" type="button" aria-label="Abrir menú" aria-controls="navegacion" aria-expanded="false" hidden><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="contenido" class="section container reading-page">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li aria-current="page">No existe el mejor robot: existe el más adecuado para la misión</li></ol>
+    </nav>
+    <article>
+      <header class="article-heading">
+        <div class="article-categories"><span class="article-category">Robótica</span><span class="article-category">Ingeniería</span><span class="article-category">Tecnología</span><span class="article-category">Reflexiones</span></div>
+        <h1>No existe el mejor robot: existe el más adecuado para la misión</h1>
+        <time datetime="2026-09">Septiembre de 2026</time>
+      </header>
+      <div class="article-body">
+        <p>Hace poco tuve la oportunidad de compartir la conferencia “Autonomía y supervivencia robótica: decisiones según misión y entorno” durante el Technology Camp 2026 de la Universidad Militar Nueva Granada.</p>
+        <p>La charla comenzó con una pregunta aparentemente sencilla:</p>
+        <p>¿Qué robot sobreviviría en una selva?</p>
+        <p>Imaginemos un entorno húmedo, cerrado, con barro, raíces, desniveles, vegetación, poca visibilidad y obstáculos que cambian constantemente. Supongamos además que necesitamos entrar para buscar a una persona, transportar sensores, medir condiciones ambientales o establecer comunicación desde un lugar de difícil acceso.</p>
+        <p>La reacción inmediata suele ser escoger una tecnología:</p>
+        <ul><li>un robot con ruedas,</li><li>uno con orugas,</li><li>un cuadrúpedo,</li><li>un dron,</li><li>o quizá una plataforma híbrida.</li></ul>
+        <p>Y ahí aparece uno de los errores más comunes cuando diseñamos soluciones tecnológicas: empezar pensando en la solución antes de comprender completamente el problema.</p>
+        <h2>La tecnología debería elegirse al final</h2>
+        <p>En ingeniería es muy fácil enamorarse de una tecnología.</p>
+        <p>Queremos utilizar inteligencia artificial porque está disponible.</p>
+        <p>Queremos construir un robot con patas porque resulta impresionante.</p>
+        <p>Queremos incorporar visión artificial porque podemos hacerlo.</p>
+        <p>Queremos utilizar un dron porque parece resolver rápidamente las limitaciones del terreno.</p>
+        <p>Y después buscamos un problema que justifique aquello que ya decidimos construir.</p>
+        <p>La ruta debería ser exactamente la contraria.</p>
+        <p>Primero necesitamos comprender la misión.</p>
+        <p>Después analizar el entorno.</p>
+        <p>Luego identificar las restricciones.</p>
+        <p>A partir de ellas definir las capacidades necesarias.</p>
+        <p>Y solo entonces seleccionar la tecnología.</p>
+        <p>En la conferencia resumí esa ruta de una manera muy sencilla:</p>
+        <p>Misión → entorno → restricciones → capacidades → solución.</p>
+        <p>La tecnología aparece al final, no al principio.</p>
+        <h2>La solución más sencilla puede ser la mejor</h2>
+        <p>Supongamos que necesitamos transportar materiales dentro de una universidad.</p>
+        <p>Tenemos corredores definidos, superficies regulares, iluminación relativamente estable y pocos obstáculos inesperados.</p>
+        <p>En ese contexto, una plataforma con ruedas convencionales puede ser extraordinariamente eficiente.</p>
+        <p>Consume relativamente poca energía, su mecánica puede ser sencilla y también puede requerir menos mantenimiento.</p>
+        <p>No necesitamos patas, orugas ni un complejo sistema de percepción únicamente para demostrar que podemos construirlo.</p>
+        <p>Esto contradice una idea que aparece con frecuencia en tecnología: pensar que una solución es mejor cuanto más compleja sea.</p>
+        <p>En ingeniería, una solución sencilla que cumple correctamente la misión puede ser superior a otra mucho más avanzada que realmente no era necesaria.</p>
+        <h2>Cuando cambia el entorno, cambia la solución</h2>
+        <p>Ahora podemos modificar las condiciones.</p>
+        <p>El robot sigue necesitando desplazarse, pero ya no está sobre un corredor regular.</p>
+        <p>Aparecen escombros, desniveles y superficies rotas.</p>
+        <p>Las ruedas convencionales comienzan a encontrar dificultades y las orugas adquieren ventajas: distribuyen mejor el peso, ofrecen tracción y pueden superar determinados obstáculos.</p>
+        <p>Pero esas capacidades tienen un costo.</p>
+        <p>Más peso.</p>
+        <p>Mayor consumo de energía.</p>
+        <p>Más fricción durante los giros.</p>
+        <p>Mayor complejidad mecánica.</p>
+        <p>Posibilidad de acumular barro, piedras o vegetación.</p>
+        <p>Por eso agregar una capacidad nunca es gratuito.</p>
+        <p>Más capacidad también puede significar más peso, energía, mantenimiento y puntos posibles de falla.</p>
+        <h2>Las patas impresionan, pero también cuestan</h2>
+        <p>Los robots con patas pueden seleccionar puntos de apoyo independientes, modificar su postura y adaptarse a superficies discontinuas.</p>
+        <p>Visualmente son extraordinarios.</p>
+        <p>Cuando vemos un cuadrúpedo subiendo escaleras o atravesando terrenos complejos es fácil pensar que esa debe ser la mejor plataforma posible.</p>
+        <p>Pero detrás de ese movimiento existen múltiples articulaciones, actuadores, sensores, control de postura, estimación del terreno, planeación de apoyos y correcciones continuas del equilibrio.</p>
+        <p>Todo eso requiere procesamiento y energía.</p>
+        <p>Por eso una plataforma con patas puede ser la respuesta adecuada para determinados escenarios, pero sería un error convertirla automáticamente en la respuesta para todos.</p>
+        <blockquote><p>No existe “mejor”; existe “más adecuado”.</p></blockquote>
+        <p>Más adecuado para una misión, un entorno y unas restricciones determinadas.</p>
+        <h2>¿Y si evitamos completamente el terreno?</h2>
+        <p>También podemos cambiar la perspectiva.</p>
+        <p>Si necesitamos inspeccionar una zona inundada, observar una estructura desde el exterior o cubrir rápidamente una gran superficie, quizá no sea necesario atravesar los obstáculos terrestres.</p>
+        <p>Podemos volar sobre ellos.</p>
+        <p>Un dron ofrece velocidad, cobertura y perspectiva.</p>
+        <p>Pero las restricciones no desaparecen.</p>
+        <p>Cambian.</p>
+        <p>Ahora debemos preocuparnos por tiempo de vuelo, viento, carga útil, condiciones meteorológicas, comunicación y riesgo de colisión.</p>
+        <p>Además existe una diferencia energética importante: un vehículo terrestre puede detenerse y permanecer quieto con un consumo relativamente bajo; un dron necesita gastar energía permanentemente para mantenerse en el aire.</p>
+        <p>La tecnología resolvió algunos problemas y creó otros.</p>
+        <h2>Más funciones tampoco significan automáticamente una mejor solución</h2>
+        <p>Podemos ir todavía más lejos y combinar capacidades.</p>
+        <p>Ruedas y patas.</p>
+        <p>Tierra y agua.</p>
+        <p>Diferentes configuraciones para distintos entornos.</p>
+        <p>Los sistemas híbridos resultan muy atractivos, pero cada nuevo modo introduce mecanismos, peso, control y posibles puntos de falla adicionales.</p>
+        <p>Por eso, antes de preguntarnos cuántas capacidades podemos incorporar, deberíamos preguntar:</p>
+        <p>¿Cuáles necesitamos realmente?</p>
+        <p>Una tecnología no debería incorporarse porque sea interesante.</p>
+        <p>Debe incorporarse porque la misión la necesita.</p>
+        <h2>Moverse no es suficiente</h2>
+        <p>Hasta aquí podríamos pensar que el problema fundamental de un robot es cómo desplazarse.</p>
+        <p>Pero un sistema puede moverse extraordinariamente bien y aun así ser incapaz de cumplir su misión.</p>
+        <p>Podemos pensar en tres grandes capacidades:</p>
+        <ul><li>Movilidad.</li><li>Percepción.</li><li>Autonomía.</li></ul>
+        <p>La movilidad permite llegar.</p>
+        <p>La percepción permite obtener información del entorno.</p>
+        <p>La autonomía permite tomar determinadas decisiones.</p>
+        <p>Un sistema que atraviesa perfectamente un terreno complejo pero no puede detectar aquello que busca puede ser inútil para la misión.</p>
+        <h2>Sensor no significa comprensión</h2>
+        <p>Un robot puede incorporar cámaras, LiDAR, sensores térmicos, ultrasonido, unidades inerciales y sensores ambientales.</p>
+        <p>Cada dispositivo produce información diferente.</p>
+        <p>Pero existe una distinción fundamental:</p>
+        <p>un sensor produce datos; eso no significa que el sistema comprenda lo que ocurre.</p>
+        <p>Una imagen no es automáticamente conocimiento.</p>
+        <p>Una distancia no es automáticamente una decisión.</p>
+        <p>Una medición térmica tampoco explica por sí sola una situación.</p>
+        <p>Entre la captura y la acción existe otro proceso:</p>
+        <p>Dato → interpretación → decisión.</p>
+        <p>Por eso, seleccionar sensores también comienza con la misión.</p>
+        <p>¿Queremos detectar personas?</p>
+        <p>¿Obstáculos?</p>
+        <p>¿Temperatura?</p>
+        <p>¿Gases?</p>
+        <p>¿Animales?</p>
+        <p>¿Cambios ambientales?</p>
+        <p>El sensor correcto depende de aquello que realmente necesitamos comprender.</p>
+        <h2>Más autonomía tampoco significa mejor</h2>
+        <p>Otro error frecuente es imaginar la autonomía como una escala en la que avanzar hacia un sistema completamente autónomo siempre representa una mejora.</p>
+        <p>Podemos tener sistemas:</p>
+        <ul><li>teleoperados;</li><li>asistidos;</li><li>semiautónomos;</li><li>autónomos.</li></ul>
+        <p>Pero la pregunta importante no es cuánto podemos automatizar.</p>
+        <p>Es cuánta autonomía necesita realmente la misión.</p>
+        <p>Debemos considerar riesgo, comunicación, supervisión, recuperación y consecuencias de una decisión incorrecta.</p>
+        <p>En determinadas condiciones necesitamos conservar un nivel alto de control humano.</p>
+        <p>En otras, la comunicación puede perderse temporalmente y el sistema necesita continuar funcionando sin instrucciones permanentes.</p>
+        <p>Por eso la autonomía es una decisión de diseño, no una meta absoluta.</p>
+        <h2>Un sistema inteligente también debe saber cuándo pedir ayuda</h2>
+        <p>Los entornos reales cambian.</p>
+        <p>Puede aparecer un obstáculo inesperado.</p>
+        <p>Puede deteriorarse la comunicación.</p>
+        <p>Un sensor puede dejar de ser confiable.</p>
+        <p>Las condiciones del terreno pueden cambiar.</p>
+        <p>Adaptarse puede significar buscar otra ruta, reducir la velocidad, recurrir a información de otro sensor o modificar temporalmente el comportamiento.</p>
+        <p>Pero también puede significar algo que a veces olvidamos cuando hablamos de autonomía:</p>
+        <p>pedir intervención humana.</p>
+        <p>Reconocer que la incertidumbre o el riesgo superan aquello que el sistema debería resolver por sí solo también puede ser una decisión inteligente.</p>
+        <p>En la charla planteé tres criterios para evaluar estas respuestas:</p>
+        <ul><li>seguridad,</li><li>eficiencia</li><li>y resiliencia.</li></ul>
+        <p>Seguridad porque no toda acción técnicamente posible es aceptable.</p>
+        <p>Eficiencia porque energía, tiempo, comunicación y capacidad de procesamiento son recursos limitados.</p>
+        <p>Y resiliencia porque un sistema debe poder responder ante cambios o fallos sin convertirse inmediatamente en un riesgo.</p>
+        <h2>Tal vez no necesitamos construir otro robot</h2>
+        <p>Aquí aparece, para mí, una de las ideas más interesantes de toda la conferencia.</p>
+        <p>Volvamos a la selva.</p>
+        <p>Ruedas: aparece el barro.</p>
+        <p>Orugas: aparece la vegetación.</p>
+        <p>Patas: aparece el costo energético.</p>
+        <p>Dron: aparece el dosel.</p>
+        <p>Sistema híbrido: aparece la complejidad.</p>
+        <p>Entonces podemos volver a preguntarnos:</p>
+        <p>¿Qué robot sobreviviría aquí?</p>
+        <p>Tal vez estamos formulando mal la pregunta.</p>
+        <p>Hasta ahora hemos supuesto que sensores, procesamiento, comunicación y movilidad deben estar concentrados dentro de una misma máquina.</p>
+        <p>Pero ¿qué ocurre si separamos esas capacidades?</p>
+        <p>Una persona entrenada ya posee una extraordinaria capacidad para desplazarse por determinados entornos.</p>
+        <p>Puede cambiar de postura, usar las manos, reconocer obstáculos, buscar apoyos y tomar decisiones frente a situaciones inesperadas.</p>
+        <p>Un animal entrenado para búsqueda también puede desplazarse de manera extraordinariamente eficiente en ciertos escenarios.</p>
+        <p>Tal vez no necesitamos reproducir mecánicamente una capacidad que ya existe.</p>
+        <p>Podemos complementarla.</p>
+        <h2>Diseñar sistemas, no necesariamente robots</h2>
+        <p>Un rescatista puede incorporar una cámara corporal, sensores ambientales, localización y comunicación.</p>
+        <p>La persona aporta movilidad, interpretación del contexto y criterio.</p>
+        <p>La tecnología amplía percepción, comunicación y registro.</p>
+        <p>También podríamos pensar, en determinados contextos, en un animal entrenado que porte un sistema ligero de sensores, siempre bajo una condición fundamental: su bienestar.</p>
+        <p>El equipo no debería limitar su visión, respiración, equilibrio ni movilidad.</p>
+        <p>No estaríamos convirtiendo al animal o a la persona en un robot.</p>
+        <p>Estaríamos construyendo una arquitectura cooperativa.</p>
+        <p>Y esta idea cambia la pregunta de diseño.</p>
+        <p>Ya no preguntamos únicamente qué robot debemos construir.</p>
+        <p>Preguntamos qué sistema necesitamos diseñar.</p>
+        <h2>Siete preguntas antes de escoger una tecnología</h2>
+        <p>Al final de la conferencia propuse siete preguntas que pueden ayudar a evitar decisiones impulsivas de diseño:</p>
+        <ol><li>¿Cuál es la misión?</li><li>¿Cómo es realmente el entorno?</li><li>¿Qué capacidad debe llegar hasta allí?</li><li>¿Qué carga debe transportarse?</li><li>¿Cuánto tiempo debe operar?</li><li>¿Qué autonomía necesitamos?</li><li>¿Necesita movilidad propia?</li></ol>
+        <p>Ninguna de estas preguntas proporciona automáticamente una respuesta.</p>
+        <p>Pero juntas obligan a pensar antes de escoger componentes.</p>
+        <h2>La innovación también puede consistir en quitar</h2>
+        <p>Después de recorrer ruedas, orugas, patas, drones, plataformas híbridas, sensores y autonomía, la conclusión puede parecer paradójicamente sencilla.</p>
+        <p>La verdadera innovación no siempre está en agregar más componentes.</p>
+        <p>A veces está en formular mejor el problema.</p>
+        <p>La solución adecuada no será necesariamente la más avanzada, la más costosa o la que más se parezca a un ser vivo.</p>
+        <p>Será aquella cuyo diseño corresponda realmente a la misión y al entorno.</p>
+        <h2>Conferencia completa</h2>
+        <p>Estas ideas fueron desarrolladas originalmente en mi conferencia ‘Autonomía y supervivencia robótica: decisiones según misión y entorno’, presentada en el Technology Camp 2026 de la Universidad Militar Nueva Granada.</p>
+        <p><a class="button button-secondary" href="https://www.youtube.com/watch?v=LIFjmN5LbPE&amp;t=116s" target="_blank" rel="noopener noreferrer">Ver conferencia en YouTube</a></p>
+      </div>
+    </article>
+    <nav class="article-pagination" aria-label="Navegación entre artículos"><a href="el-primer-golpe-bajo-de-la-ia.html" rel="next"><span>Artículo siguiente</span>El primer golpe bajo de la IA</a></nav>
+    <div class="back-to-blog"><a class="button button-secondary" href="../index.html">Volver al blog</a></div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
+    <li><a href="https://www.linkedin.com/in/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg></a></li>
+    <li><a href="https://github.com/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg></a></li>
+    <li><a href="https://orcid.org/0009-0001-5632-8764" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><svg class="icon" aria-hidden="true"><use href="#icon-orcid"/></svg></a></li>
+    <li><a href="https://www.youtube.com/@lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg class="icon" aria-hidden="true"><use href="#icon-youtube"/></svg></a></li>
+    <li><a href="https://www.tiktok.com/@lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="icon" aria-hidden="true"><use href="#icon-tiktok"/></svg></a></li>
+  </ul></div><blockquote>“La tecnología cobra sentido cuando mejora la vida de las personas.”</blockquote></div><p class="copyright">© 2026 Leli Liliana Díaz Izquierdo. <span>Todos los derechos reservados.</span></p></div></footer>
+</body>
+</html>
