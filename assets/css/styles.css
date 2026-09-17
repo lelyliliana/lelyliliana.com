@@ -373,3 +373,6 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
   .project-credit dl { grid-template-columns: 1fr; gap: 4px; }
   .project-credit dd { margin-bottom: 12px; }
 }
+
+.reading-page .article-cover { max-width: 600px; margin: 32px auto; }
+.article-cover img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 8px; }
