@@ -376,3 +376,10 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 
 .reading-page .article-cover { max-width: 600px; margin: 32px auto; }
 .article-cover img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 8px; }
+
+/* Catálogo de recursos públicos. */
+.resources-page .project-card h4 { font-size: 1.35rem; margin-bottom: 18px; }
+.resources-page .project-card .button { margin-top: auto; }
+.resource-access { display: flex; flex-wrap: wrap; gap: 16px 28px; padding: 0; list-style: none; }
+.resource-access a, .resource-card a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
+.resource-card p { font-size: .9375rem; color: var(--color-muted); }

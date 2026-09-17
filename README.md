@@ -29,6 +29,8 @@ https://lelyliliana.com
 │       ├── index.html
 │       ├── ojo-animatronico-con-esp32.html
 │       └── arana-robotica-con-esp32.html
+├── recursos/
+│   └── index.html
 ├── publicaciones/
 │   └── mesa-stem.html
 └── assets/
@@ -39,6 +41,7 @@ https://lelyliliana.com
 
 - `blog/`: artículos, experiencias y reflexiones; conserva las publicaciones narrativas.
 - `proyectos/`: documentación técnica, prototipos, experimentos y series.
+- `recursos/`: selección curada de cursos, guías, ejemplos y materiales abiertos.
 - `publicaciones/`: páginas editoriales o bibliográficas.
 
 Las tres rutas antiguas de la serie en `blog/articulos/` contienen únicamente una redirección y un enlace manual a la nueva ubicación. No duplican el contenido. Los recursos gráficos conservan sus rutas existentes.
@@ -89,3 +92,7 @@ El modo claro es el inicial. La preferencia de tema se guarda en `localStorage` 
 El artículo «El primer golpe bajo de la IA» (septiembre de 2026) conserva el texto suministrado, con diez subtítulos H2 y una sección de fuentes.
 
 «No existe el mejor robot: existe el más adecuado para la misión» (septiembre de 2026) conserva la introducción y las catorce secciones suministradas, más el enlace a la conferencia. Encabeza el blog y «Últimos artículos», seguido de «El primer golpe bajo de la IA» y «Educar en el uso de la tecnología, no simplemente prohibirla». Los dos artículos de septiembre siguen el orden de publicación, sin asignar días no suministrados.
+
+## Recursos abiertos
+
+`recursos/index.html` reúne seis cursos y materiales de formación, una guía de Git/GitHub/VS Code y cinco ejemplos o prácticas. Los doce repositorios enlazados se verificaron como públicos y las descripciones se basan en sus README o descripción pública. Investigación enlaza al blog, ORCID y CvLAC; Tecnologías emergentes ofrece accesos al blog y a proyectos, sin duplicar contenido. La portada enlaza a las cuatro áreas y el menú general apunta a `recursos/`.
