@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una reflexión sobre inteligencia artificial, atribución científica y responsabilidad a partir de la controversia alrededor de la solución propuesta al problema de Navier–Stokes.">
+  <meta property="og:title" content="El primer golpe bajo de la IA">
+  <meta property="og:description" content="Una reflexión sobre inteligencia artificial, atribución científica y responsabilidad a partir de la controversia alrededor de la solución propuesta al problema de Navier–Stokes.">
+  <meta property="og:type" content="article">
+  <meta name="color-scheme" content="light dark">
+  <title>El primer golpe bajo de la IA · Leli Liliana Díaz Izquierdo</title>
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+  <script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18"/></symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 6v15M3 3c4 0 6 1 9 3 3-2 5-3 9-3v15c-4 0-6 1-9 3-3-2-5-3-9-3Z"/></symbol>
+      <symbol id="icon-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><path d="m10 8-4 8m8-8 4 8M8 19h8"/></symbol>
+      <symbol id="icon-chip" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4M9 9h6v6H9Z"/></symbol>
+      <symbol id="icon-people" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M2 21v-3a7 7 0 0 1 14 0v3m1-17a3 3 0 0 1 0 6m2 4a6 6 0 0 1 3 5v2"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24"><path d="M9 21v-4c-4 1-6-1-6-5a6 6 0 0 1 2-5V3l4 2a14 14 0 0 1 6 0l4-2v4a6 6 0 0 1 2 5c0 4-2 6-6 5v4M3 16c0 3 2 4 6 3"/></symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7m4 0v-7m0 3c0-4 6-4 6 0v4M7 7h.01"/></symbol>
+      <symbol id="icon-orcid" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7 10v7m0-10h.01M11 7h2a5 5 0 0 1 0 10h-2Z"/></symbol>
+      <symbol id="icon-youtube" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3Z"/></symbol>
+      <symbol id="icon-tiktok" viewBox="0 0 24 24"><path d="M14 3v12a5 5 0 1 1-4-4.9V14a2 2 0 1 0 1 1V3h3c.5 3 2 4.5 5 5v3a8 8 0 0 1-5-2"/></symbol>
+    </defs>
+  </svg>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../../index.html#inicio"><strong>Leli Liliana Díaz Izquierdo</strong><span>Ingeniera de Sistemas</span></a>
+      <nav id="navegacion" class="navigation" aria-label="Navegación principal">
+        <a href="../../index.html#inicio">Inicio</a><a href="../../index.html#sobre-mi">Sobre mí</a><a href="../../proyectos/">Proyectos</a><a href="../../index.html#docencia">Docencia</a><a href="../../index.html#investigacion">Investigación</a><a href="../../index.html#recursos">Recursos</a><a href="../index.html">Blog</a><a href="../../index.html#contacto">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" hidden><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14A9 9 0 0 1 10 4a9 9 0 1 0 10 10Z"/></svg><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg></button>
+        <button class="icon-button menu-toggle" type="button" aria-label="Abrir menú" aria-controls="navegacion" aria-expanded="false" hidden><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="contenido" class="section container reading-page">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <ol><li><a href="../../index.html">Inicio</a></li><li><a href="../index.html">Blog</a></li><li aria-current="page">El primer golpe bajo de la IA</li></ol>
+    </nav>
+    <article>
+      <header class="article-heading">
+        <div class="article-categories"><span class="article-category">Inteligencia Artificial</span><span class="article-category">Ética</span><span class="article-category">Investigación</span><span class="article-category">Reflexiones</span></div>
+        <h1>El primer golpe bajo de la IA</h1>
+        <time datetime="2026-09">Septiembre de 2026</time>
+      </header>
+      <div class="article-body">
+        <p>Quienes me conocen saben que tengo una postura bastante favorable frente a la inteligencia artificial.</p>
+        <p>La utilizo todos los días. La incorporo en mi trabajo, la estudio, experimento con sus posibilidades y, muchas veces, termino defendiéndola cuando la conversación se reduce únicamente al miedo de que “la IA nos va a reemplazar”.</p>
+        <p>No porque piense que todo lo relacionado con inteligencia artificial sea positivo ni porque crea que debamos utilizarla sin límites. Precisamente lo contrario: cuanto más la utilizo, más convencida estoy de que necesitamos comprenderla, cuestionarla y establecer criterios claros para decidir dónde, cómo y para qué usarla.</p>
+        <p>Hasta ahora, sin embargo, gran parte de mis preocupaciones habían sido relativamente previsibles: privacidad, errores, alucinaciones, sesgos, dependencia tecnológica, impacto laboral, propiedad intelectual o estudiantes que entregan como propio aquello que produjo una herramienta.</p>
+        <p>Esta semana sentí algo diferente.</p>
+        <p>Por primera vez una noticia relacionada con inteligencia artificial me produjo una sensación que podría describir como decepción.</p>
+        <p>No porque la IA hubiera fallado.</p>
+        <p>Sino precisamente porque parecía haber tenido éxito.</p>
+        <h2>Un problema que llevaba décadas esperando una respuesta</h2>
+        <p>OpenAI anunció el 8 de septiembre de 2026 una solución al problema de existencia y regularidad de las ecuaciones de Navier–Stokes, uno de los célebres Problemas del Milenio.</p>
+        <p>Su sistema produjo una demostración analítica y una formalización en Lean que muestran que, bajo determinadas condiciones, las ecuaciones pueden desarrollar una singularidad en tiempo finito. OpenAI presentó el resultado como una resolución del problema mediante los enunciados contemplados en la formulación oficial y señaló que no pretende reclamar el premio económico asociado.</p>
+        <p>Para alguien que sigue con entusiasmo los avances de la inteligencia artificial, la noticia es extraordinaria.</p>
+        <p>Estamos hablando de sistemas que ya no se limitan a redactar textos, generar imágenes, responder preguntas o escribir código.</p>
+        <p>Estamos hablando de inteligencia artificial participando en la frontera del conocimiento matemático.</p>
+        <p>Mi primera reacción fue de entusiasmo.</p>
+        <p>La segunda llegó cuando empecé a leer la historia que había detrás.</p>
+        <h2>Antes de la última ecuación hubo años de trabajo</h2>
+        <p>Los matemáticos Diego Córdoba y Luis Martínez-Zoroa habían desarrollado previamente resultados e ideas que fueron fundamentales para el camino que llevó a estos avances. Su trabajo de 2023 ha sido señalado como una de las bases intelectuales importantes sobre las que se construyeron desarrollos posteriores en el problema.</p>
+        <p>Sin embargo, las referencias a sus trabajos no aparecieron inicialmente en la publicación de OpenAI.</p>
+        <p>Fueron incorporadas posteriormente.</p>
+        <p>Ese hecho generó críticas dentro de la comunidad matemática y abrió una discusión sobre algo que, a primera vista, podría parecer simplemente una cuestión bibliográfica, pero que en ciencia es mucho más profundo: ¿a quién pertenece el camino que conduce a un descubrimiento?</p>
+        <p>Porque una demostración no empieza cuando alguien escribe la última ecuación.</p>
+        <p>Antes hubo personas que formularon preguntas.</p>
+        <p>Otras encontraron caminos que no funcionaron.</p>
+        <p>Algunas desarrollaron métodos parciales.</p>
+        <p>Hubo artículos, conversaciones, intuiciones, errores y años de trabajo que permitieron que el siguiente investigador pudiera comenzar un poco más adelante.</p>
+        <p>La ciencia avanza precisamente de esa manera.</p>
+        <p>Sobre conocimiento previo.</p>
+        <h2>La ciencia necesita memoria</h2>
+        <p>Tal vez esta sea la idea que más me quedó dando vueltas:</p>
+        <blockquote><p>la ciencia necesita memoria.</p></blockquote>
+        <p>Las referencias bibliográficas no son una formalidad colocada al final de un documento para satisfacer una norma.</p>
+        <p>Son parte del mapa que explica cómo llegamos hasta allí.</p>
+        <p>Una cita reconoce que una idea tuvo historia antes de nosotros.</p>
+        <p>Permite identificar quién hizo qué, qué problema permanecía abierto y cuál es realmente la contribución nueva.</p>
+        <p>También permite que otra persona reconstruya el camino.</p>
+        <p>Por eso, en investigación, la atribución no es un detalle decorativo.</p>
+        <p>Es parte de la integridad del conocimiento.</p>
+        <p>Y aquí aparece una preocupación nueva cuando incorporamos inteligencia artificial a la investigación científica.</p>
+        <h2>Una máquina puede avanzar mucho más rápido que la memoria humana</h2>
+        <p>Los sistemas de IA pueden analizar cantidades enormes de información, combinar estrategias y explorar caminos a una velocidad imposible para una sola persona.</p>
+        <p>En el caso anunciado por OpenAI, miles de agentes trabajaron durante decenas de horas intercambiando millones de mensajes hasta producir una demostración y su posterior formalización.</p>
+        <p>Esa capacidad es impresionante.</p>
+        <p>Pero también modifica completamente la escala del problema de atribución.</p>
+        <p>Un investigador humano suele conocer, al menos parcialmente, la genealogía intelectual de aquello en lo que trabaja. Ha leído determinados artículos, conoce autores, participa en comunidades y recuerda de dónde surgieron muchas ideas.</p>
+        <p>¿Qué ocurre cuando el proceso incorpora modelos entrenados sobre cantidades inmensas de información?</p>
+        <p>¿Podemos reconstruir siempre de dónde surgió una estrategia?</p>
+        <p>¿Podemos diferenciar con claridad aquello que un modelo está deduciendo de aquello que, de alguna manera, estaba representado dentro de los datos con los que aprendió?</p>
+        <p>¿Quién tiene la responsabilidad de verificar esa genealogía?</p>
+        <p>La respuesta no puede ser simplemente: “la inteligencia artificial lo produjo”.</p>
+        <h2>Hay otra controversia todavía más compleja</h2>
+        <p>La historia de Navier–Stokes también involucra a Tristan Buckmaster y Levent Alpöge, quienes trabajaban paralelamente en problemas estrechamente relacionados utilizando herramientas de IA.</p>
+        <p>Buckmaster expresó públicamente inquietudes sobre la posibilidad de que interacciones mantenidas con Codex hubieran podido influir, directa o indirectamente, en los desarrollos posteriores de OpenAI. Diversos medios han documentado la controversia y las versiones enfrentadas.</p>
+        <p>OpenAI rechaza esa interpretación.</p>
+        <p>La compañía afirma que investigó el asunto y concluyó que las instrucciones que Buckmaster había enviado a Codex durante los meses anteriores no pudieron influir en el sistema utilizado para obtener la demostración, ni siquiera mediante entrenamiento. También sostiene que los resultados matemáticos presentan diferencias significativas.</p>
+        <p>No tengo elementos para determinar quién tiene razón en cada aspecto de esa discusión.</p>
+        <p>Y creo que precisamente ahí aparece otra lección importante.</p>
+        <p>Cuando hablamos de investigación y de atribución científica, debemos ser extremadamente cuidadosos antes de convertir sospechas en hechos.</p>
+        <p>Pero tampoco deberíamos utilizar la ausencia de una conclusión definitiva como razón para ignorar las preguntas.</p>
+        <h2>Acelerar la ciencia no debería borrar su genealogía</h2>
+        <p>Sigo pensando que la inteligencia artificial puede acelerar extraordinariamente la ciencia.</p>
+        <p>Probablemente veremos avances que habrían tardado años producirse mediante métodos tradicionales.</p>
+        <p>Modelos capaces de explorar millones de alternativas pueden encontrar caminos que una persona quizá nunca habría considerado.</p>
+        <p>Eso puede transformar matemáticas, física, medicina, ingeniería y muchas otras disciplinas.</p>
+        <p>Sería absurdo negar ese potencial.</p>
+        <p>Pero acelerar la ciencia no debería significar borrar su genealogía.</p>
+        <p>Si una herramienta permite recorrer en horas un camino construido durante décadas por investigadores humanos, precisamente por esa velocidad necesitamos mejores mecanismos para reconocer el conocimiento previo.</p>
+        <p>No menos.</p>
+        <h2>Esto también toca directamente a quienes investigamos</h2>
+        <p>Quizás esta noticia me afectó especialmente porque estoy comenzando mi propio camino doctoral.</p>
+        <p>Y utilizo inteligencia artificial intensamente.</p>
+        <p>La utilizo para explorar preguntas.</p>
+        <p>Para comparar metodologías.</p>
+        <p>Para organizar ideas.</p>
+        <p>Para encontrar relaciones que inicialmente no había considerado.</p>
+        <p>Para programar.</p>
+        <p>Para analizar información.</p>
+        <p>Para discutir enfoques.</p>
+        <p>Y seguramente la utilizaré todavía más durante los próximos años.</p>
+        <p>Pero eso también significa que debo ser mucho más consciente de una pregunta:</p>
+        <p>¿qué parte de aquello que estoy viendo realmente es nueva y qué parte pertenece al conocimiento construido por otras personas?</p>
+        <p>La facilidad con la que una IA puede presentarnos una idea hace que sea peligrosamente fácil olvidar esa pregunta.</p>
+        <p>Una respuesta aparece en segundos y parece no tener historia.</p>
+        <p>Pero casi siempre la tiene.</p>
+        <h2>La IA no nos libera de hacer investigación responsable</h2>
+        <p>Utilizar inteligencia artificial en investigación no elimina nuestras responsabilidades.</p>
+        <p>Las aumenta.</p>
+        <p>Si una herramienta me sugiere una metodología, debo investigar de dónde proviene.</p>
+        <p>Si me muestra un concepto, debo buscar sus fuentes.</p>
+        <p>Si resume un artículo, necesito leer el original cuando esa información sea relevante.</p>
+        <p>Si me ayuda a construir un argumento, debo verificar qué conocimiento previo lo sostiene.</p>
+        <p>Y si termino publicando una idea, la responsabilidad sobre la atribución no puede transferirse a la máquina.</p>
+        <p>No sería razonable escribir:</p>
+        <p>“ChatGPT no me dijo de quién era esa idea.”</p>
+        <p>La firma del trabajo seguirá siendo nuestra.</p>
+        <p>También la responsabilidad.</p>
+        <h2>Tal vez necesitamos nuevas reglas para una nueva forma de hacer ciencia</h2>
+        <p>La investigación científica lleva siglos desarrollando mecanismos para reconocer contribuciones: autorías, referencias, revisión por pares, declaraciones de conflicto de interés, repositorios y registros de prioridad.</p>
+        <p>La inteligencia artificial introduce nuevas preguntas que esos mecanismos todavía están aprendiendo a manejar.</p>
+        <p>¿Cómo debe reconocerse el uso intensivo de IA?</p>
+        <p>¿Cómo se documenta la interacción con modelos durante una investigación?</p>
+        <p>¿Cómo se garantiza que resultados producidos por sistemas automáticos respeten adecuadamente el trabajo previo?</p>
+        <p>¿Cómo debemos tratar ideas obtenidas mediante herramientas que pueden haber aprendido de publicaciones cuyos autores nunca imaginaron ese uso?</p>
+        <p>No creo que tengamos todavía respuestas definitivas.</p>
+        <p>Pero creo que necesitamos comenzar a formular las preguntas.</p>
+        <h2>Mi primer golpe bajo de la IA</h2>
+        <p>Seguiré utilizando inteligencia artificial.</p>
+        <p>Seguiré estudiándola.</p>
+        <p>Seguiré incorporándola a mis proyectos.</p>
+        <p>Y seguramente seguiré defendiendo sus posibilidades cuando se la reduzca únicamente a una amenaza.</p>
+        <p>Nada de lo ocurrido esta semana cambia la magnitud de lo que esta tecnología puede aportar.</p>
+        <p>Pero sí cambió algo en mi manera de mirarla.</p>
+        <p>Hasta ahora mi relación con la IA estaba marcada principalmente por la curiosidad y el entusiasmo.</p>
+        <p>Esta vez apareció también cierta desconfianza.</p>
+        <p>No hacia la tecnología como si fuera un sujeto capaz de actuar éticamente por sí mismo.</p>
+        <p>La ética sigue perteneciendo a quienes diseñamos, administramos y utilizamos estas herramientas.</p>
+        <p>Quizá ese sea precisamente el punto.</p>
+        <p>Confiar en una tecnología no significa dejar de cuestionar las decisiones humanas que se toman alrededor de ella.</p>
+        <p>Esta semana no se me cayó la inteligencia artificial.</p>
+        <p>Se me cayó un poco la ingenuidad con la que la miraba.</p>
+        <p>Y quizá eso también sea necesario.</p>
+        <p>Porque utilizar una tecnología responsablemente también significa ser capaces de admirarla y cuestionarla al mismo tiempo.</p>
+      </div>
+      <aside class="project-series" aria-labelledby="sources-title"><h2 id="sources-title">Fuentes y contexto</h2><ul><li><a href="https://openai.com/es-419/index/navier-stokes-solution/" target="_blank" rel="noopener noreferrer">OpenAI: anuncio y contexto del resultado</a></li><li><a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" target="_blank" rel="noopener noreferrer">Quanta Magazine: cobertura del avance matemático</a></li><li><a href="https://elpais.com/tecnologia/2026-09-10/openai-corrige-de-tapadillo-su-prueba-del-milenio-para-citar-a-los-matematicos-clave-que-ninguneo-al-anunciar-el-descubrimiento.html" target="_blank" rel="noopener noreferrer">El País: incorporación posterior de referencias</a></li></ul></aside>
+    </article>
+    <nav class="article-pagination" aria-label="Navegación entre artículos"><a href="educar-en-el-uso-de-la-tecnologia-no-simplemente-prohibirla.html" rel="next"><span>Artículo siguiente</span>Educar en el uso de la tecnología, no simplemente prohibirla</a></nav>
+    <div class="back-to-blog"><a class="button button-secondary" href="../index.html">Volver al blog</a></div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-top"><div><strong>Leli Liliana Díaz Izquierdo</strong><p>Ingeniera de Sistemas<br>Colombia</p><ul class="social-links">
+    <li><a href="https://www.linkedin.com/in/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg></a></li>
+    <li><a href="https://github.com/lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg></a></li>
+    <li><a href="https://orcid.org/0009-0001-5632-8764" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><svg class="icon" aria-hidden="true"><use href="#icon-orcid"/></svg></a></li>
+    <li><a href="https://www.youtube.com/@lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg class="icon" aria-hidden="true"><use href="#icon-youtube"/></svg></a></li>
+    <li><a href="https://www.tiktok.com/@lelyliliana" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="icon" aria-hidden="true"><use href="#icon-tiktok"/></svg></a></li>
+  </ul></div><blockquote>“La tecnología cobra sentido cuando mejora la vida de las personas.”</blockquote></div><p class="copyright">© 2026 Leli Liliana Díaz Izquierdo. <span>Todos los derechos reservados.</span></p></div></footer>
+</body>
+</html>
