@@ -380,8 +380,13 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 /* Catálogo de recursos públicos. */
 .resources-page .project-card h4 { font-size: 1.35rem; margin-bottom: 18px; }
 .resources-page .project-card .button { margin-top: auto; }
-.resource-access { display: flex; flex-wrap: wrap; gap: 16px 28px; padding: 0; list-style: none; }
-.resource-access a, .resource-card a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
+/* Accesos compartidos por la portada y el catálogo de recursos. */
+.resource-actions { display: flex; flex-wrap: wrap; gap: 12px; padding: 0; list-style: none; }
+.resource-actions li { min-width: 0; max-width: 100%; }
+.resource-link-button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; max-width: 100%; padding: 10px 16px; border: 1px solid var(--color-border); border-radius: 6px; color: var(--color-primary); background: transparent; font-size: .875rem; font-weight: 600; line-height: 1.5; text-align: center; text-decoration: none; transition: background-color .18s ease, border-color .18s ease; }
+.resource-link-button:hover { background: var(--color-light); border-color: var(--color-accent); text-decoration: none; }
+.resource-link-button:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 4px; }
+.resource-card .resource-link-button { margin-top: auto; }
 .resource-card p { font-size: .9375rem; color: var(--color-muted); }
 
 .reading-page .article-cover-wide { max-width: none; }
