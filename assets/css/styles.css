@@ -383,3 +383,5 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .resource-access { display: flex; flex-wrap: wrap; gap: 16px 28px; padding: 0; list-style: none; }
 .resource-access a, .resource-card a { color: var(--color-accent); text-decoration: underline; text-underline-offset: 3px; }
 .resource-card p { font-size: .9375rem; color: var(--color-muted); }
+
+.reading-page .article-cover-wide { max-width: none; }
