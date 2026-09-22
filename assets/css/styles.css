@@ -326,6 +326,7 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .series-hero p { max-width: 780px; font-size: 1.125rem; }
 .series-overview { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 24px; margin-bottom: 24px; }
 .series-panel { padding: clamp(20px, 3vw, 32px); border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-background); }
+.mesa-listing { margin-top: 24px; }
 .series-panel h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); letter-spacing: -.025em; }
 .series-panel p:last-child { margin-bottom: 0; }
 .series-credits { border-left: 4px solid var(--color-accent); background: var(--color-light); }
