@@ -5,6 +5,10 @@
 .mesa-hero-media { min-width: 0; padding: clamp(20px, 4vw, 40px); border: 1px solid var(--color-border); border-radius: 24px; background: linear-gradient(145deg, var(--color-light), var(--color-background)); display: grid; place-items: center; }
 .mesa-hero-placeholder { width: min(100%, 260px); aspect-ratio: 9 / 16; border: 2px dashed var(--color-border); border-radius: 22px; display: grid; place-items: center; padding: 28px; color: var(--color-muted); text-align: center; }
 .mesa-hero-image { display: block; width: auto; max-width: 100%; max-height: 520px; height: auto; object-fit: contain; }
+.mesa-feedback-callout { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: clamp(24px, 4vw, 40px); border: 1px solid var(--color-border); border-radius: 20px; background: var(--color-light); }
+.mesa-feedback-callout h2 { margin-bottom: 10px; }
+.mesa-feedback-callout p:last-child { margin-bottom: 0; color: var(--color-muted); }
+.mesa-feedback-callout .button { flex: none; text-align: center; }
 .mesa-section { padding-block: 72px; border-top: 1px solid var(--color-border); }
 .mesa-section > p { max-width: 760px; color: var(--color-muted); }
 .mesa-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 30px; }
@@ -54,3 +58,4 @@
 .privacy-back-link { display: inline-block; margin-top: 12px; font-weight: 650; }
 @media (max-width: 900px) { .mesa-hero { grid-template-columns: 1fr; } .mesa-hero-media { max-width: 480px; width: 100%; justify-self: center; } .mesa-grid, .mesa-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .mesa-hero { padding-block: 42px; } .mesa-section { padding-block: 48px; } .mesa-grid, .mesa-steps, .mesa-gallery-pair { grid-template-columns: 1fr; } .mesa-gallery-pair { gap: 28px; padding: 18px; } .privacy-main { padding-bottom: 48px; } .privacy-intro { padding-top: 34px; } }
+@media (max-width: 700px) { .mesa-feedback-callout { align-items: stretch; flex-direction: column; } }
