@@ -2,6 +2,23 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ951VQD7P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    if (location.hostname === 'lelyliliana.com' || location.hostname === 'www.lelyliliana.com') {
+      // Omit query strings and fragments; never include form values or user identifiers.
+      gtag('config', 'G-NJ951VQD7P', {
+        page_location: location.origin + location.pathname,
+        page_referrer: document.referrer ? new URL(document.referrer).origin : '',
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+        send_page_view: false
+      });
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="0; url=../../proyectos/construyendo-proyectos-de-internet/arana-robotica-con-esp32.html">
   <link rel="canonical" href="https://lelyliliana.com/proyectos/construyendo-proyectos-de-internet/arana-robotica-con-esp32.html">
