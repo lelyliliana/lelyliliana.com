@@ -43,8 +43,8 @@ def main():
   alt=image.get('alt','') if image else 'Leli Liliana Díaz Izquierdo, ingeniera de sistemas y docente investigadora'
   if urlparse(imageurl).netloc!='lelyliliana.com' or not (ROOT/urlparse(imageurl).path.lstrip('/')).is_file():raise ValueError(f'Imagen no disponible: {imageurl}')
   kind=page.meta.get('og:type') or ('article' if '/articulos/' in rel else 'website')
-  s=re.sub(r'^[ \t]*<meta\b[^>]*(?:property=["\']og:|name=["\']twitter:)[^>]*>\s*\n?', '',s,flags=re.M|re.I)
-  s=re.sub(r'^[ \t]*<link\b[^>]*rel=["\']canonical["\'][^>]*>\s*\n?', '',s,flags=re.M|re.I)
+  s=re.sub(r'^[ \t]*<meta\b[^>]*(?:property=["\']og:|name=["\']twitter:)[^>]*>[ \t]*(?:\r?\n)?', '',s,flags=re.M|re.I)
+  s=re.sub(r'^[ \t]*<link\b[^>]*rel=["\']canonical["\'][^>]*>[ \t]*(?:\r?\n)?', '',s,flags=re.M|re.I)
   e=lambda x:escape(x,quote=True)
   tags=f'  <link rel="canonical" href="{e(url)}">\n'
   for key,value in [('og:title',title),('og:description',desc),('og:type',kind),('og:url',url),('og:site_name','Leli Liliana Díaz Izquierdo'),('og:locale','es_CO'),('og:image',imageurl),('og:image:alt',alt)]:tags+=f'  <meta property="{key}" content="{e(value)}">\n'
