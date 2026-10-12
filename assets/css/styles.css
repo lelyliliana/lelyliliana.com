@@ -405,5 +405,7 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .resources-page .course-topics li { margin-bottom: 9px; }
 .resources-page .course-topics a { overflow-wrap: anywhere; }
 
-.resources-page .course-advice { margin: 0 0 16px; font-size: .9rem; }
-.resources-page .course-advice a { color: var(--color-primary); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+/* Asesoría contextual, visible junto a los accesos de estudio. */
+.resources-page .course-advice { width: 100%; margin: 0 0 20px; padding: 16px; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-light); }
+.resources-page .course-advice p { margin: 0 0 12px; font-size: .9rem; color: var(--color-text); }
+.resources-page .course-advice .button { width: 100%; margin: 0; white-space: normal; text-align: center; }
