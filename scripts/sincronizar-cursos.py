@@ -1,6 +1,6 @@
 """Genera el catálogo estático con unidades directas desde Aprende con Leli."""
 from pathlib import Path
-import argparse, html, json, re, subprocess
+import argparse, html, json, re, subprocess, urllib.parse
 
 ROOT=Path(__file__).resolve().parents[1]
 PLATAFORMA='https://lelyliliana.github.io/aprende-con-leli/'
@@ -36,6 +36,9 @@ def render(c,titulos):
  salida=f'<article class="project-card course-card" id="curso-{esc(c["id"])}" data-course-id="{esc(c["id"])}">\n<span class="tag">{esc(c["nivel"])}</span><h4>{esc(c["titulo"])}</h4><p>{esc(c["descripcion"])}</p>\n<p class="course-meta"><strong>Temas:</strong> {esc(" · ".join(c["tecnologias"]))}</p>\n'
  if recomendado:salida+=f'<p class="course-meta"><strong>Base recomendada:</strong> {esc(recomendado)}</p>\n'
  salida+=f'<div class="course-actions"><a class="button button-secondary" href="{esc(c["url"],quote=True)}">Ver información del curso</a><a class="resource-link-button" href="{esc(c["temas"][0]["url"],quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Comenzar {esc(c["titulo"],quote=True)}">Comenzar →</a></div>\n'
+ mensaje=f'Hola, Leli. Estoy revisando el curso de {c["titulo"]} ({c["url"]}) y me interesa una asesoría personalizada. Necesito apoyo con…'
+ whatsapp='https://wa.me/573103618296?text='+urllib.parse.quote(mensaje,safe='')
+ salida+=f'<p class="course-advice">¿Necesitas apoyo personalizado? <a href="{esc(whatsapp,quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Solicitar asesoría para {esc(c["titulo"],quote=True)}">Solicitar asesoría para este curso →</a></p>\n'
  salida+=f'<details class="course-topics"><summary>Unidades y temas ({len(c["temas"])} accesos)</summary><ul>\n'
  for t in c['temas']:salida+=f'<li><a href="{esc(t["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{esc(t["titulo"])}</a></li>\n'
  return salida+'</ul></details></article>\n'
