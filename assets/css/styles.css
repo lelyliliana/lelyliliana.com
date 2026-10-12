@@ -409,3 +409,10 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .resources-page .course-advice { width: 100%; margin: 0 0 20px; padding: 16px; border: 1px solid var(--color-border); border-radius: 8px; background: var(--color-light); }
 .resources-page .course-advice p { margin: 0 0 12px; font-size: .9rem; color: var(--color-text); }
 .resources-page .course-advice .button { width: 100%; margin: 0; white-space: normal; text-align: center; }
+
+/* Canal principal para asesorías personalizadas. */
+.contact-links .contact-primary { grid-column: 1 / -1; }
+.contact-links .contact-primary a { background: #0969da; color: #fff; border-color: #0969da; min-height: 56px; }
+.contact-links .contact-primary a:hover { background: #0554ad; border-color: #0554ad; color: #fff; }
+.contact-links a { overflow-wrap: anywhere; }
+.contact-links a > span { min-width: 0; }
