@@ -38,7 +38,7 @@ def render(c,titulos):
  salida+=f'<div class="course-actions"><a class="button button-secondary" href="{esc(c["url"],quote=True)}">Ver información del curso</a><a class="resource-link-button" href="{esc(c["temas"][0]["url"],quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Comenzar {esc(c["titulo"],quote=True)}">Comenzar →</a></div>\n'
  mensaje=f'Hola, Leli. Estoy revisando el curso de {c["titulo"]} ({c["url"]}) y me interesa una asesoría personalizada. Necesito apoyo con…'
  whatsapp='https://wa.me/573103618296?text='+urllib.parse.quote(mensaje,safe='')
- salida+=f'<div class="course-advice"><p>¿Necesitas apoyo para resolver errores o aplicarlo a tu proyecto?</p><a class="button button-primary" href="{esc(whatsapp,quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Solicitar asesoría para {esc(c["titulo"],quote=True)}">Solicitar asesoría por WhatsApp →</a></div>\n'
+ salida+=f'<div class="course-advice"><p>¿Necesitas apoyo para resolver errores o aplicarlo a tu proyecto?</p><a class="button button-primary" href="{esc(whatsapp,quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Solicitar asesoría para {esc(c["titulo"],quote=True)}">Solicitar asesoría por WhatsApp</a></div>\n'
  salida+=f'<details class="course-topics"><summary>Unidades y temas ({len(c["temas"])} accesos)</summary><ul>\n'
  for t in c['temas']:salida+=f'<li><a href="{esc(t["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{esc(t["titulo"])}</a></li>\n'
  return salida+'</ul></details></article>\n'
