@@ -68,3 +68,15 @@ python scripts/sincronizar-cursos.py --fuente ../aprende-con-leli
 ```
 
 El script utiliza el catálogo y las páginas de cursos de esa copia, registra su revisión en recursos/catalogo.json y conserva los enlaces complementarios de ejemplos e investigación. Antes de publicar, comprueba las nuevas unidades y la correspondencia con el sitio de aprendizaje.
+
+## Metadatos para compartir y mapa del sitio
+
+Después de añadir o actualizar páginas públicas, ejecuta:
+
+```text
+python scripts/actualizar-seo.py
+```
+
+El script conserva títulos y descripciones existentes y completa Open Graph, tarjetas sociales y URL canónica. Utiliza imágenes locales del contenido o la foto de perfil como respaldo. Genera sitemap.xml con las URLs actuales (sin páginas que redirigen ni el formulario de la prueba cerrada de Mesa STEAM) y anuncia el mapa en robots.txt. No registra fechas de modificación inventadas.
+
+El sitemap se puede enviar en Google Search Console. La publicación de estos archivos no equivale a verificar la propiedad ni a confirmar la indexación en esa herramienta.
