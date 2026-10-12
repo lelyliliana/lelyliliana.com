@@ -1,0 +1,2213 @@
+{
+  "revisionFuente": "fe68ccc2d29cb848d06f1c04b642a330698ef199",
+  "cursos": [
+    {
+      "id": "algoritmos",
+      "titulo": "Algoritmos y lógica de programación",
+      "area": "programacion",
+      "nivel": "Principiante a avanzado",
+      "descripcion": "Aprende a comprender problemas, diseñar soluciones, probar algoritmos y analizar su eficiencia antes de depender de un lenguaje específico.",
+      "tecnologias": [
+        "Pseudocódigo",
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/algoritmos/",
+      "temas": [
+        {
+          "titulo": "Unidad 01. Problemas, algoritmos y pensamiento computacional",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad01-pensamiento-algoritmico"
+        },
+        {
+          "titulo": "Unidad 02. Pseudocódigo, diagramas de flujo y pruebas de escritorio",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad02-pseudocodigo-diagramas"
+        },
+        {
+          "titulo": "Unidad 03. Datos, variables, operadores y expresiones",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad03-datos-variables-operadores"
+        },
+        {
+          "titulo": "Unidad 04. Decisiones y lógica booleana",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad04-decisiones"
+        },
+        {
+          "titulo": "Unidad 05. Ciclos, contadores, acumuladores y centinelas",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad05-ciclos"
+        },
+        {
+          "titulo": "Unidad 06. Modularización: funciones y procedimientos",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad06-funciones"
+        },
+        {
+          "titulo": "Unidad 07. Arreglos, listas y procesamiento secuencial",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad07-arreglos-listas"
+        },
+        {
+          "titulo": "Unidad 08. Matrices y datos bidimensionales",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad08-matrices"
+        },
+        {
+          "titulo": "Unidad 09. Cadenas y procesamiento de texto",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad09-cadenas"
+        },
+        {
+          "titulo": "Unidad 10. Búsqueda lineal y búsqueda binaria",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad10-busqueda"
+        },
+        {
+          "titulo": "Unidad 11. Algoritmos de ordenamiento básicos",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad11-ordenamiento-basico"
+        },
+        {
+          "titulo": "Unidad 12. Merge Sort, Quick Sort y comparación de algoritmos",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad12-ordenamiento-avanzado"
+        },
+        {
+          "titulo": "Unidad 13. Recursividad",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad13-recursividad"
+        },
+        {
+          "titulo": "Unidad 14. Tiempo, memoria y análisis experimental",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad14-analisis-experimental"
+        },
+        {
+          "titulo": "Unidad 15. Introducción a complejidad y notación Big O",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad15-big-o"
+        },
+        {
+          "titulo": "Unidad 16. Pilas y colas",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad16-pilas-colas"
+        },
+        {
+          "titulo": "Unidad 17. Listas, conjuntos y mapas",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad17-listas-conjuntos-mapas"
+        },
+        {
+          "titulo": "Unidad 18. Introducción a árboles",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad18-arboles"
+        },
+        {
+          "titulo": "Unidad 19. Introducción a grafos, BFS y DFS",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad19-grafos"
+        },
+        {
+          "titulo": "Unidad 20. Divide y vencerás",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad20-divide-venceras"
+        },
+        {
+          "titulo": "Unidad 21. Algoritmos voraces (greedy)",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad21-greedy"
+        },
+        {
+          "titulo": "Unidad 22. Backtracking",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad22-backtracking"
+        },
+        {
+          "titulo": "Unidad 23. Introducción a programación dinámica",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad23-programacion-dinamica"
+        },
+        {
+          "titulo": "Unidad 24. Taller de resolución de problemas",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad24-taller-problemas"
+        },
+        {
+          "titulo": "Unidad 25. Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Algoritmos/tree/main/unidad25-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "titulo": "C desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende a programar paso a paso: desde tu primer programa hasta funciones, punteros, memoria dinámica, archivos y una agenda de sensores con pruebas.",
+      "tecnologias": [
+        "C17",
+        "Punteros",
+        "Memoria dinámica",
+        "Archivos",
+        "GNU make"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/c/",
+      "temas": [
+        {
+          "titulo": "00 · Preparar el entorno",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "01 · Tu primer programa",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad01-primer-programa"
+        },
+        {
+          "titulo": "02 · Variables y constantes",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad02-variables"
+        },
+        {
+          "titulo": "03 · Tipos de datos y conversiones",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad03-tipos"
+        },
+        {
+          "titulo": "04 · Expresiones y cálculos",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad04-expresiones"
+        },
+        {
+          "titulo": "05 · Decisiones y validación",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad05-decisiones"
+        },
+        {
+          "titulo": "06 · Ciclos y repeticiones",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad06-ciclos"
+        },
+        {
+          "titulo": "07 · Entrada validada",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad07-entrada"
+        },
+        {
+          "titulo": "08 · Funciones y alcance",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad08-funciones"
+        },
+        {
+          "titulo": "09 · Contratos y estados",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad09-contratos"
+        },
+        {
+          "titulo": "10 · Encabezados, módulos y enlace",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad10-organizacion"
+        },
+        {
+          "titulo": "11 · Arreglos y capacidad",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad11-arreglos"
+        },
+        {
+          "titulo": "12 · Recorridos de colecciones",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad12-recorridos"
+        },
+        {
+          "titulo": "13 · Cadenas y terminadores",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad13-cadenas"
+        },
+        {
+          "titulo": "14 · Punteros y duración",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad14-punteros"
+        },
+        {
+          "titulo": "15 · Interfaces de arreglos y cadenas",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad15-interfaces"
+        },
+        {
+          "titulo": "16 · Leer líneas y convertir números",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad16-lineas"
+        },
+        {
+          "titulo": "17 · Estructuras y registros",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad17-estructuras"
+        },
+        {
+          "titulo": "18 · Enumeraciones y transiciones",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad18-estados"
+        },
+        {
+          "titulo": "19 · Archivos de texto",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad19-archivos"
+        },
+        {
+          "titulo": "20 · Memoria dinámica",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad20-memoria"
+        },
+        {
+          "titulo": "21 · Propiedad y limpieza de recursos",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad21-recursos"
+        },
+        {
+          "titulo": "22 · Depuración y pruebas de regresión",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad22-depuracion"
+        },
+        {
+          "titulo": "23 · Diseño de la agenda de sensores",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad23-diseno"
+        },
+        {
+          "titulo": "24 · Aplicación y persistencia",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad24-aplicacion"
+        },
+        {
+          "titulo": "25 · GNU make y entrega final",
+          "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad25-construccion"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "titulo": "Python desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a avanzado",
+      "descripcion": "Un recorrido progresivo desde tus primeros programas hasta APIs, concurrencia, análisis de datos, automatización y prácticas de desarrollo profesional.",
+      "tecnologias": [
+        "Python",
+        "SQLite",
+        "FastAPI",
+        "NumPy",
+        "pandas"
+      ],
+      "baseRecomendada": [
+        "algoritmos"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/python/",
+      "temas": [
+        {
+          "titulo": "Preparación del entorno",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Fundamentos de Python",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad01-fundamentos"
+        },
+        {
+          "titulo": "Control de flujo",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad02-control-flujo"
+        },
+        {
+          "titulo": "Colecciones",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad03-colecciones"
+        },
+        {
+          "titulo": "Funciones",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad04-funciones"
+        },
+        {
+          "titulo": "Cadenas y archivos",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad05-cadenas-archivos"
+        },
+        {
+          "titulo": "Errores y excepciones",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad06-excepciones"
+        },
+        {
+          "titulo": "Programación orientada a objetos",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad07-poo"
+        },
+        {
+          "titulo": "POO avanzada",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad08-poo-avanzada"
+        },
+        {
+          "titulo": "Módulos, paquetes y proyectos",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad09-modulos-proyectos"
+        },
+        {
+          "titulo": "Python funcional",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad10-python-funcional"
+        },
+        {
+          "titulo": "Python avanzado",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad11-python-avanzado"
+        },
+        {
+          "titulo": "Tipado y buenas prácticas",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad12-tipado-buenas-practicas"
+        },
+        {
+          "titulo": "Pruebas automatizadas",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad13-pruebas"
+        },
+        {
+          "titulo": "Bases de datos con SQLite",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad14-bases-datos"
+        },
+        {
+          "titulo": "Consumo de APIs REST",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad15-consumo-apis"
+        },
+        {
+          "titulo": "Creación de APIs con FastAPI",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad16-creacion-apis"
+        },
+        {
+          "titulo": "Concurrencia",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad17-concurrencia"
+        },
+        {
+          "titulo": "Análisis de datos con NumPy y pandas",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad18-datos"
+        },
+        {
+          "titulo": "Automatización",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad19-automatizacion"
+        },
+        {
+          "titulo": "Python profesional",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad20-python-profesional"
+        },
+        {
+          "titulo": "Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Python/tree/main/unidad21-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "titulo": "Spring Boot y APIs REST",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio a avanzado",
+      "descripcion": "Construye APIs backend con contratos claros, persistencia, integración, pruebas, seguridad, observabilidad y Docker.",
+      "tecnologias": [
+        "Java 21",
+        "Spring Boot",
+        "REST",
+        "JPA",
+        "JUnit",
+        "Docker"
+      ],
+      "baseRecomendada": [
+        "java",
+        "bases-datos-sql"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/spring-boot/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Entorno y primer proyecto",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Spring, Spring Boot y contenedor IoC",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad01-spring-ioc"
+        },
+        {
+          "titulo": "Unidad 02 — Configuración, properties y perfiles",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad02-configuracion"
+        },
+        {
+          "titulo": "Unidad 03 — Inyección de dependencias y componentes",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad03-dependencias"
+        },
+        {
+          "titulo": "Unidad 04 — HTTP y diseño REST",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad04-http-rest"
+        },
+        {
+          "titulo": "Unidad 05 — Controllers y endpoints",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad05-controllers"
+        },
+        {
+          "titulo": "Unidad 06 — Request, ResponseEntity y códigos HTTP",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad06-respuestas-http"
+        },
+        {
+          "titulo": "Unidad 07 — DTO y mapeo",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad07-dto"
+        },
+        {
+          "titulo": "Unidad 08 — Validación",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad08-validacion"
+        },
+        {
+          "titulo": "Unidad 09 — Manejo global de errores",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad09-errores"
+        },
+        {
+          "titulo": "Unidad 10 — Capas y responsabilidades",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad10-capas"
+        },
+        {
+          "titulo": "Unidad 11 — Spring Data JPA",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad11-jpa"
+        },
+        {
+          "titulo": "Unidad 12 — Entidades y relaciones",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad12-relaciones"
+        },
+        {
+          "titulo": "Unidad 13 — Consultas y paginación",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad13-consultas"
+        },
+        {
+          "titulo": "Unidad 14 — Base de datos y migraciones",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad14-base-datos"
+        },
+        {
+          "titulo": "Unidad 15 — Consumo de APIs externas",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad15-apis-externas"
+        },
+        {
+          "titulo": "Unidad 16 — Timeouts, errores y resiliencia básica",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad16-resiliencia"
+        },
+        {
+          "titulo": "Unidad 17 — Tareas programadas y procesamiento",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad17-tareas"
+        },
+        {
+          "titulo": "Unidad 18 — Pruebas unitarias de servicios",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad18-pruebas-unitarias"
+        },
+        {
+          "titulo": "Unidad 19 — Pruebas de controllers con MockMvc",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad19-mockmvc"
+        },
+        {
+          "titulo": "Unidad 20 — Pruebas de persistencia",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad20-pruebas-jpa"
+        },
+        {
+          "titulo": "Unidad 21 — Pruebas de integración",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad21-integracion-tests"
+        },
+        {
+          "titulo": "Unidad 22 — Seguridad básica con Spring Security",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad22-seguridad"
+        },
+        {
+          "titulo": "Unidad 23 — Actuator y health checks",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad23-actuator"
+        },
+        {
+          "titulo": "Unidad 24 — Métricas y observabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad24-metricas"
+        },
+        {
+          "titulo": "Unidad 25 — Logging y trazabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad25-logging"
+        },
+        {
+          "titulo": "Unidad 26 — Rendimiento y pruebas de carga",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad26-rendimiento"
+        },
+        {
+          "titulo": "Unidad 27 — Empaquetado y configuración de producción",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad27-produccion"
+        },
+        {
+          "titulo": "Unidad 28 — Docker",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad28-docker"
+        },
+        {
+          "titulo": "Unidad 29 — Taller de APIs",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad29-taller"
+        },
+        {
+          "titulo": "Unidad 30 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad30-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "titulo": "Desarrollo Full Stack",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio",
+      "descripcion": "Aprende a integrar React, Spring Boot y una base de datos: empieza consultando, avanza a las escrituras y construye un proyecto que puedas probar y explicar.",
+      "tecnologias": [
+        "React",
+        "Spring Boot",
+        "HTTP",
+        "JSON",
+        "JPA"
+      ],
+      "baseRecomendada": [
+        "react",
+        "spring-boot"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/fullstack/",
+      "temas": [
+        {
+          "titulo": "Punto de entrada y forma de estudiar",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Comunicación HTTP y contrato",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad01-http/README.md"
+        },
+        {
+          "titulo": "Interfaz y recorrido del usuario",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad02-interfaz/README.md"
+        },
+        {
+          "titulo": "React conectado a una API",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad03-consulta/README.md"
+        },
+        {
+          "titulo": "Escrituras, validación y persistencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad04-escrituras/README.md"
+        },
+        {
+          "titulo": "Errores, concurrencia y pruebas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad05-calidad/README.md"
+        },
+        {
+          "titulo": "Build, configuración y entrega",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad06-entrega/README.md"
+        },
+        {
+          "titulo": "Proyecto propio y evaluación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad07-proyecto/README.md"
+        }
+      ]
+    },
+    {
+      "id": "git-github",
+      "titulo": "Git, GitHub y VS Code",
+      "area": "herramientas",
+      "nivel": "Principiante",
+      "descripcion": "Aprende a gestionar tus proyectos de forma segura: registra cambios, publica repositorios, colabora con otras personas y resuelve problemas frecuentes.",
+      "tecnologias": [
+        "Git",
+        "GitHub",
+        "Visual Studio Code"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/git-github/",
+      "temas": [
+        {
+          "titulo": "Instalación y configuración",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/01-instalacion-y-configuracion"
+        },
+        {
+          "titulo": "Preparar Visual Studio Code",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/02-preparar-vscode"
+        },
+        {
+          "titulo": "Crear el primer repositorio",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/03-primer-repositorio"
+        },
+        {
+          "titulo": "Subir un proyecto existente",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/04-subir-proyecto-existente"
+        },
+        {
+          "titulo": "Flujo de trabajo diario",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/05-flujo-trabajo-diario"
+        },
+        {
+          "titulo": "Clonar un repositorio",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/06-clonar-repositorio"
+        },
+        {
+          "titulo": "Actualizar con git pull",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/07-actualizar-repositorio"
+        },
+        {
+          "titulo": "Source Control en VS Code",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/08-source-control-vscode"
+        },
+        {
+          "titulo": "Trabajo colaborativo",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/09-trabajo-colaborativo"
+        },
+        {
+          "titulo": "Ramas",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/10-ramas"
+        },
+        {
+          "titulo": "Resolver conflictos",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/11-conflictos"
+        },
+        {
+          "titulo": "Errores frecuentes",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/12-errores-frecuentes"
+        }
+      ]
+    },
+    {
+      "id": "arduino",
+      "titulo": "Arduino desde cero",
+      "area": "iot-robotica",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende electrónica y programación construyendo circuitos progresivos, integrando sensores y actuadores y diseñando prototipos seguros y documentados.",
+      "tecnologias": [
+        "Arduino",
+        "C++",
+        "Electrónica",
+        "Sensores",
+        "Actuadores"
+      ],
+      "baseRecomendada": [
+        "algoritmos"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/arduino/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Seguridad, materiales y entorno",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad00-seguridad-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Electricidad y electrónica básica",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad01-electronica-basica"
+        },
+        {
+          "titulo": "Unidad 02 — Conoce Arduino y tu primer programa",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad02-primer-programa"
+        },
+        {
+          "titulo": "Unidad 03 — Salidas digitales y LED",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad03-salidas-digitales"
+        },
+        {
+          "titulo": "Unidad 04 — Entradas digitales y pulsadores",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad04-entradas-digitales"
+        },
+        {
+          "titulo": "Unidad 05 — Señales analógicas y potenciómetro",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad05-entradas-analogicas"
+        },
+        {
+          "titulo": "Unidad 06 — PWM: brillo y control proporcional",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad06-pwm"
+        },
+        {
+          "titulo": "Unidad 07 — Monitor serie y diagnóstico",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad07-monitor-serie"
+        },
+        {
+          "titulo": "Unidad 08 — Funciones y organización del código",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad08-funciones"
+        },
+        {
+          "titulo": "Unidad 09 — Tiempo con millis() y máquinas de estados",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad09-tiempo-estados"
+        },
+        {
+          "titulo": "Unidad 10 — Sensores digitales",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad10-sensores-digitales"
+        },
+        {
+          "titulo": "Unidad 11 — Sensores analógicos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad11-sensores-analogicos"
+        },
+        {
+          "titulo": "Unidad 12 — Distancia con ultrasonido",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad12-ultrasonido"
+        },
+        {
+          "titulo": "Unidad 13 — Temperatura y ambiente",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad13-temperatura-ambiente"
+        },
+        {
+          "titulo": "Unidad 14 — Buzzer y señales",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad14-buzzer"
+        },
+        {
+          "titulo": "Unidad 15 — Servomotores",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad15-servomotores"
+        },
+        {
+          "titulo": "Unidad 16 — Motores DC y etapa de potencia",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad16-motores-dc"
+        },
+        {
+          "titulo": "Unidad 17 — Pantallas y visualización",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad17-pantallas"
+        },
+        {
+          "titulo": "Unidad 18 — Comunicación serial entre dispositivos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad18-comunicacion-serial"
+        },
+        {
+          "titulo": "Unidad 19 — I2C y SPI: fundamentos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad19-i2c-spi"
+        },
+        {
+          "titulo": "Unidad 20 — Diseño de prototipos y alimentación",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad20-diseno-alimentacion"
+        },
+        {
+          "titulo": "Unidad 21 — Proyecto: sistema de monitoreo",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad21-proyecto-monitoreo"
+        },
+        {
+          "titulo": "Unidad 22 — Proyecto: sistema automatizado",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad22-proyecto-automatizacion"
+        },
+        {
+          "titulo": "Unidad 23 — Proyecto final libre",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad23-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "esp32",
+      "titulo": "ESP32 e Internet de las Cosas",
+      "area": "iot-robotica",
+      "nivel": "Intermedio",
+      "descripcion": "Da el salto desde prototipos locales hacia dispositivos conectados con Wi‑Fi, HTTP, MQTT, BLE, persistencia, seguridad básica y gestión de energía.",
+      "tecnologias": [
+        "ESP32",
+        "Wi-Fi",
+        "MQTT",
+        "HTTP",
+        "BLE",
+        "IoT"
+      ],
+      "baseRecomendada": [
+        "arduino"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Preparación, seguridad y placa",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad00-preparacion"
+        },
+        {
+          "titulo": "Unidad 01 — Arquitectura, GPIO y diferencias con Arduino",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad01-arquitectura-gpio"
+        },
+        {
+          "titulo": "Unidad 02 — Primer programa y diagnóstico serial",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad02-primer-programa"
+        },
+        {
+          "titulo": "Unidad 03 — Entradas, salidas, ADC y PWM",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad03-io-adc-pwm"
+        },
+        {
+          "titulo": "Unidad 04 — Sensores, I2C y SPI",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad04-sensores-buses"
+        },
+        {
+          "titulo": "Unidad 05 — Interrupciones, temporización y tareas",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad05-interrupciones-tareas"
+        },
+        {
+          "titulo": "Unidad 06 — Conexión Wi‑Fi y reconexión",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad06-wifi"
+        },
+        {
+          "titulo": "Unidad 07 — Cliente HTTP y consumo de APIs",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad07-cliente-http"
+        },
+        {
+          "titulo": "Unidad 08 — Servidor web en ESP32",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad08-servidor-web"
+        },
+        {
+          "titulo": "Unidad 09 — API REST básica en el dispositivo",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad09-api-rest"
+        },
+        {
+          "titulo": "Unidad 10 — Fundamentos de MQTT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad10-mqtt"
+        },
+        {
+          "titulo": "Unidad 11 — Telemetría y control con MQTT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad11-telemetria-control"
+        },
+        {
+          "titulo": "Unidad 12 — Diseño de mensajes y JSON",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad12-json-mensajes"
+        },
+        {
+          "titulo": "Unidad 13 — Arquitectura de un sistema IoT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad13-arquitectura-iot"
+        },
+        {
+          "titulo": "Unidad 14 — Bluetooth y BLE",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad14-ble"
+        },
+        {
+          "titulo": "Unidad 15 — Almacenamiento y configuración",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad15-almacenamiento"
+        },
+        {
+          "titulo": "Unidad 16 — Registro local y sincronización",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad16-registro-sincronizacion"
+        },
+        {
+          "titulo": "Unidad 17 — Manejo de fallos y reconexión",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad17-fallos-reconexion"
+        },
+        {
+          "titulo": "Unidad 18 — Credenciales y seguridad básica",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad18-seguridad"
+        },
+        {
+          "titulo": "Unidad 19 — Actualizaciones OTA",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad19-ota"
+        },
+        {
+          "titulo": "Unidad 20 — Consumo energético y deep sleep",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad20-energia"
+        },
+        {
+          "titulo": "Unidad 21 — Proyecto: nodo IoT ambiental",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad21-proyecto-nodo-iot"
+        },
+        {
+          "titulo": "Unidad 22 — Proyecto: control remoto",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad22-proyecto-control"
+        },
+        {
+          "titulo": "Unidad 23 — Proyecto final IoT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad23-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "titulo": "Java desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a avanzado",
+      "descripcion": "Aprende Java desde los fundamentos y la programación orientada a objetos hasta colecciones, programación funcional, concurrencia, redes, Maven y pruebas automatizadas.",
+      "tecnologias": [
+        "Java 21",
+        "POO",
+        "Maven",
+        "JUnit",
+        "Mockito",
+        "Streams",
+        "Concurrencia"
+      ],
+      "baseRecomendada": [
+        "algoritmos"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/java/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Entorno, JDK y primer programa",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Cómo funciona Java: JDK, JVM y bytecode",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad01-plataforma-java"
+        },
+        {
+          "titulo": "Unidad 02 — Variables, tipos y operadores",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad02-datos-operadores"
+        },
+        {
+          "titulo": "Unidad 03 — Entrada, salida y conversiones",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad03-entrada-salida"
+        },
+        {
+          "titulo": "Unidad 04 — Decisiones",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad04-decisiones"
+        },
+        {
+          "titulo": "Unidad 05 — Ciclos",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad05-ciclos"
+        },
+        {
+          "titulo": "Unidad 06 — Métodos y modularización",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad06-metodos"
+        },
+        {
+          "titulo": "Unidad 07 — Clases y objetos",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad07-clases-objetos"
+        },
+        {
+          "titulo": "Unidad 08 — Constructores, encapsulamiento y validación",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad08-encapsulamiento"
+        },
+        {
+          "titulo": "Unidad 09 — Herencia y composición",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad09-herencia-composicion"
+        },
+        {
+          "titulo": "Unidad 10 — Polimorfismo, clases abstractas e interfaces",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad10-polimorfismo-interfaces"
+        },
+        {
+          "titulo": "Unidad 11 — Enumeraciones y records",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad11-enum-records"
+        },
+        {
+          "titulo": "Unidad 12 — Excepciones",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad12-excepciones"
+        },
+        {
+          "titulo": "Unidad 13 — String y procesamiento de texto",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad13-cadenas"
+        },
+        {
+          "titulo": "Unidad 14 — Fechas y tiempo",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad14-fechas-tiempo"
+        },
+        {
+          "titulo": "Unidad 15 — Archivos y NIO",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad15-archivos-nio"
+        },
+        {
+          "titulo": "Unidad 16 — Colecciones",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad16-colecciones"
+        },
+        {
+          "titulo": "Unidad 17 — Genéricos",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad17-genericos"
+        },
+        {
+          "titulo": "Unidad 18 — Lambdas e interfaces funcionales",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad18-lambdas"
+        },
+        {
+          "titulo": "Unidad 19 — Stream API",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad19-streams"
+        },
+        {
+          "titulo": "Unidad 20 — Optional y diseño con ausencia de valores",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad20-optional"
+        },
+        {
+          "titulo": "Unidad 21 — Threads y tareas",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad21-threads"
+        },
+        {
+          "titulo": "Unidad 22 — Executors, futuros y sincronización",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad22-concurrencia"
+        },
+        {
+          "titulo": "Unidad 23 — Redes con sockets",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad23-redes"
+        },
+        {
+          "titulo": "Unidad 24 — Maven y estructura de proyectos",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad24-maven"
+        },
+        {
+          "titulo": "Unidad 25 — Pruebas con JUnit",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad25-junit"
+        },
+        {
+          "titulo": "Unidad 26 — Mockito y pruebas de unidades con dependencias",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad26-mockito"
+        },
+        {
+          "titulo": "Unidad 27 — Logging, depuración y manejo de configuración",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad27-diagnostico"
+        },
+        {
+          "titulo": "Unidad 28 — Buenas prácticas y refactorización",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad28-buenas-practicas"
+        },
+        {
+          "titulo": "Unidad 29 — Taller de problemas Java",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad29-taller"
+        },
+        {
+          "titulo": "Unidad 30 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Java/tree/main/unidad30-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "estructuras-datos",
+      "titulo": "Estructuras de Datos desde los fundamentos",
+      "area": "programacion",
+      "nivel": "Fundamentos a avanzado",
+      "descripcion": "Comprende cómo se organizan los datos y elige una estructura por sus operaciones. Implementa arreglos, listas, pilas, colas, árboles, hashing, prioridad y grafos, y comprueba resultados con ejercicios y proyectos.",
+      "tecnologias": [
+        "Java 21",
+        "Listas",
+        "Árboles",
+        "Hashing",
+        "Grafos"
+      ],
+      "baseRecomendada": [
+        "algoritmos",
+        "java"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/estructuras-datos/",
+      "temas": [
+        {
+          "titulo": "Fundamentos, contratos y arreglos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/README.md"
+        },
+        {
+          "titulo": "01 · Tipos abstractos y representaciones",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/01-tipos-abstractos/README.md"
+        },
+        {
+          "titulo": "02 · Referencias, alias y memoria en Java",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/02-referencias-y-memoria/README.md"
+        },
+        {
+          "titulo": "03 · Arreglos y región activa",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/03-arreglos-y-region-activa/README.md"
+        },
+        {
+          "titulo": "04 · Implementar un arreglo dinámico",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/04-arreglo-dinamico/README.md"
+        },
+        {
+          "titulo": "05 · Genéricos, identidad, igualdad y vistas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/05-genericos-y-vistas/README.md"
+        },
+        {
+          "titulo": "06 · Costos, mejor caso y peor caso",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/06-complejidad/README.md"
+        },
+        {
+          "titulo": "07 · Crecimiento geométrico y costo amortizado",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/07-amortizacion/README.md"
+        },
+        {
+          "titulo": "08 · Invariantes y oráculos de comprobación",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/08-contratos-e-invariantes/README.md"
+        },
+        {
+          "titulo": "09 · Búsqueda binaria y precondición de orden",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/09-busqueda-binaria/README.md"
+        },
+        {
+          "titulo": "10 · List, Set y Map: elegir por operación",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo01/10-colecciones-y-eleccion/README.md"
+        },
+        {
+          "titulo": "Listas, pilas, colas y deques",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/README.md"
+        },
+        {
+          "titulo": "01 · Nodo simple y cadena",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/01-nodo-simple/README.md"
+        },
+        {
+          "titulo": "02 · Lista simple: crear e insertar",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/02-crear-e-insertar/README.md"
+        },
+        {
+          "titulo": "03 · Lista simple: búsqueda y actualización",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/03-buscar-y-actualizar/README.md"
+        },
+        {
+          "titulo": "04 · Lista simple: eliminación y casos extremos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/04-eliminar-nodos/README.md"
+        },
+        {
+          "titulo": "05 · Lista simple ordenada y duplicados",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/05-lista-ordenada/README.md"
+        },
+        {
+          "titulo": "06 · Lista circular y recorrido completo",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/06-listas-circulares/README.md"
+        },
+        {
+          "titulo": "07 · Lista doble y consistencia de enlaces",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/07-listas-dobles/README.md"
+        },
+        {
+          "titulo": "08 · Pila con arreglo y capacidad fija",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/08-pila-con-arreglo/README.md"
+        },
+        {
+          "titulo": "09 · Pila dinámica con nodos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/09-pila-con-nodos/README.md"
+        },
+        {
+          "titulo": "10 · Dos pilas en un arreglo compartido",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/10-dos-pilas-compartidas/README.md"
+        },
+        {
+          "titulo": "11 · Cola circular con arreglo",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/11-cola-circular-con-arreglo/README.md"
+        },
+        {
+          "titulo": "12 · Cola dinámica con frente y fin",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/12-cola-con-nodos/README.md"
+        },
+        {
+          "titulo": "13 · Deque y aplicaciones de pilas y colas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo02/13-deque-y-aplicaciones/README.md"
+        },
+        {
+          "titulo": "Recursión y árboles de búsqueda",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/README.md"
+        },
+        {
+          "titulo": "01 · Recursividad, caso base y progreso",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/01-recursividad-y-caso-base/README.md"
+        },
+        {
+          "titulo": "02 · Árboles: conceptos y representación general",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/02-arboles-generales/README.md"
+        },
+        {
+          "titulo": "03 · Árbol binario y árbol binario de búsqueda",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/03-arbol-binario-de-busqueda/README.md"
+        },
+        {
+          "titulo": "04 · Preorden, inorden y postorden",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/04-recorridos-de-arboles/README.md"
+        },
+        {
+          "titulo": "05 · BST: buscar y eliminar",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/05-buscar-y-eliminar-en-bst/README.md"
+        },
+        {
+          "titulo": "06 · Alturas y factor de balance AVL",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/06-alturas-y-factor-avl/README.md"
+        },
+        {
+          "titulo": "07 · Rotaciones simples LL y RR",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/07-rotaciones-simples/README.md"
+        },
+        {
+          "titulo": "08 · Rotaciones dobles LR y RL",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/08-rotaciones-dobles/README.md"
+        },
+        {
+          "titulo": "09 · Inserción AVL y retorno recursivo",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/09-insercion-avl/README.md"
+        },
+        {
+          "titulo": "10 · Eliminación AVL y reparaciones sucesivas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/10-eliminacion-avl/README.md"
+        },
+        {
+          "titulo": "11 · Árboles B: grado mínimo y páginas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/11-arboles-b/README.md"
+        },
+        {
+          "titulo": "12 · Búsqueda, división e inserción en árbol B",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/12-insercion-b/README.md"
+        },
+        {
+          "titulo": "13 · Eliminación en árbol B: préstamo y fusión",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/13-eliminacion-b/README.md"
+        },
+        {
+          "titulo": "14 · Árbol B+: separadores y registros en hojas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/14-indices-b-mas/README.md"
+        },
+        {
+          "titulo": "15 · Rangos y eliminación en B+",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo03/15-rangos-y-eliminacion-b-mas/README.md"
+        },
+        {
+          "titulo": "Hashing, prioridad y prefijos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/README.md"
+        },
+        {
+          "titulo": "01 · Hashing: colisiones, sondeo y tumbas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/01-colisiones-hash/README.md"
+        },
+        {
+          "titulo": "02 · Carga, reconstrucción y elección de índices",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/02-carga-y-eleccion-de-indices/README.md"
+        },
+        {
+          "titulo": "03 · Igualdad, hashCode y claves estables",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/03-igualdad-y-claves/README.md"
+        },
+        {
+          "titulo": "04 · Montículos binarios en arreglos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/04-monticulos/README.md"
+        },
+        {
+          "titulo": "05 · Colas de prioridad y ordenación por extracción",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/05-colas-de-prioridad/README.md"
+        },
+        {
+          "titulo": "06 · Trie y búsqueda por prefijo",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo04/06-trie/README.md"
+        },
+        {
+          "titulo": "Grafos y algoritmos de conexión",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/README.md"
+        },
+        {
+          "titulo": "01 · Grafos: vértices, aristas y caminos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/01-conceptos-de-grafos/README.md"
+        },
+        {
+          "titulo": "02 · Matriz de adyacencia",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/02-matriz-de-adyacencia/README.md"
+        },
+        {
+          "titulo": "03 · Listas de adyacencia",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/03-listas-de-adyacencia/README.md"
+        },
+        {
+          "titulo": "04 · Incidencia y multilistas de aristas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/04-incidencia-y-multilistas/README.md"
+        },
+        {
+          "titulo": "05 · DFS: recorrido en profundidad",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/05-dfs/README.md"
+        },
+        {
+          "titulo": "06 · BFS y ruta mínima en número de aristas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/06-bfs-y-ruta-minima/README.md"
+        },
+        {
+          "titulo": "07 · Componentes y verificación de recorridos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/07-componentes-y-comprobacion/README.md"
+        },
+        {
+          "titulo": "08 · Grafos ponderados: representación y contrato",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/08-grafos-ponderados/README.md"
+        },
+        {
+          "titulo": "09 · La frontera de Dijkstra y entradas desactualizadas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/09-frontera-con-prioridad/README.md"
+        },
+        {
+          "titulo": "10 · Dijkstra: relajación y caminos mínimos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/10-dijkstra/README.md"
+        },
+        {
+          "titulo": "11 · Reconstrucción de rutas y vértices inaccesibles",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/11-predecesores/README.md"
+        },
+        {
+          "titulo": "12 · Pesos negativos, límites y pruebas de rutas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/12-validacion-de-pesos/README.md"
+        },
+        {
+          "titulo": "13 · Conjuntos disjuntos: unión y compresión",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/13-conjuntos-disjuntos/README.md"
+        },
+        {
+          "titulo": "14 · Kruskal y árbol de expansión mínimo",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/14-kruskal/README.md"
+        },
+        {
+          "titulo": "15 · Grafos desconectados y bosques mínimos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/15-bosques-y-empates/README.md"
+        },
+        {
+          "titulo": "16 · Ruta mínima frente a red mínima",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/16-ruta-versus-red/README.md"
+        },
+        {
+          "titulo": "17 · Floyd–Warshall: programación dinámica",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/17-floyd-warshall/README.md"
+        },
+        {
+          "titulo": "18 · Ciclos negativos y parejas afectadas",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/18-ciclos-negativos/README.md"
+        },
+        {
+          "titulo": "19 · Selección y comprobación de algoritmos de grafos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/19-seleccion-y-comprobacion/README.md"
+        },
+        {
+          "titulo": "20 · Orden topológico y dependencias",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo05/20-orden-topologico/README.md"
+        },
+        {
+          "titulo": "Aplicaciones y proyectos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/README.md"
+        },
+        {
+          "titulo": "01 · Índice espacial k-d y vecino cercano",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/01-indice-espacial-kd/README.md"
+        },
+        {
+          "titulo": "02 · SIG: geometría, atributos y topología",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/02-sistemas-geograficos/README.md"
+        },
+        {
+          "titulo": "03 · GeoJSON: intercambio y validación",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/03-geojson/README.md"
+        },
+        {
+          "titulo": "04 · Agregación en flujo y memoria por grupos",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/04-procesamiento-en-flujo/README.md"
+        },
+        {
+          "titulo": "05 · Chatbot de consulta con máquina de estados",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/05-chatbot-por-estados/README.md"
+        },
+        {
+          "titulo": "06 · Proyecto: red, rutas, mapa y conversación",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/06-proyecto-integrador/README.md"
+        },
+        {
+          "titulo": "07 · Proyecto final: catálogo con índices coherentes",
+          "url": "https://github.com/lelyliliana/Curso-Estructura-de-Datos/blob/main/modulo06/07-catalogo-e-indice-invertido/README.md"
+        }
+      ]
+    },
+    {
+      "id": "html-css",
+      "titulo": "HTML y CSS desde cero",
+      "area": "desarrollo-web",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Construye sitios semánticos, accesibles, responsivos y mantenibles desde la estructura del contenido hasta su publicación.",
+      "tecnologias": [
+        "HTML",
+        "CSS",
+        "Flexbox",
+        "Grid",
+        "Responsive",
+        "Accesibilidad"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/html-css/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Cómo funciona la Web y preparar el entorno",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad00-web-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Documento HTML",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad01-documento-html"
+        },
+        {
+          "titulo": "Unidad 02 — Texto, jerarquía y contenido",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad02-texto"
+        },
+        {
+          "titulo": "Unidad 03 — Enlaces y navegación",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad03-enlaces"
+        },
+        {
+          "titulo": "Unidad 04 — Imágenes y contenido multimedia",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad04-multimedia"
+        },
+        {
+          "titulo": "Unidad 05 — HTML semántico",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad05-semantica"
+        },
+        {
+          "titulo": "Unidad 06 — Tablas",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad06-tablas"
+        },
+        {
+          "titulo": "Unidad 07 — Formularios",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad07-formularios"
+        },
+        {
+          "titulo": "Unidad 08 — Accesibilidad HTML",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad08-accesibilidad"
+        },
+        {
+          "titulo": "Unidad 09 — Introducción a CSS y cascada",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad09-css-cascada"
+        },
+        {
+          "titulo": "Unidad 10 — Selectores y especificidad",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad10-selectores"
+        },
+        {
+          "titulo": "Unidad 11 — Modelo de caja",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad11-box-model"
+        },
+        {
+          "titulo": "Unidad 12 — Unidades, tamaños y límites",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad12-unidades"
+        },
+        {
+          "titulo": "Unidad 13 — Color, fondos y bordes",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad13-color"
+        },
+        {
+          "titulo": "Unidad 14 — Tipografía",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad14-tipografia"
+        },
+        {
+          "titulo": "Unidad 15 — Flujo normal y display",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad15-flujo-display"
+        },
+        {
+          "titulo": "Unidad 16 — Flexbox",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad16-flexbox"
+        },
+        {
+          "titulo": "Unidad 17 — CSS Grid",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad17-grid"
+        },
+        {
+          "titulo": "Unidad 18 — Posicionamiento y capas",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad18-posicionamiento"
+        },
+        {
+          "titulo": "Unidad 19 — Diseño responsive",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad19-responsive"
+        },
+        {
+          "titulo": "Unidad 20 — Media queries",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad20-media-queries"
+        },
+        {
+          "titulo": "Unidad 21 — Imágenes y contenido responsivo",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad21-imagenes-responsive"
+        },
+        {
+          "titulo": "Unidad 22 — Variables CSS y funciones",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad22-variables"
+        },
+        {
+          "titulo": "Unidad 23 — Pseudoclases y pseudoelementos",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad23-pseudo"
+        },
+        {
+          "titulo": "Unidad 24 — Transiciones y animaciones",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad24-animaciones"
+        },
+        {
+          "titulo": "Unidad 25 — Componentes y arquitectura CSS",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad25-componentes"
+        },
+        {
+          "titulo": "Unidad 26 — Accesibilidad visual y estados",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad26-accesibilidad-css"
+        },
+        {
+          "titulo": "Unidad 27 — DevTools y depuración",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad27-devtools"
+        },
+        {
+          "titulo": "Unidad 28 — Rendimiento web básico",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad28-rendimiento"
+        },
+        {
+          "titulo": "Unidad 29 — SEO técnico básico y metadatos",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad29-seo"
+        },
+        {
+          "titulo": "Unidad 30 — Publicación de un sitio estático",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad30-publicacion"
+        },
+        {
+          "titulo": "Unidad 31 — Taller de interfaces",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad31-taller"
+        },
+        {
+          "titulo": "Unidad 32 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-HTML-CSS/tree/main/unidad32-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "titulo": "JavaScript desde cero",
+      "area": "desarrollo-web",
+      "nivel": "Principiante a avanzado",
+      "descripcion": "Aprende el lenguaje, DOM, eventos, asincronía, APIs, módulos, pruebas y arquitectura antes de utilizar un framework.",
+      "tecnologias": [
+        "JavaScript",
+        "DOM",
+        "Fetch",
+        "APIs",
+        "ES Modules",
+        "npm"
+      ],
+      "baseRecomendada": [
+        "html-css"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/javascript/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Entorno y consola",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Valores, tipos y variables",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad01-tipos"
+        },
+        {
+          "titulo": "Unidad 02 — Operadores, coerción y comparación",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad02-operadores"
+        },
+        {
+          "titulo": "Unidad 03 — Decisiones",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad03-decisiones"
+        },
+        {
+          "titulo": "Unidad 04 — Ciclos",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad04-ciclos"
+        },
+        {
+          "titulo": "Unidad 05 — Funciones",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad05-funciones"
+        },
+        {
+          "titulo": "Unidad 06 — Scope, closures y ejecución",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad06-scope-closures"
+        },
+        {
+          "titulo": "Unidad 07 — Arrays",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad07-arrays"
+        },
+        {
+          "titulo": "Unidad 08 — Objetos",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad08-objetos"
+        },
+        {
+          "titulo": "Unidad 09 — Destructuring, spread y rest",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad09-destructuring"
+        },
+        {
+          "titulo": "Unidad 10 — Map, Set y estructuras",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad10-map-set"
+        },
+        {
+          "titulo": "Unidad 11 — Clases y prototipos",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad11-clases-prototipos"
+        },
+        {
+          "titulo": "Unidad 12 — DOM",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad12-dom"
+        },
+        {
+          "titulo": "Unidad 13 — Eventos",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad13-eventos"
+        },
+        {
+          "titulo": "Unidad 14 — Formularios y validación",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad14-formularios"
+        },
+        {
+          "titulo": "Unidad 15 — Interfaces dinámicas accesibles",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad15-accesibilidad-dinamica"
+        },
+        {
+          "titulo": "Unidad 16 — Web Storage",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad16-storage"
+        },
+        {
+          "titulo": "Unidad 17 — Event loop y asincronía",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad17-event-loop"
+        },
+        {
+          "titulo": "Unidad 18 — Promises",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad18-promises"
+        },
+        {
+          "titulo": "Unidad 19 — async/await",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad19-async-await"
+        },
+        {
+          "titulo": "Unidad 20 — Fetch y APIs REST",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad20-fetch"
+        },
+        {
+          "titulo": "Unidad 21 — Errores, timeouts y AbortController",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad21-errores-red"
+        },
+        {
+          "titulo": "Unidad 22 — Estados de interfaz: loading/error/empty",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad22-estados-ui"
+        },
+        {
+          "titulo": "Unidad 23 — Módulos ES",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad23-modulos"
+        },
+        {
+          "titulo": "Unidad 24 — npm y package.json",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad24-npm"
+        },
+        {
+          "titulo": "Unidad 25 — Calidad, linting y formato",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad25-calidad"
+        },
+        {
+          "titulo": "Unidad 26 — Pruebas de JavaScript",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad26-pruebas"
+        },
+        {
+          "titulo": "Unidad 27 — Depuración y DevTools",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad27-debug"
+        },
+        {
+          "titulo": "Unidad 28 — Estado y renderizado",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad28-estado-render"
+        },
+        {
+          "titulo": "Unidad 29 — Separación de responsabilidades",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad29-arquitectura"
+        },
+        {
+          "titulo": "Unidad 30 — Rendimiento básico en el navegador",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad30-rendimiento"
+        },
+        {
+          "titulo": "Unidad 31 — Seguridad web básica para frontend",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad31-seguridad"
+        },
+        {
+          "titulo": "Unidad 32 — Taller de aplicaciones",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad32-taller"
+        },
+        {
+          "titulo": "Unidad 33 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-JavaScript/tree/main/unidad33-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "titulo": "React",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio a avanzado",
+      "descripcion": "Construye interfaces modernas comprendiendo componentes, estado, efectos, datos remotos, routing, pruebas, accesibilidad y arquitectura.",
+      "tecnologias": [
+        "React",
+        "JSX",
+        "Hooks",
+        "Routing",
+        "Testing"
+      ],
+      "baseRecomendada": [
+        "javascript"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/react/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Entorno y proyecto React",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Modelo mental de React",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad01-modelo-mental"
+        },
+        {
+          "titulo": "Unidad 02 — JSX",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad02-jsx"
+        },
+        {
+          "titulo": "Unidad 03 — Componentes",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad03-componentes"
+        },
+        {
+          "titulo": "Unidad 04 — Props",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad04-props"
+        },
+        {
+          "titulo": "Unidad 05 — Composición",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad05-composicion"
+        },
+        {
+          "titulo": "Unidad 06 — Eventos",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad06-eventos"
+        },
+        {
+          "titulo": "Unidad 07 — Estado con useState",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad07-usestate"
+        },
+        {
+          "titulo": "Unidad 08 — Renderizado condicional",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad08-condicional"
+        },
+        {
+          "titulo": "Unidad 09 — Listas y keys",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad09-listas-keys"
+        },
+        {
+          "titulo": "Unidad 10 — Formularios",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad10-formularios"
+        },
+        {
+          "titulo": "Unidad 11 — Estado derivado y lifting state up",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad11-estado-compartido"
+        },
+        {
+          "titulo": "Unidad 12 — Renderizado y efectos",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad12-efectos"
+        },
+        {
+          "titulo": "Unidad 13 — useEffect",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad13-useeffect"
+        },
+        {
+          "titulo": "Unidad 14 — Datos remotos",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad14-datos-remotos"
+        },
+        {
+          "titulo": "Unidad 15 — Loading, error y empty",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad15-estados-remotos"
+        },
+        {
+          "titulo": "Unidad 16 — Cancelación y carreras",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad16-cancelacion"
+        },
+        {
+          "titulo": "Unidad 17 — Custom hooks",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad17-custom-hooks"
+        },
+        {
+          "titulo": "Unidad 18 — Routing",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad18-routing"
+        },
+        {
+          "titulo": "Unidad 19 — Context",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad19-context"
+        },
+        {
+          "titulo": "Unidad 20 — useReducer",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad20-usereducer"
+        },
+        {
+          "titulo": "Unidad 21 — Estado de aplicación",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad21-estado-app"
+        },
+        {
+          "titulo": "Unidad 22 — Persistencia local",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad22-persistencia"
+        },
+        {
+          "titulo": "Unidad 23 — Accesibilidad en React",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad23-accesibilidad"
+        },
+        {
+          "titulo": "Unidad 24 — Pruebas de componentes",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad24-pruebas"
+        },
+        {
+          "titulo": "Unidad 25 — Pruebas de flujos",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad25-pruebas-flujos"
+        },
+        {
+          "titulo": "Unidad 26 — Errores y boundaries",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad26-errores"
+        },
+        {
+          "titulo": "Unidad 27 — DevTools y depuración",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad27-debug"
+        },
+        {
+          "titulo": "Unidad 28 — Re-renderizados y rendimiento",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad28-rendimiento"
+        },
+        {
+          "titulo": "Unidad 29 — memo, useMemo y useCallback",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad29-memoizacion"
+        },
+        {
+          "titulo": "Unidad 30 — Arquitectura por features",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad30-arquitectura"
+        },
+        {
+          "titulo": "Unidad 31 — Configuración y variables de entorno",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad31-configuracion"
+        },
+        {
+          "titulo": "Unidad 32 — Build y publicación",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad32-build"
+        },
+        {
+          "titulo": "Unidad 33 — Taller React",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad33-taller"
+        },
+        {
+          "titulo": "Unidad 34 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-React/tree/main/unidad34-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "bases-datos-sql",
+      "titulo": "Bases de Datos y SQL desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende modelado relacional, SQL, integridad, transacciones, índices y administración básica usando PostgreSQL.",
+      "tecnologias": [
+        "SQL",
+        "PostgreSQL",
+        "Modelo relacional",
+        "Índices",
+        "Transacciones"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/bases-datos-sql/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Datos, información y bases de datos",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad00-fundamentos"
+        },
+        {
+          "titulo": "Unidad 01 — Modelo relacional",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad01-modelo-relacional"
+        },
+        {
+          "titulo": "Unidad 02 — Entidades, atributos y relaciones",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad02-modelado"
+        },
+        {
+          "titulo": "Unidad 03 — Claves y restricciones",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad03-claves"
+        },
+        {
+          "titulo": "Unidad 04 — PostgreSQL y entorno",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad04-postgresql"
+        },
+        {
+          "titulo": "Unidad 05 — CREATE TABLE y tipos",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad05-create-table"
+        },
+        {
+          "titulo": "Unidad 06 — INSERT",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad06-insert"
+        },
+        {
+          "titulo": "Unidad 07 — SELECT",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad07-select"
+        },
+        {
+          "titulo": "Unidad 08 — WHERE y operadores",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad08-where"
+        },
+        {
+          "titulo": "Unidad 09 — ORDER BY, LIMIT y DISTINCT",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad09-order-limit"
+        },
+        {
+          "titulo": "Unidad 10 — UPDATE y DELETE",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad10-update-delete"
+        },
+        {
+          "titulo": "Unidad 11 — Funciones y expresiones",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad11-funciones"
+        },
+        {
+          "titulo": "Unidad 12 — Agregaciones",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad12-agregaciones"
+        },
+        {
+          "titulo": "Unidad 13 — GROUP BY y HAVING",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad13-group-having"
+        },
+        {
+          "titulo": "Unidad 14 — JOIN",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad14-joins"
+        },
+        {
+          "titulo": "Unidad 15 — Subconsultas",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad15-subconsultas"
+        },
+        {
+          "titulo": "Unidad 16 — CTE",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad16-cte"
+        },
+        {
+          "titulo": "Unidad 17 — Operaciones de conjuntos",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad17-conjuntos"
+        },
+        {
+          "titulo": "Unidad 18 — Diagrama entidad-relación",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad18-der"
+        },
+        {
+          "titulo": "Unidad 19 — Dependencias y anomalías",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad19-anomalias"
+        },
+        {
+          "titulo": "Unidad 20 — Normalización 1FN, 2FN y 3FN",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad20-normalizacion"
+        },
+        {
+          "titulo": "Unidad 21 — Integridad referencial",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad21-integridad"
+        },
+        {
+          "titulo": "Unidad 22 — Vistas",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad22-vistas"
+        },
+        {
+          "titulo": "Unidad 23 — Transacciones ACID",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad23-transacciones"
+        },
+        {
+          "titulo": "Unidad 24 — Concurrencia y aislamiento",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad24-concurrencia"
+        },
+        {
+          "titulo": "Unidad 25 — Índices",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad25-indices"
+        },
+        {
+          "titulo": "Unidad 26 — EXPLAIN y planes de ejecución",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad26-explain"
+        },
+        {
+          "titulo": "Unidad 27 — Usuarios, roles y privilegios",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad27-seguridad"
+        },
+        {
+          "titulo": "Unidad 28 — Importación y exportación",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad28-import-export"
+        },
+        {
+          "titulo": "Unidad 29 — Backup y restauración",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad29-backup"
+        },
+        {
+          "titulo": "Unidad 30 — Calidad y limpieza de datos",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad30-calidad"
+        },
+        {
+          "titulo": "Unidad 31 — Taller SQL",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad31-taller"
+        },
+        {
+          "titulo": "Unidad 32 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Bases-de-Datos-SQL/tree/main/unidad32-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "inteligencia-artificial",
+      "titulo": "Inteligencia Artificial: fundamentos y aplicaciones",
+      "area": "datos-ia",
+      "nivel": "Fundamentos a avanzado",
+      "descripcion": "Comprende la inteligencia artificial y construye soluciones con Python: desde reglas y modelos de aprendizaje hasta visión, lenguaje, RAG y agentes. Aprende con ejemplos, ejercicios y proyectos aplicados a educación, energía y gestión ambiental.",
+      "tecnologias": [
+        "Python",
+        "IA simbólica",
+        "Aprendizaje automático",
+        "PyTorch",
+        "IA generativa",
+        "RAG",
+        "Agentes"
+      ],
+      "baseRecomendada": [
+        "python"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/inteligencia-artificial/",
+      "temas": [
+        {
+          "titulo": "00 · Preparación del entorno y forma de trabajar",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "01 · Qué es la inteligencia artificial",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad01-que-es-ia"
+        },
+        {
+          "titulo": "02 · Del problema al proyecto de IA",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad02-proyecto-ia"
+        },
+        {
+          "titulo": "03 · Matemática aplicada: vectores, matrices y optimización",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad03-matematica-aplicada"
+        },
+        {
+          "titulo": "04 · Probabilidad y estadística",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad04-probabilidad-estadistica"
+        },
+        {
+          "titulo": "05 · Búsqueda, estados y heurísticas",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad05-busqueda-heuristicas"
+        },
+        {
+          "titulo": "06 · Conocimiento, reglas y restricciones",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad06-conocimiento-reglas"
+        },
+        {
+          "titulo": "07 · Obtención y comprensión de datos",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad07-obtencion-datos"
+        },
+        {
+          "titulo": "08 · Calidad y preparación de datos",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad08-preparacion-datos"
+        },
+        {
+          "titulo": "09 · Exploración y visualización",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad09-exploracion-visualizacion"
+        },
+        {
+          "titulo": "10 · Flujo de aprendizaje y líneas base",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad10-flujo-lineas-base"
+        },
+        {
+          "titulo": "11 · Regresión",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad11-regresion"
+        },
+        {
+          "titulo": "12 · Clasificación",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad12-clasificacion"
+        },
+        {
+          "titulo": "13 · Árboles y ensambles",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad13-arboles-ensambles"
+        },
+        {
+          "titulo": "14 · Agrupamiento y detección de anomalías",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad14-agrupamiento-anomalias"
+        },
+        {
+          "titulo": "15 · Características y reducción de dimensión",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad15-caracteristicas-dimension"
+        },
+        {
+          "titulo": "16 · Validación y ajuste de hiperparámetros",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad16-validacion-hiperparametros"
+        },
+        {
+          "titulo": "17 · Métricas, umbrales y decisiones",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad17-metricas-decisiones"
+        },
+        {
+          "titulo": "18 · Interpretabilidad y responsabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad18-interpretabilidad-responsabilidad"
+        },
+        {
+          "titulo": "19 · Redes neuronales",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad19-redes-neuronales"
+        },
+        {
+          "titulo": "20 · Aprendizaje profundo con PyTorch",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad20-pytorch"
+        },
+        {
+          "titulo": "21 · Visión por computador",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad21-vision-computador"
+        },
+        {
+          "titulo": "22 · Procesamiento de lenguaje natural",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad22-lenguaje-natural"
+        },
+        {
+          "titulo": "23 · Series temporales y sensores",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad23-series-temporales"
+        },
+        {
+          "titulo": "24 · Introducción a recomendación y aprendizaje por refuerzo",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad24-recomendacion-refuerzo"
+        },
+        {
+          "titulo": "25 · Transformers y modelos generativos",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad25-transformers-generativos"
+        },
+        {
+          "titulo": "26 · Inferencia local y servicios: Ollama y APIs",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad26-inferencia-servicios"
+        },
+        {
+          "titulo": "27 · Prompts, salidas estructuradas y evaluación",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad27-prompts-evaluacion"
+        },
+        {
+          "titulo": "28 · Embeddings y búsqueda semántica",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad28-embeddings-busqueda"
+        },
+        {
+          "titulo": "29 · RAG con documentos",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad29-rag-documentos"
+        },
+        {
+          "titulo": "30 · Herramientas, agentes y MCP",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad30-herramientas-agentes-mcp"
+        },
+        {
+          "titulo": "31 · Adaptación de modelos y multimodalidad",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad31-adaptacion-multimodalidad"
+        },
+        {
+          "titulo": "32 · De un modelo a una aplicación",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad32-modelo-aplicacion"
+        },
+        {
+          "titulo": "33 · Operación, seguridad y observabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad33-operacion-seguridad-observabilidad"
+        },
+        {
+          "titulo": "34 · Talleres de IA aplicada",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad34-talleres-ia-aplicada"
+        },
+        {
+          "titulo": "35 · Proyecto final integrador",
+          "url": "https://github.com/lelyliliana/Curso-Inteligencia-Artificial/tree/main/unidad35-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "titulo": "Desarrollo Frontend",
+      "area": "desarrollo-web",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Comprende cómo funciona la Web y construye un proyecto que evoluciona desde HTML y CSS hasta JavaScript y una aplicación moderna con React.",
+      "tecnologias": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Local Storage"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/frontend/",
+      "temas": [
+        {
+          "titulo": "Ruta y entorno",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad00-entorno/README.md"
+        },
+        {
+          "titulo": "Estructura y accesibilidad con HTML",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad01-html/README.md"
+        },
+        {
+          "titulo": "Diseño responsivo con CSS",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad02-css/README.md"
+        },
+        {
+          "titulo": "Interacción con JavaScript y DOM",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad03-javascript/README.md"
+        },
+        {
+          "titulo": "Datos locales y reglas del proyecto",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad04-persistencia/README.md"
+        },
+        {
+          "titulo": "Del DOM a componentes React",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad05-react/README.md"
+        },
+        {
+          "titulo": "Consulta de datos y estados remotos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad06-api/README.md"
+        },
+        {
+          "titulo": "Pruebas, publicación y proyecto propio",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad07-proyecto/README.md"
+        }
+      ]
+    },
+    {
+      "id": "backend-java",
+      "titulo": "Backend y APIs con Java",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio",
+      "descripcion": "Construye servicios REST con Spring Boot, incorpora persistencia e integraciones y aprende a probar, observar y evaluar el comportamiento de tus aplicaciones.",
+      "tecnologias": [
+        "Java 21",
+        "Spring Boot",
+        "REST",
+        "JPA",
+        "Spring Security"
+      ],
+      "baseRecomendada": [
+        "java"
+      ],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/backend-java/",
+      "temas": [
+        {
+          "titulo": "Punto de entrada y entorno",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Primera API y responsabilidades",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/README.md"
+        },
+        {
+          "titulo": "Contratos REST, validación y capas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/README.md"
+        },
+        {
+          "titulo": "Persistencia y concurrencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/README.md"
+        },
+        {
+          "titulo": "Servicios externos y fallos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/README.md"
+        },
+        {
+          "titulo": "Identidad, permisos y CSRF",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/README.md"
+        },
+        {
+          "titulo": "Pruebas y evidencia de comportamiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/README.md"
+        },
+        {
+          "titulo": "Observabilidad y rendimiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/README.md"
+        },
+        {
+          "titulo": "Entrega y proyecto propio",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/README.md"
+        }
+      ]
+    }
+  ]
+}

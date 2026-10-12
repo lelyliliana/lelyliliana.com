@@ -391,3 +391,16 @@ blockquote { max-width: 460px; margin: 0; font-size: clamp(1.35rem, 2.3vw, 1.85r
 .resource-card p { font-size: .9375rem; color: var(--color-muted); }
 
 .reading-page .article-cover-wide { max-width: none; }
+
+/* Catálogo de cursos: acceso directo al tema sin depender de JavaScript. */
+.resources-page .course-card { min-width: 0; }
+.resources-page .course-card h4 { overflow-wrap: anywhere; }
+.resources-page .course-card .course-meta { font-size: .875rem; margin: .4rem 0; }
+.resources-page .course-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; width: 100%; margin: 18px 0; }
+.resources-page .course-actions .button { margin-top: 0; }
+.resources-page .course-topics { width: 100%; margin-top: auto; border-top: 1px solid var(--color-border); padding-top: 14px; }
+.resources-page .course-topics summary { cursor: pointer; color: var(--color-primary); font-weight: 600; padding: 6px 0; }
+.resources-page .course-topics summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
+.resources-page .course-topics ul { padding-left: 20px; margin: 12px 0 0; }
+.resources-page .course-topics li { margin-bottom: 9px; }
+.resources-page .course-topics a { overflow-wrap: anywhere; }

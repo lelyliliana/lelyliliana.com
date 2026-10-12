@@ -56,3 +56,15 @@ Este repositorio contiene el código fuente y los recursos públicos utilizados 
 
 **Leli Liliana Díaz Izquierdo**  
 Ingeniera de Sistemas · Docente · Investigadora
+
+## Actualizar el catálogo de cursos
+
+La página recursos/index.html contiene información y unidades directas de los cursos públicos de Aprende con Leli. El catálogo se genera como HTML estático: sus desplegables funcionan sin JavaScript.
+
+Con una copia actualizada de aprende-con-leli junto a este repositorio, ejecuta desde la raíz:
+
+```text
+python scripts/sincronizar-cursos.py --fuente ../aprende-con-leli
+```
+
+El script utiliza el catálogo y las páginas de cursos de esa copia, registra su revisión en recursos/catalogo.json y conserva los enlaces complementarios de ejemplos e investigación. Antes de publicar, comprueba las nuevas unidades y la correspondencia con el sitio de aprendizaje.
