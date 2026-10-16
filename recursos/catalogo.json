@@ -1,5 +1,5 @@
 {
-  "revisionFuente": "3da5459738de378f3e34fa3e9b9d46707fdb2115",
+  "revisionFuente": "cbb8c56554a74e61afb1b7f855f5e1ec6ccf15df",
   "cursos": [
     {
       "id": "algoritmos",
@@ -237,6 +237,201 @@
         {
           "titulo": "25 · GNU make y entrega final",
           "url": "https://github.com/lelyliliana/Curso-C/tree/main/unidad25-construccion"
+        }
+      ]
+    },
+    {
+      "id": "cpp",
+      "titulo": "C++ desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende fundamentos, funciones, objetos y gestión de recursos. Sigue el código paso a paso y construye un inventario con validación y pruebas.",
+      "tecnologias": [
+        "C++20",
+        "STL",
+        "Objetos",
+        "RAII",
+        "CMake",
+        "Pruebas"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/cpp/",
+      "temas": [
+        {
+          "titulo": "Preguntas, algoritmos y ruta de aprendizaje",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Preguntas, algoritmos y ruta de aprendizaje · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad00-ruta/PRACTICA.md"
+        },
+        {
+          "titulo": "Compilar y ejecutar el primer programa",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad01-entorno/README.md"
+        },
+        {
+          "titulo": "Compilar y ejecutar el primer programa · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad01-entorno/PRACTICA.md"
+        },
+        {
+          "titulo": "Variables, tipos, constantes y operaciones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad02-tipos/README.md"
+        },
+        {
+          "titulo": "Variables, tipos, constantes y operaciones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad02-tipos/PRACTICA.md"
+        },
+        {
+          "titulo": "Condiciones, decisiones y límites",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad03-decisiones/README.md"
+        },
+        {
+          "titulo": "Condiciones, decisiones y límites · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad03-decisiones/PRACTICA.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad04-ciclos/README.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad04-ciclos/PRACTICA.md"
+        },
+        {
+          "titulo": "Entrada de texto y conversión controlada",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad05-entrada/README.md"
+        },
+        {
+          "titulo": "Entrada de texto y conversión controlada · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad05-entrada/PRACTICA.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y referencias",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad06-funciones/README.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y referencias · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad06-funciones/PRACTICA.md"
+        },
+        {
+          "titulo": "Texto con std::string y contratos de formato",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad07-texto/README.md"
+        },
+        {
+          "titulo": "Texto con std::string y contratos de formato · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad07-texto/PRACTICA.md"
+        },
+        {
+          "titulo": "std::array y std::vector",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad08-contenedores/README.md"
+        },
+        {
+          "titulo": "std::array y std::vector · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad08-contenedores/PRACTICA.md"
+        },
+        {
+          "titulo": "Iteradores, algoritmos y lambdas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad09-algoritmos/README.md"
+        },
+        {
+          "titulo": "Iteradores, algoritmos y lambdas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad09-algoritmos/PRACTICA.md"
+        },
+        {
+          "titulo": "Registros, enumeraciones y modelos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad10-registros/README.md"
+        },
+        {
+          "titulo": "Registros, enumeraciones y modelos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad10-registros/PRACTICA.md"
+        },
+        {
+          "titulo": "Errores, std::optional y excepciones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad11-errores/README.md"
+        },
+        {
+          "titulo": "Errores, std::optional y excepciones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad11-errores/PRACTICA.md"
+        },
+        {
+          "titulo": "Clases, constructores e invariantes",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad12-clases/README.md"
+        },
+        {
+          "titulo": "Clases, constructores e invariantes · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad12-clases/PRACTICA.md"
+        },
+        {
+          "titulo": "Alcance, punteros y vida útil",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad13-vida-util/README.md"
+        },
+        {
+          "titulo": "Alcance, punteros y vida útil · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad13-vida-util/PRACTICA.md"
+        },
+        {
+          "titulo": "RAII, std::unique_ptr y movimiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad14-propiedad/README.md"
+        },
+        {
+          "titulo": "RAII, std::unique_ptr y movimiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad14-propiedad/PRACTICA.md"
+        },
+        {
+          "titulo": "Interfaces y polimorfismo con propósito",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad15-polimorfismo/README.md"
+        },
+        {
+          "titulo": "Interfaces y polimorfismo con propósito · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad15-polimorfismo/PRACTICA.md"
+        },
+        {
+          "titulo": "Mapas, conjuntos e identidad",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad16-mapas/README.md"
+        },
+        {
+          "titulo": "Mapas, conjuntos e identidad · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad16-mapas/PRACTICA.md"
+        },
+        {
+          "titulo": "Archivos, rutas y persistencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad17-archivos/README.md"
+        },
+        {
+          "titulo": "Archivos, rutas y persistencia · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad17-archivos/PRACTICA.md"
+        },
+        {
+          "titulo": "Plantillas, conceptos y varios archivos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad18-plantillas/README.md"
+        },
+        {
+          "titulo": "Plantillas, conceptos y varios archivos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad18-plantillas/PRACTICA.md"
+        },
+        {
+          "titulo": "CMake, CTest y pruebas reproducibles",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad19-cmake-pruebas/README.md"
+        },
+        {
+          "titulo": "CMake, CTest y pruebas reproducibles · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad19-cmake-pruebas/PRACTICA.md"
+        },
+        {
+          "titulo": "Depuración, sanitizadores y coste de algoritmos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad20-depuracion/README.md"
+        },
+        {
+          "titulo": "Depuración, sanitizadores y coste de algoritmos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad20-depuracion/PRACTICA.md"
+        },
+        {
+          "titulo": "Proyecto integrador: inventario explicado",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad21-proyecto/README.md"
+        },
+        {
+          "titulo": "Proyecto integrador: inventario explicado · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad21-proyecto/PRACTICA.md"
         }
       ]
     },
@@ -1938,6 +2133,176 @@
       ]
     },
     {
+      "id": "r",
+      "titulo": "R para análisis de datos e investigación",
+      "area": "datos-ia",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende a leer, revisar, transformar y visualizar datos. Introduce estadística con sus supuestos y construye un informe que puedas volver a generar.",
+      "tecnologias": [
+        "R",
+        "dplyr",
+        "ggplot2",
+        "Estadística",
+        "Quarto"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/r/",
+      "temas": [
+        {
+          "titulo": "Punto de entrada, preguntas y alcance",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Punto de entrada, preguntas y alcance · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad00-ruta/PRACTICA.md"
+        },
+        {
+          "titulo": "R, RStudio y primera ejecución",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad01-entorno/README.md"
+        },
+        {
+          "titulo": "R, RStudio y primera ejecución · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad01-entorno/PRACTICA.md"
+        },
+        {
+          "titulo": "Objetos, tipos y operaciones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad02-objetos/README.md"
+        },
+        {
+          "titulo": "Objetos, tipos y operaciones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad02-objetos/PRACTICA.md"
+        },
+        {
+          "titulo": "Vectores, índices y condiciones lógicas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad03-vectores/README.md"
+        },
+        {
+          "titulo": "Vectores, índices y condiciones lógicas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad03-vectores/PRACTICA.md"
+        },
+        {
+          "titulo": "Datos faltantes, factores y fechas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad04-faltantes-factores/README.md"
+        },
+        {
+          "titulo": "Datos faltantes, factores y fechas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad04-faltantes-factores/PRACTICA.md"
+        },
+        {
+          "titulo": "Listas y tablas de datos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad05-tablas/README.md"
+        },
+        {
+          "titulo": "Listas y tablas de datos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad05-tablas/PRACTICA.md"
+        },
+        {
+          "titulo": "Funciones, decisiones y repetición",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad06-funciones/README.md"
+        },
+        {
+          "titulo": "Funciones, decisiones y repetición · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad06-funciones/PRACTICA.md"
+        },
+        {
+          "titulo": "Importación y exportación de CSV y Excel",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad07-archivos/README.md"
+        },
+        {
+          "titulo": "Importación y exportación de CSV y Excel · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad07-archivos/PRACTICA.md"
+        },
+        {
+          "titulo": "Calidad, limpieza y trazabilidad",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad08-limpieza/README.md"
+        },
+        {
+          "titulo": "Calidad, limpieza y trazabilidad · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad08-limpieza/PRACTICA.md"
+        },
+        {
+          "titulo": "Transformar y resumir con dplyr",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad09-transformaciones/README.md"
+        },
+        {
+          "titulo": "Transformar y resumir con dplyr · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad09-transformaciones/PRACTICA.md"
+        },
+        {
+          "titulo": "Unir tablas sin perder el control de las filas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad10-uniones/README.md"
+        },
+        {
+          "titulo": "Unir tablas sin perder el control de las filas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad10-uniones/PRACTICA.md"
+        },
+        {
+          "titulo": "Datos largos, anchos y unidad de observación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad11-formatos/README.md"
+        },
+        {
+          "titulo": "Datos largos, anchos y unidad de observación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad11-formatos/PRACTICA.md"
+        },
+        {
+          "titulo": "Visualización con ggplot2",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad12-graficos/README.md"
+        },
+        {
+          "titulo": "Visualización con ggplot2 · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad12-graficos/PRACTICA.md"
+        },
+        {
+          "titulo": "Distribuciones y estadística descriptiva",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad13-descriptiva/README.md"
+        },
+        {
+          "titulo": "Distribuciones y estadística descriptiva · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad13-descriptiva/PRACTICA.md"
+        },
+        {
+          "titulo": "Muestreo, simulación y variabilidad",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad14-muestreo/README.md"
+        },
+        {
+          "titulo": "Muestreo, simulación y variabilidad · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad14-muestreo/PRACTICA.md"
+        },
+        {
+          "titulo": "Intervalos, contrastes y diseño de comparación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad15-inferencia/README.md"
+        },
+        {
+          "titulo": "Intervalos, contrastes y diseño de comparación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad15-inferencia/PRACTICA.md"
+        },
+        {
+          "titulo": "Correlación y regresión lineal introductoria",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad16-regresion/README.md"
+        },
+        {
+          "titulo": "Correlación y regresión lineal introductoria · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad16-regresion/PRACTICA.md"
+        },
+        {
+          "titulo": "Proyectos e informes con Quarto",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad17-reproducibilidad/README.md"
+        },
+        {
+          "titulo": "Proyectos e informes con Quarto · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad17-reproducibilidad/PRACTICA.md"
+        },
+        {
+          "titulo": "Proyecto integrador y transferencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad18-proyecto/README.md"
+        },
+        {
+          "titulo": "Proyecto integrador y transferencia · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/r/unidad18-proyecto/PRACTICA.md"
+        }
+      ]
+    },
+    {
       "id": "inteligencia-artificial",
       "titulo": "Inteligencia Artificial: fundamentos y aplicaciones",
       "area": "datos-ia",
@@ -2176,36 +2541,108 @@
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/README.md"
         },
         {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/DESARROLLO.md"
+        },
+        {
+          "titulo": "Punto de entrada y entorno · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/PRACTICA.md"
+        },
+        {
           "titulo": "Primera API y responsabilidades",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/README.md"
+        },
+        {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/DESARROLLO.md"
+        },
+        {
+          "titulo": "Primera API y responsabilidades · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/PRACTICA.md"
         },
         {
           "titulo": "Contratos REST, validación y capas",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/README.md"
         },
         {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/DESARROLLO.md"
+        },
+        {
+          "titulo": "Contratos REST, validación y capas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/PRACTICA.md"
+        },
+        {
           "titulo": "Persistencia y concurrencia",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/README.md"
+        },
+        {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/DESARROLLO.md"
+        },
+        {
+          "titulo": "Persistencia y concurrencia · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/PRACTICA.md"
         },
         {
           "titulo": "Servicios externos y fallos",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/README.md"
         },
         {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/DESARROLLO.md"
+        },
+        {
+          "titulo": "Servicios externos y fallos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/PRACTICA.md"
+        },
+        {
           "titulo": "Identidad, permisos y CSRF",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/README.md"
+        },
+        {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/DESARROLLO.md"
+        },
+        {
+          "titulo": "Identidad, permisos y CSRF · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/PRACTICA.md"
         },
         {
           "titulo": "Pruebas y evidencia de comportamiento",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/README.md"
         },
         {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/DESARROLLO.md"
+        },
+        {
+          "titulo": "Pruebas y evidencia de comportamiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/PRACTICA.md"
+        },
+        {
           "titulo": "Observabilidad y rendimiento",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/README.md"
         },
         {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/DESARROLLO.md"
+        },
+        {
+          "titulo": "Observabilidad y rendimiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/PRACTICA.md"
+        },
+        {
           "titulo": "Entrega y proyecto propio",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/README.md"
+        },
+        {
+          "titulo": "Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/DESARROLLO.md"
+        },
+        {
+          "titulo": "Entrega y proyecto propio · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/PRACTICA.md"
         }
       ]
     }

@@ -25,7 +25,8 @@ def extraer(c,fuente):
    if re.search('Curso-(Lenguaje-de-Programacion|Desarrollo-de-Software)-',url):raise ValueError('Recurso universitario: '+url)
    if url in seen:continue
    seen.add(url)
-   if label in ('Estudiar y practicar','Ver el módulo completo'):label=grupo
+   if label in ('Estudiar y practicar','Estudiar y ejecutar','Ver el módulo completo'):label=grupo
+   elif label == 'Práctica paso a paso':label=grupo+' · Práctica'
    temas.append({'titulo':label,'url':url})
  if not temas:raise ValueError('Faltan unidades: '+c['id'])
  return {'id':c['id'],'titulo':c['title'],'area':c['area'],'nivel':c['level'],'descripcion':texto(lead.group(1)),'tecnologias':c['technologies'],'baseRecomendada':c.get('prerequisites',[]),'url':PLATAFORMA+c['internalPath'].removeprefix('./'),'temas':temas}
@@ -38,7 +39,7 @@ def render(c,titulos):
  salida+=f'<div class="course-actions"><a class="button button-secondary" href="{esc(c["url"],quote=True)}">Ver información del curso</a><a class="resource-link-button" href="{esc(c["temas"][0]["url"],quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Comenzar {esc(c["titulo"],quote=True)}">Comenzar →</a></div>\n'
  mensaje=f'Hola, Leli. Estoy revisando el curso de {c["titulo"]} ({c["url"]}) y me interesa una asesoría personalizada. Necesito apoyo con…'
  whatsapp='https://wa.me/573103618296?text='+urllib.parse.quote(mensaje,safe='')
- salida+=f'<div class="course-advice"><p>¿Necesitas apoyo para resolver errores o aplicarlo a tu proyecto?</p><a class="button button-primary" href="{esc(whatsapp,quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Solicitar asesoría para {esc(c["titulo"],quote=True)}">Solicitar asesoría por WhatsApp</a></div>\n'
+ salida+=f'<div class="course-advice"><p>¿Necesitas apoyo para resolver errores o aplicarlo a tu proyecto?</p><a class="button button-primary consultation-link" href="{esc(whatsapp,quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="Consultar asesoría para {esc(c["titulo"],quote=True)} por WhatsApp"><svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11.5a9 9 0 0 1-13.4 7.8L3 21l1.7-4.6A9 9 0 1 1 21 11.5Z"/><path d="M8.3 7.2c-.6 0-1.3.8-1.3 1.8 0 2.8 4.2 7 7 7 1 0 1.8-.7 1.8-1.3l-2.3-1.3-.9.9a7.1 7.1 0 0 1-3.4-3.4l.9-.9-1.3-2.8Z"/></svg><span>Consultar asesoría</span></a></div>\n'
  salida+=f'<details class="course-topics"><summary>Unidades y temas ({len(c["temas"])} accesos)</summary><ul>\n'
  for t in c['temas']:salida+=f'<li><a href="{esc(t["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{esc(t["titulo"])}</a></li>\n'
  return salida+'</ul></details></article>\n'
@@ -72,3 +73,4 @@ def main():
  print(f'Catálogo: {len(catalogo)} cursos y {sum(len(c["temas"]) for c in catalogo)} accesos independientes.')
 
 if __name__=='__main__':main()
+
