@@ -1,5 +1,5 @@
 {
-  "revisionFuente": "cbb8c56554a74e61afb1b7f855f5e1ec6ccf15df",
+  "revisionFuente": "bb10922f5b9edd8fa3501b94b07b421ed2c42d96",
   "cursos": [
     {
       "id": "algoritmos",
@@ -432,6 +432,201 @@
         {
           "titulo": "Proyecto integrador: inventario explicado · Práctica",
           "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/cpp/unidad21-proyecto/PRACTICA.md"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "titulo": "PHP desde cero",
+      "area": "programacion",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Empieza con tu primer programa. Aprende con ejemplos explicados, prácticas y un proyecto de talleres con formularios, SQLite, sesiones y pruebas.",
+      "tecnologias": [
+        "PHP",
+        "Desarrollo web",
+        "PDO",
+        "SQLite",
+        "Sesiones",
+        "APIs JSON"
+      ],
+      "baseRecomendada": [],
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/php/",
+      "temas": [
+        {
+          "titulo": "Tu primer programa y cómo estudiar",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/README.md"
+        },
+        {
+          "titulo": "Tu primer programa y cómo estudiar · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/PRACTICA.md"
+        },
+        {
+          "titulo": "Variables, tipos y operaciones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/README.md"
+        },
+        {
+          "titulo": "Variables, tipos y operaciones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/PRACTICA.md"
+        },
+        {
+          "titulo": "Condiciones y decisiones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/README.md"
+        },
+        {
+          "titulo": "Condiciones y decisiones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/PRACTICA.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/README.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/PRACTICA.md"
+        },
+        {
+          "titulo": "Arreglos, registros y recorridos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/README.md"
+        },
+        {
+          "titulo": "Arreglos, registros y recorridos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/PRACTICA.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y contratos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/README.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y contratos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/PRACTICA.md"
+        },
+        {
+          "titulo": "Texto, fechas y validación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/README.md"
+        },
+        {
+          "titulo": "Texto, fechas y validación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/PRACTICA.md"
+        },
+        {
+          "titulo": "Archivos, CSV y JSON",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/README.md"
+        },
+        {
+          "titulo": "Archivos, CSV y JSON · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/PRACTICA.md"
+        },
+        {
+          "titulo": "Errores, excepciones y depuración",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/README.md"
+        },
+        {
+          "titulo": "Errores, excepciones y depuración · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/PRACTICA.md"
+        },
+        {
+          "titulo": "HTML, HTTP y páginas dinámicas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/README.md"
+        },
+        {
+          "titulo": "HTML, HTTP y páginas dinámicas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/PRACTICA.md"
+        },
+        {
+          "titulo": "Formularios y validación en el servidor",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/README.md"
+        },
+        {
+          "titulo": "Formularios y validación en el servidor · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/PRACTICA.md"
+        },
+        {
+          "titulo": "Sesiones, cookies y protección CSRF",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/README.md"
+        },
+        {
+          "titulo": "Sesiones, cookies y protección CSRF · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/PRACTICA.md"
+        },
+        {
+          "titulo": "SQL, SQLite y PDO",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/README.md"
+        },
+        {
+          "titulo": "SQL, SQLite y PDO · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/PRACTICA.md"
+        },
+        {
+          "titulo": "CRUD, búsqueda y paginación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/README.md"
+        },
+        {
+          "titulo": "CRUD, búsqueda y paginación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/PRACTICA.md"
+        },
+        {
+          "titulo": "Objetos, interfaces y composición",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/README.md"
+        },
+        {
+          "titulo": "Objetos, interfaces y composición · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/PRACTICA.md"
+        },
+        {
+          "titulo": "Namespaces, Composer y organización",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/README.md"
+        },
+        {
+          "titulo": "Namespaces, Composer y organización · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/PRACTICA.md"
+        },
+        {
+          "titulo": "Contraseñas, autenticación y permisos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/README.md"
+        },
+        {
+          "titulo": "Contraseñas, autenticación y permisos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/PRACTICA.md"
+        },
+        {
+          "titulo": "APIs JSON y contratos HTTP",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/README.md"
+        },
+        {
+          "titulo": "APIs JSON y contratos HTTP · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/PRACTICA.md"
+        },
+        {
+          "titulo": "Pruebas automatizadas y casos límite",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/README.md"
+        },
+        {
+          "titulo": "Pruebas automatizadas y casos límite · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/PRACTICA.md"
+        },
+        {
+          "titulo": "Arquitectura sencilla y proyecto por etapas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/README.md"
+        },
+        {
+          "titulo": "Arquitectura sencilla y proyecto por etapas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/PRACTICA.md"
+        },
+        {
+          "titulo": "Configuración, publicación y mantenimiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/README.md"
+        },
+        {
+          "titulo": "Configuración, publicación y mantenimiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/PRACTICA.md"
+        },
+        {
+          "titulo": "Proyecto integrador: gestor de talleres",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/README.md"
+        },
+        {
+          "titulo": "Proyecto integrador: gestor de talleres · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/PRACTICA.md"
         }
       ]
     },

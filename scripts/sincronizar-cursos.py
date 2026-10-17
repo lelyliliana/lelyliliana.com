@@ -25,8 +25,8 @@ def extraer(c,fuente):
    if re.search('Curso-(Lenguaje-de-Programacion|Desarrollo-de-Software)-',url):raise ValueError('Recurso universitario: '+url)
    if url in seen:continue
    seen.add(url)
-   if label in ('Estudiar y practicar','Estudiar y ejecutar','Ver el módulo completo'):label=grupo
-   elif label == 'Práctica paso a paso':label=grupo+' · Práctica'
+   if label in ('Estudiar y practicar','Estudiar y ejecutar','Ver el módulo completo','Estudiar la lección'):label=grupo
+   elif label in ('Práctica paso a paso','Resolver la práctica'):label=grupo+' · Práctica'
    temas.append({'titulo':label,'url':url})
  if not temas:raise ValueError('Faltan unidades: '+c['id'])
  return {'id':c['id'],'titulo':c['title'],'area':c['area'],'nivel':c['level'],'descripcion':texto(lead.group(1)),'tecnologias':c['technologies'],'baseRecomendada':c.get('prerequisites',[]),'url':PLATAFORMA+c['internalPath'].removeprefix('./'),'temas':temas}
@@ -68,6 +68,10 @@ def main():
  s=s.replace('La plataforma conecta los contenidos con sus repositorios fuente sin duplicar el material.','Los contenidos se organizan en cursos públicos con explicaciones, prácticas y proyectos.')
  s=s.replace('Explorar Aprende con Leli','Abrir la plataforma de aprendizaje')
  p.write_text(s,encoding='utf-8')
+ # El resumen de portada debe contar el mismo catálogo que la página de recursos.
+ portada=ROOT/'index.html';inicio=portada.read_text(encoding='utf-8')
+ inicio=re.sub(r'\b\d+ cursos abiertos en cinco áreas',f'{len(catalogo)} cursos abiertos en cinco áreas',inicio)
+ portada.write_text(inicio,encoding='utf-8')
  revision=subprocess.check_output(['git','-C',str(fuente),'rev-parse','HEAD'],text=True).strip()
  (ROOT/'recursos/catalogo.json').write_text(json.dumps({'revisionFuente':revision,'cursos':catalogo},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(f'Catálogo: {len(catalogo)} cursos y {sum(len(c["temas"]) for c in catalogo)} accesos independientes.')
