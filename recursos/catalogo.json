@@ -1,5 +1,6 @@
 {
   "revisionFuente": "bb10922f5b9edd8fa3501b94b07b421ed2c42d96",
+  "fechaRevisionEnlaces": "2026-10-25",
   "cursos": [
     {
       "id": "algoritmos",
@@ -14,6 +15,7 @@
         "JavaScript"
       ],
       "baseRecomendada": [],
+      "unidades": 25,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/algoritmos/",
       "temas": [
         {
@@ -132,6 +134,7 @@
         "GNU make"
       ],
       "baseRecomendada": [],
+      "unidades": 26,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/c/",
       "temas": [
         {
@@ -255,6 +258,7 @@
         "Pruebas"
       ],
       "baseRecomendada": [],
+      "unidades": 22,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/cpp/",
       "temas": [
         {
@@ -436,201 +440,6 @@
       ]
     },
     {
-      "id": "php",
-      "titulo": "PHP desde cero",
-      "area": "programacion",
-      "nivel": "Principiante a intermedio",
-      "descripcion": "Empieza con tu primer programa. Aprende con ejemplos explicados, prácticas y un proyecto de talleres con formularios, SQLite, sesiones y pruebas.",
-      "tecnologias": [
-        "PHP",
-        "Desarrollo web",
-        "PDO",
-        "SQLite",
-        "Sesiones",
-        "APIs JSON"
-      ],
-      "baseRecomendada": [],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/php/",
-      "temas": [
-        {
-          "titulo": "Tu primer programa y cómo estudiar",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/README.md"
-        },
-        {
-          "titulo": "Tu primer programa y cómo estudiar · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/PRACTICA.md"
-        },
-        {
-          "titulo": "Variables, tipos y operaciones",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/README.md"
-        },
-        {
-          "titulo": "Variables, tipos y operaciones · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/PRACTICA.md"
-        },
-        {
-          "titulo": "Condiciones y decisiones",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/README.md"
-        },
-        {
-          "titulo": "Condiciones y decisiones · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/PRACTICA.md"
-        },
-        {
-          "titulo": "Ciclos, acumuladores y trazas",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/README.md"
-        },
-        {
-          "titulo": "Ciclos, acumuladores y trazas · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/PRACTICA.md"
-        },
-        {
-          "titulo": "Arreglos, registros y recorridos",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/README.md"
-        },
-        {
-          "titulo": "Arreglos, registros y recorridos · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/PRACTICA.md"
-        },
-        {
-          "titulo": "Funciones, parámetros y contratos",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/README.md"
-        },
-        {
-          "titulo": "Funciones, parámetros y contratos · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/PRACTICA.md"
-        },
-        {
-          "titulo": "Texto, fechas y validación",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/README.md"
-        },
-        {
-          "titulo": "Texto, fechas y validación · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/PRACTICA.md"
-        },
-        {
-          "titulo": "Archivos, CSV y JSON",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/README.md"
-        },
-        {
-          "titulo": "Archivos, CSV y JSON · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/PRACTICA.md"
-        },
-        {
-          "titulo": "Errores, excepciones y depuración",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/README.md"
-        },
-        {
-          "titulo": "Errores, excepciones y depuración · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/PRACTICA.md"
-        },
-        {
-          "titulo": "HTML, HTTP y páginas dinámicas",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/README.md"
-        },
-        {
-          "titulo": "HTML, HTTP y páginas dinámicas · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/PRACTICA.md"
-        },
-        {
-          "titulo": "Formularios y validación en el servidor",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/README.md"
-        },
-        {
-          "titulo": "Formularios y validación en el servidor · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/PRACTICA.md"
-        },
-        {
-          "titulo": "Sesiones, cookies y protección CSRF",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/README.md"
-        },
-        {
-          "titulo": "Sesiones, cookies y protección CSRF · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/PRACTICA.md"
-        },
-        {
-          "titulo": "SQL, SQLite y PDO",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/README.md"
-        },
-        {
-          "titulo": "SQL, SQLite y PDO · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/PRACTICA.md"
-        },
-        {
-          "titulo": "CRUD, búsqueda y paginación",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/README.md"
-        },
-        {
-          "titulo": "CRUD, búsqueda y paginación · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/PRACTICA.md"
-        },
-        {
-          "titulo": "Objetos, interfaces y composición",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/README.md"
-        },
-        {
-          "titulo": "Objetos, interfaces y composición · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/PRACTICA.md"
-        },
-        {
-          "titulo": "Namespaces, Composer y organización",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/README.md"
-        },
-        {
-          "titulo": "Namespaces, Composer y organización · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/PRACTICA.md"
-        },
-        {
-          "titulo": "Contraseñas, autenticación y permisos",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/README.md"
-        },
-        {
-          "titulo": "Contraseñas, autenticación y permisos · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/PRACTICA.md"
-        },
-        {
-          "titulo": "APIs JSON y contratos HTTP",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/README.md"
-        },
-        {
-          "titulo": "APIs JSON y contratos HTTP · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/PRACTICA.md"
-        },
-        {
-          "titulo": "Pruebas automatizadas y casos límite",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/README.md"
-        },
-        {
-          "titulo": "Pruebas automatizadas y casos límite · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/PRACTICA.md"
-        },
-        {
-          "titulo": "Arquitectura sencilla y proyecto por etapas",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/README.md"
-        },
-        {
-          "titulo": "Arquitectura sencilla y proyecto por etapas · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/PRACTICA.md"
-        },
-        {
-          "titulo": "Configuración, publicación y mantenimiento",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/README.md"
-        },
-        {
-          "titulo": "Configuración, publicación y mantenimiento · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/PRACTICA.md"
-        },
-        {
-          "titulo": "Proyecto integrador: gestor de talleres",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/README.md"
-        },
-        {
-          "titulo": "Proyecto integrador: gestor de talleres · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/PRACTICA.md"
-        }
-      ]
-    },
-    {
       "id": "python",
       "titulo": "Python desde cero",
       "area": "programacion",
@@ -646,6 +455,7 @@
       "baseRecomendada": [
         "algoritmos"
       ],
+      "unidades": 22,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/python/",
       "temas": [
         {
@@ -739,502 +549,6 @@
       ]
     },
     {
-      "id": "spring-boot",
-      "titulo": "Spring Boot y APIs REST",
-      "area": "desarrollo-web",
-      "nivel": "Intermedio a avanzado",
-      "descripcion": "Construye APIs backend con contratos claros, persistencia, integración, pruebas, seguridad, observabilidad y Docker.",
-      "tecnologias": [
-        "Java 21",
-        "Spring Boot",
-        "REST",
-        "JPA",
-        "JUnit",
-        "Docker"
-      ],
-      "baseRecomendada": [
-        "java",
-        "bases-datos-sql"
-      ],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/spring-boot/",
-      "temas": [
-        {
-          "titulo": "Unidad 00 — Entorno y primer proyecto",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad00-entorno"
-        },
-        {
-          "titulo": "Unidad 01 — Spring, Spring Boot y contenedor IoC",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad01-spring-ioc"
-        },
-        {
-          "titulo": "Unidad 02 — Configuración, properties y perfiles",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad02-configuracion"
-        },
-        {
-          "titulo": "Unidad 03 — Inyección de dependencias y componentes",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad03-dependencias"
-        },
-        {
-          "titulo": "Unidad 04 — HTTP y diseño REST",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad04-http-rest"
-        },
-        {
-          "titulo": "Unidad 05 — Controllers y endpoints",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad05-controllers"
-        },
-        {
-          "titulo": "Unidad 06 — Request, ResponseEntity y códigos HTTP",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad06-respuestas-http"
-        },
-        {
-          "titulo": "Unidad 07 — DTO y mapeo",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad07-dto"
-        },
-        {
-          "titulo": "Unidad 08 — Validación",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad08-validacion"
-        },
-        {
-          "titulo": "Unidad 09 — Manejo global de errores",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad09-errores"
-        },
-        {
-          "titulo": "Unidad 10 — Capas y responsabilidades",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad10-capas"
-        },
-        {
-          "titulo": "Unidad 11 — Spring Data JPA",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad11-jpa"
-        },
-        {
-          "titulo": "Unidad 12 — Entidades y relaciones",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad12-relaciones"
-        },
-        {
-          "titulo": "Unidad 13 — Consultas y paginación",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad13-consultas"
-        },
-        {
-          "titulo": "Unidad 14 — Base de datos y migraciones",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad14-base-datos"
-        },
-        {
-          "titulo": "Unidad 15 — Consumo de APIs externas",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad15-apis-externas"
-        },
-        {
-          "titulo": "Unidad 16 — Timeouts, errores y resiliencia básica",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad16-resiliencia"
-        },
-        {
-          "titulo": "Unidad 17 — Tareas programadas y procesamiento",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad17-tareas"
-        },
-        {
-          "titulo": "Unidad 18 — Pruebas unitarias de servicios",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad18-pruebas-unitarias"
-        },
-        {
-          "titulo": "Unidad 19 — Pruebas de controllers con MockMvc",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad19-mockmvc"
-        },
-        {
-          "titulo": "Unidad 20 — Pruebas de persistencia",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad20-pruebas-jpa"
-        },
-        {
-          "titulo": "Unidad 21 — Pruebas de integración",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad21-integracion-tests"
-        },
-        {
-          "titulo": "Unidad 22 — Seguridad básica con Spring Security",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad22-seguridad"
-        },
-        {
-          "titulo": "Unidad 23 — Actuator y health checks",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad23-actuator"
-        },
-        {
-          "titulo": "Unidad 24 — Métricas y observabilidad",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad24-metricas"
-        },
-        {
-          "titulo": "Unidad 25 — Logging y trazabilidad",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad25-logging"
-        },
-        {
-          "titulo": "Unidad 26 — Rendimiento y pruebas de carga",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad26-rendimiento"
-        },
-        {
-          "titulo": "Unidad 27 — Empaquetado y configuración de producción",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad27-produccion"
-        },
-        {
-          "titulo": "Unidad 28 — Docker",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad28-docker"
-        },
-        {
-          "titulo": "Unidad 29 — Taller de APIs",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad29-taller"
-        },
-        {
-          "titulo": "Unidad 30 — Proyecto final",
-          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad30-proyecto-final"
-        }
-      ]
-    },
-    {
-      "id": "fullstack",
-      "titulo": "Desarrollo Full Stack",
-      "area": "desarrollo-web",
-      "nivel": "Intermedio",
-      "descripcion": "Aprende a integrar React, Spring Boot y una base de datos: empieza consultando, avanza a las escrituras y construye un proyecto que puedas probar y explicar.",
-      "tecnologias": [
-        "React",
-        "Spring Boot",
-        "HTTP",
-        "JSON",
-        "JPA"
-      ],
-      "baseRecomendada": [
-        "react",
-        "spring-boot"
-      ],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/fullstack/",
-      "temas": [
-        {
-          "titulo": "Punto de entrada y forma de estudiar",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad00-ruta/README.md"
-        },
-        {
-          "titulo": "Comunicación HTTP y contrato",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad01-http/README.md"
-        },
-        {
-          "titulo": "Interfaz y recorrido del usuario",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad02-interfaz/README.md"
-        },
-        {
-          "titulo": "React conectado a una API",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad03-consulta/README.md"
-        },
-        {
-          "titulo": "Escrituras, validación y persistencia",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad04-escrituras/README.md"
-        },
-        {
-          "titulo": "Errores, concurrencia y pruebas",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad05-calidad/README.md"
-        },
-        {
-          "titulo": "Build, configuración y entrega",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad06-entrega/README.md"
-        },
-        {
-          "titulo": "Proyecto propio y evaluación",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad07-proyecto/README.md"
-        }
-      ]
-    },
-    {
-      "id": "git-github",
-      "titulo": "Git, GitHub y VS Code",
-      "area": "herramientas",
-      "nivel": "Principiante",
-      "descripcion": "Aprende a gestionar tus proyectos de forma segura: registra cambios, publica repositorios, colabora con otras personas y resuelve problemas frecuentes.",
-      "tecnologias": [
-        "Git",
-        "GitHub",
-        "Visual Studio Code"
-      ],
-      "baseRecomendada": [],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/git-github/",
-      "temas": [
-        {
-          "titulo": "Instalación y configuración",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/01-instalacion-y-configuracion"
-        },
-        {
-          "titulo": "Preparar Visual Studio Code",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/02-preparar-vscode"
-        },
-        {
-          "titulo": "Crear el primer repositorio",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/03-primer-repositorio"
-        },
-        {
-          "titulo": "Subir un proyecto existente",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/04-subir-proyecto-existente"
-        },
-        {
-          "titulo": "Flujo de trabajo diario",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/05-flujo-trabajo-diario"
-        },
-        {
-          "titulo": "Clonar un repositorio",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/06-clonar-repositorio"
-        },
-        {
-          "titulo": "Actualizar con git pull",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/07-actualizar-repositorio"
-        },
-        {
-          "titulo": "Source Control en VS Code",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/08-source-control-vscode"
-        },
-        {
-          "titulo": "Trabajo colaborativo",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/09-trabajo-colaborativo"
-        },
-        {
-          "titulo": "Ramas",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/10-ramas"
-        },
-        {
-          "titulo": "Resolver conflictos",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/11-conflictos"
-        },
-        {
-          "titulo": "Errores frecuentes",
-          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/12-errores-frecuentes"
-        }
-      ]
-    },
-    {
-      "id": "arduino",
-      "titulo": "Arduino desde cero",
-      "area": "iot-robotica",
-      "nivel": "Principiante a intermedio",
-      "descripcion": "Aprende electrónica y programación construyendo circuitos progresivos, integrando sensores y actuadores y diseñando prototipos seguros y documentados.",
-      "tecnologias": [
-        "Arduino",
-        "C++",
-        "Electrónica",
-        "Sensores",
-        "Actuadores"
-      ],
-      "baseRecomendada": [
-        "algoritmos"
-      ],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/arduino/",
-      "temas": [
-        {
-          "titulo": "Unidad 00 — Seguridad, materiales y entorno",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad00-seguridad-entorno"
-        },
-        {
-          "titulo": "Unidad 01 — Electricidad y electrónica básica",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad01-electronica-basica"
-        },
-        {
-          "titulo": "Unidad 02 — Conoce Arduino y tu primer programa",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad02-primer-programa"
-        },
-        {
-          "titulo": "Unidad 03 — Salidas digitales y LED",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad03-salidas-digitales"
-        },
-        {
-          "titulo": "Unidad 04 — Entradas digitales y pulsadores",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad04-entradas-digitales"
-        },
-        {
-          "titulo": "Unidad 05 — Señales analógicas y potenciómetro",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad05-entradas-analogicas"
-        },
-        {
-          "titulo": "Unidad 06 — PWM: brillo y control proporcional",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad06-pwm"
-        },
-        {
-          "titulo": "Unidad 07 — Monitor serie y diagnóstico",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad07-monitor-serie"
-        },
-        {
-          "titulo": "Unidad 08 — Funciones y organización del código",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad08-funciones"
-        },
-        {
-          "titulo": "Unidad 09 — Tiempo con millis() y máquinas de estados",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad09-tiempo-estados"
-        },
-        {
-          "titulo": "Unidad 10 — Sensores digitales",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad10-sensores-digitales"
-        },
-        {
-          "titulo": "Unidad 11 — Sensores analógicos",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad11-sensores-analogicos"
-        },
-        {
-          "titulo": "Unidad 12 — Distancia con ultrasonido",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad12-ultrasonido"
-        },
-        {
-          "titulo": "Unidad 13 — Temperatura y ambiente",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad13-temperatura-ambiente"
-        },
-        {
-          "titulo": "Unidad 14 — Buzzer y señales",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad14-buzzer"
-        },
-        {
-          "titulo": "Unidad 15 — Servomotores",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad15-servomotores"
-        },
-        {
-          "titulo": "Unidad 16 — Motores DC y etapa de potencia",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad16-motores-dc"
-        },
-        {
-          "titulo": "Unidad 17 — Pantallas y visualización",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad17-pantallas"
-        },
-        {
-          "titulo": "Unidad 18 — Comunicación serial entre dispositivos",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad18-comunicacion-serial"
-        },
-        {
-          "titulo": "Unidad 19 — I2C y SPI: fundamentos",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad19-i2c-spi"
-        },
-        {
-          "titulo": "Unidad 20 — Diseño de prototipos y alimentación",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad20-diseno-alimentacion"
-        },
-        {
-          "titulo": "Unidad 21 — Proyecto: sistema de monitoreo",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad21-proyecto-monitoreo"
-        },
-        {
-          "titulo": "Unidad 22 — Proyecto: sistema automatizado",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad22-proyecto-automatizacion"
-        },
-        {
-          "titulo": "Unidad 23 — Proyecto final libre",
-          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad23-proyecto-final"
-        }
-      ]
-    },
-    {
-      "id": "esp32",
-      "titulo": "ESP32 e Internet de las Cosas",
-      "area": "iot-robotica",
-      "nivel": "Intermedio",
-      "descripcion": "Da el salto desde prototipos locales hacia dispositivos conectados con Wi‑Fi, HTTP, MQTT, BLE, persistencia, seguridad básica y gestión de energía.",
-      "tecnologias": [
-        "ESP32",
-        "Wi-Fi",
-        "MQTT",
-        "HTTP",
-        "BLE",
-        "IoT"
-      ],
-      "baseRecomendada": [
-        "arduino"
-      ],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/",
-      "temas": [
-        {
-          "titulo": "Unidad 00 — Preparación, seguridad y placa",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad00-preparacion"
-        },
-        {
-          "titulo": "Unidad 01 — Arquitectura, GPIO y diferencias con Arduino",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad01-arquitectura-gpio"
-        },
-        {
-          "titulo": "Unidad 02 — Primer programa y diagnóstico serial",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad02-primer-programa"
-        },
-        {
-          "titulo": "Unidad 03 — Entradas, salidas, ADC y PWM",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad03-io-adc-pwm"
-        },
-        {
-          "titulo": "Unidad 04 — Sensores, I2C y SPI",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad04-sensores-buses"
-        },
-        {
-          "titulo": "Unidad 05 — Interrupciones, temporización y tareas",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad05-interrupciones-tareas"
-        },
-        {
-          "titulo": "Unidad 06 — Conexión Wi‑Fi y reconexión",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad06-wifi"
-        },
-        {
-          "titulo": "Unidad 07 — Cliente HTTP y consumo de APIs",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad07-cliente-http"
-        },
-        {
-          "titulo": "Unidad 08 — Servidor web en ESP32",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad08-servidor-web"
-        },
-        {
-          "titulo": "Unidad 09 — API REST básica en el dispositivo",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad09-api-rest"
-        },
-        {
-          "titulo": "Unidad 10 — Fundamentos de MQTT",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad10-mqtt"
-        },
-        {
-          "titulo": "Unidad 11 — Telemetría y control con MQTT",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad11-telemetria-control"
-        },
-        {
-          "titulo": "Unidad 12 — Diseño de mensajes y JSON",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad12-json-mensajes"
-        },
-        {
-          "titulo": "Unidad 13 — Arquitectura de un sistema IoT",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad13-arquitectura-iot"
-        },
-        {
-          "titulo": "Unidad 14 — Bluetooth y BLE",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad14-ble"
-        },
-        {
-          "titulo": "Unidad 15 — Almacenamiento y configuración",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad15-almacenamiento"
-        },
-        {
-          "titulo": "Unidad 16 — Registro local y sincronización",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad16-registro-sincronizacion"
-        },
-        {
-          "titulo": "Unidad 17 — Manejo de fallos y reconexión",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad17-fallos-reconexion"
-        },
-        {
-          "titulo": "Unidad 18 — Credenciales y seguridad básica",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad18-seguridad"
-        },
-        {
-          "titulo": "Unidad 19 — Actualizaciones OTA",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad19-ota"
-        },
-        {
-          "titulo": "Unidad 20 — Consumo energético y deep sleep",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad20-energia"
-        },
-        {
-          "titulo": "Unidad 21 — Proyecto: nodo IoT ambiental",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad21-proyecto-nodo-iot"
-        },
-        {
-          "titulo": "Unidad 22 — Proyecto: control remoto",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad22-proyecto-control"
-        },
-        {
-          "titulo": "Unidad 23 — Proyecto final IoT",
-          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad23-proyecto-final"
-        }
-      ]
-    },
-    {
       "id": "java",
       "titulo": "Java desde cero",
       "area": "programacion",
@@ -1252,6 +566,7 @@
       "baseRecomendada": [
         "algoritmos"
       ],
+      "unidades": 31,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/java/",
       "temas": [
         {
@@ -1397,6 +712,7 @@
         "algoritmos",
         "java"
       ],
+      "unidades": 6,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/estructuras-datos/",
       "temas": [
         {
@@ -1724,6 +1040,7 @@
         "Accesibilidad"
       ],
       "baseRecomendada": [],
+      "unidades": 33,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/html-css/",
       "temas": [
         {
@@ -1877,6 +1194,7 @@
       "baseRecomendada": [
         "html-css"
       ],
+      "unidades": 34,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/javascript/",
       "temas": [
         {
@@ -2033,6 +1351,7 @@
       "baseRecomendada": [
         "javascript"
       ],
+      "unidades": 35,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/react/",
       "temas": [
         {
@@ -2178,9 +1497,821 @@
       ]
     },
     {
+      "id": "frontend",
+      "titulo": "Desarrollo Frontend",
+      "area": "desarrollo-web",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Comprende cómo funciona la Web y construye un proyecto que evoluciona desde HTML y CSS hasta JavaScript y una aplicación moderna con React.",
+      "tecnologias": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Local Storage"
+      ],
+      "baseRecomendada": [],
+      "unidades": 8,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/frontend/",
+      "temas": [
+        {
+          "titulo": "Ruta y entorno",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad00-entorno/README.md"
+        },
+        {
+          "titulo": "Estructura y accesibilidad con HTML",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad01-html/README.md"
+        },
+        {
+          "titulo": "Diseño responsivo con CSS",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad02-css/README.md"
+        },
+        {
+          "titulo": "Interacción con JavaScript y DOM",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad03-javascript/README.md"
+        },
+        {
+          "titulo": "Datos locales y reglas del proyecto",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad04-persistencia/README.md"
+        },
+        {
+          "titulo": "Del DOM a componentes React",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad05-react/README.md"
+        },
+        {
+          "titulo": "Consulta de datos y estados remotos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad06-api/README.md"
+        },
+        {
+          "titulo": "Pruebas, publicación y proyecto propio",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad07-proyecto/README.md"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "titulo": "PHP desde cero",
+      "area": "desarrollo-web",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Empieza con tu primer programa. Aprende con ejemplos explicados, prácticas y un proyecto de talleres con formularios, SQLite, sesiones y pruebas.",
+      "tecnologias": [
+        "PHP",
+        "Desarrollo web",
+        "PDO",
+        "SQLite",
+        "Sesiones",
+        "APIs JSON"
+      ],
+      "baseRecomendada": [],
+      "unidades": 22,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/php/",
+      "temas": [
+        {
+          "titulo": "Tu primer programa y cómo estudiar",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/README.md"
+        },
+        {
+          "titulo": "Tu primer programa y cómo estudiar · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad00-entorno/PRACTICA.md"
+        },
+        {
+          "titulo": "Variables, tipos y operaciones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/README.md"
+        },
+        {
+          "titulo": "Variables, tipos y operaciones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad01-variables/PRACTICA.md"
+        },
+        {
+          "titulo": "Condiciones y decisiones",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/README.md"
+        },
+        {
+          "titulo": "Condiciones y decisiones · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad02-decisiones/PRACTICA.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/README.md"
+        },
+        {
+          "titulo": "Ciclos, acumuladores y trazas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad03-ciclos/PRACTICA.md"
+        },
+        {
+          "titulo": "Arreglos, registros y recorridos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/README.md"
+        },
+        {
+          "titulo": "Arreglos, registros y recorridos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad04-arreglos/PRACTICA.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y contratos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/README.md"
+        },
+        {
+          "titulo": "Funciones, parámetros y contratos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad05-funciones/PRACTICA.md"
+        },
+        {
+          "titulo": "Texto, fechas y validación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/README.md"
+        },
+        {
+          "titulo": "Texto, fechas y validación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad06-texto/PRACTICA.md"
+        },
+        {
+          "titulo": "Archivos, CSV y JSON",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/README.md"
+        },
+        {
+          "titulo": "Archivos, CSV y JSON · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad07-archivos/PRACTICA.md"
+        },
+        {
+          "titulo": "Errores, excepciones y depuración",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/README.md"
+        },
+        {
+          "titulo": "Errores, excepciones y depuración · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad08-errores/PRACTICA.md"
+        },
+        {
+          "titulo": "HTML, HTTP y páginas dinámicas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/README.md"
+        },
+        {
+          "titulo": "HTML, HTTP y páginas dinámicas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad09-web/PRACTICA.md"
+        },
+        {
+          "titulo": "Formularios y validación en el servidor",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/README.md"
+        },
+        {
+          "titulo": "Formularios y validación en el servidor · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad10-formularios/PRACTICA.md"
+        },
+        {
+          "titulo": "Sesiones, cookies y protección CSRF",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/README.md"
+        },
+        {
+          "titulo": "Sesiones, cookies y protección CSRF · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad11-sesiones/PRACTICA.md"
+        },
+        {
+          "titulo": "SQL, SQLite y PDO",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/README.md"
+        },
+        {
+          "titulo": "SQL, SQLite y PDO · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad12-pdo/PRACTICA.md"
+        },
+        {
+          "titulo": "CRUD, búsqueda y paginación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/README.md"
+        },
+        {
+          "titulo": "CRUD, búsqueda y paginación · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad13-crud/PRACTICA.md"
+        },
+        {
+          "titulo": "Objetos, interfaces y composición",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/README.md"
+        },
+        {
+          "titulo": "Objetos, interfaces y composición · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad14-objetos/PRACTICA.md"
+        },
+        {
+          "titulo": "Namespaces, Composer y organización",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/README.md"
+        },
+        {
+          "titulo": "Namespaces, Composer y organización · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad15-composer/PRACTICA.md"
+        },
+        {
+          "titulo": "Contraseñas, autenticación y permisos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/README.md"
+        },
+        {
+          "titulo": "Contraseñas, autenticación y permisos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad16-autenticacion/PRACTICA.md"
+        },
+        {
+          "titulo": "APIs JSON y contratos HTTP",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/README.md"
+        },
+        {
+          "titulo": "APIs JSON y contratos HTTP · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad17-api/PRACTICA.md"
+        },
+        {
+          "titulo": "Pruebas automatizadas y casos límite",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/README.md"
+        },
+        {
+          "titulo": "Pruebas automatizadas y casos límite · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad18-pruebas/PRACTICA.md"
+        },
+        {
+          "titulo": "Arquitectura sencilla y proyecto por etapas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/README.md"
+        },
+        {
+          "titulo": "Arquitectura sencilla y proyecto por etapas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad19-arquitectura/PRACTICA.md"
+        },
+        {
+          "titulo": "Configuración, publicación y mantenimiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/README.md"
+        },
+        {
+          "titulo": "Configuración, publicación y mantenimiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad20-despliegue/PRACTICA.md"
+        },
+        {
+          "titulo": "Proyecto integrador: gestor de talleres",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/README.md"
+        },
+        {
+          "titulo": "Proyecto integrador: gestor de talleres · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/php/unidad21-proyecto/PRACTICA.md"
+        }
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "titulo": "Spring Boot y APIs REST",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio a avanzado",
+      "descripcion": "Construye APIs backend con contratos claros, persistencia, integración, pruebas, seguridad, observabilidad y Docker.",
+      "tecnologias": [
+        "Java 21",
+        "Spring Boot",
+        "REST",
+        "JPA",
+        "JUnit",
+        "Docker"
+      ],
+      "baseRecomendada": [
+        "java",
+        "bases-datos-sql"
+      ],
+      "unidades": 31,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/spring-boot/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Entorno y primer proyecto",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad00-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Spring, Spring Boot y contenedor IoC",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad01-spring-ioc"
+        },
+        {
+          "titulo": "Unidad 02 — Configuración, properties y perfiles",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad02-configuracion"
+        },
+        {
+          "titulo": "Unidad 03 — Inyección de dependencias y componentes",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad03-dependencias"
+        },
+        {
+          "titulo": "Unidad 04 — HTTP y diseño REST",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad04-http-rest"
+        },
+        {
+          "titulo": "Unidad 05 — Controllers y endpoints",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad05-controllers"
+        },
+        {
+          "titulo": "Unidad 06 — Request, ResponseEntity y códigos HTTP",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad06-respuestas-http"
+        },
+        {
+          "titulo": "Unidad 07 — DTO y mapeo",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad07-dto"
+        },
+        {
+          "titulo": "Unidad 08 — Validación",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad08-validacion"
+        },
+        {
+          "titulo": "Unidad 09 — Manejo global de errores",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad09-errores"
+        },
+        {
+          "titulo": "Unidad 10 — Capas y responsabilidades",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad10-capas"
+        },
+        {
+          "titulo": "Unidad 11 — Spring Data JPA",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad11-jpa"
+        },
+        {
+          "titulo": "Unidad 12 — Entidades y relaciones",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad12-relaciones"
+        },
+        {
+          "titulo": "Unidad 13 — Consultas y paginación",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad13-consultas"
+        },
+        {
+          "titulo": "Unidad 14 — Base de datos y migraciones",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad14-base-datos"
+        },
+        {
+          "titulo": "Unidad 15 — Consumo de APIs externas",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad15-apis-externas"
+        },
+        {
+          "titulo": "Unidad 16 — Timeouts, errores y resiliencia básica",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad16-resiliencia"
+        },
+        {
+          "titulo": "Unidad 17 — Tareas programadas y procesamiento",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad17-tareas"
+        },
+        {
+          "titulo": "Unidad 18 — Pruebas unitarias de servicios",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad18-pruebas-unitarias"
+        },
+        {
+          "titulo": "Unidad 19 — Pruebas de controllers con MockMvc",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad19-mockmvc"
+        },
+        {
+          "titulo": "Unidad 20 — Pruebas de persistencia",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad20-pruebas-jpa"
+        },
+        {
+          "titulo": "Unidad 21 — Pruebas de integración",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad21-integracion-tests"
+        },
+        {
+          "titulo": "Unidad 22 — Seguridad básica con Spring Security",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad22-seguridad"
+        },
+        {
+          "titulo": "Unidad 23 — Actuator y health checks",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad23-actuator"
+        },
+        {
+          "titulo": "Unidad 24 — Métricas y observabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad24-metricas"
+        },
+        {
+          "titulo": "Unidad 25 — Logging y trazabilidad",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad25-logging"
+        },
+        {
+          "titulo": "Unidad 26 — Rendimiento y pruebas de carga",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad26-rendimiento"
+        },
+        {
+          "titulo": "Unidad 27 — Empaquetado y configuración de producción",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad27-produccion"
+        },
+        {
+          "titulo": "Unidad 28 — Docker",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad28-docker"
+        },
+        {
+          "titulo": "Unidad 29 — Taller de APIs",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad29-taller"
+        },
+        {
+          "titulo": "Unidad 30 — Proyecto final",
+          "url": "https://github.com/lelyliliana/Curso-Spring-Boot/tree/main/unidad30-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "backend-java",
+      "titulo": "Backend y APIs con Java",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio",
+      "descripcion": "Construye servicios REST con Spring Boot, incorpora persistencia e integraciones y aprende a probar, observar y evaluar el comportamiento de tus aplicaciones.",
+      "tecnologias": [
+        "Java 21",
+        "Spring Boot",
+        "REST",
+        "JPA",
+        "Spring Security"
+      ],
+      "baseRecomendada": [
+        "java"
+      ],
+      "unidades": 9,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/backend-java/",
+      "temas": [
+        {
+          "titulo": "Punto de entrada y entorno",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Punto de entrada y entorno · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/DESARROLLO.md"
+        },
+        {
+          "titulo": "Punto de entrada y entorno · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/PRACTICA.md"
+        },
+        {
+          "titulo": "Primera API y responsabilidades",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/README.md"
+        },
+        {
+          "titulo": "Primera API y responsabilidades · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/DESARROLLO.md"
+        },
+        {
+          "titulo": "Primera API y responsabilidades · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/PRACTICA.md"
+        },
+        {
+          "titulo": "Contratos REST, validación y capas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/README.md"
+        },
+        {
+          "titulo": "Contratos REST, validación y capas · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/DESARROLLO.md"
+        },
+        {
+          "titulo": "Contratos REST, validación y capas · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/PRACTICA.md"
+        },
+        {
+          "titulo": "Persistencia y concurrencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/README.md"
+        },
+        {
+          "titulo": "Persistencia y concurrencia · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/DESARROLLO.md"
+        },
+        {
+          "titulo": "Persistencia y concurrencia · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/PRACTICA.md"
+        },
+        {
+          "titulo": "Servicios externos y fallos",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/README.md"
+        },
+        {
+          "titulo": "Servicios externos y fallos · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/DESARROLLO.md"
+        },
+        {
+          "titulo": "Servicios externos y fallos · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/PRACTICA.md"
+        },
+        {
+          "titulo": "Identidad, permisos y CSRF",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/README.md"
+        },
+        {
+          "titulo": "Identidad, permisos y CSRF · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/DESARROLLO.md"
+        },
+        {
+          "titulo": "Identidad, permisos y CSRF · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/PRACTICA.md"
+        },
+        {
+          "titulo": "Pruebas y evidencia de comportamiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/README.md"
+        },
+        {
+          "titulo": "Pruebas y evidencia de comportamiento · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/DESARROLLO.md"
+        },
+        {
+          "titulo": "Pruebas y evidencia de comportamiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/PRACTICA.md"
+        },
+        {
+          "titulo": "Observabilidad y rendimiento",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/README.md"
+        },
+        {
+          "titulo": "Observabilidad y rendimiento · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/DESARROLLO.md"
+        },
+        {
+          "titulo": "Observabilidad y rendimiento · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/PRACTICA.md"
+        },
+        {
+          "titulo": "Entrega y proyecto propio",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/README.md"
+        },
+        {
+          "titulo": "Entrega y proyecto propio · Desarrollo del caso",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/DESARROLLO.md"
+        },
+        {
+          "titulo": "Entrega y proyecto propio · Práctica",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/PRACTICA.md"
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "titulo": "Desarrollo Full Stack",
+      "area": "desarrollo-web",
+      "nivel": "Intermedio",
+      "descripcion": "Aprende a integrar React, Spring Boot y una base de datos: empieza consultando, avanza a las escrituras y construye un proyecto que puedas probar y explicar.",
+      "tecnologias": [
+        "React",
+        "Spring Boot",
+        "HTTP",
+        "JSON",
+        "JPA"
+      ],
+      "baseRecomendada": [
+        "react",
+        "spring-boot"
+      ],
+      "unidades": 8,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/fullstack/",
+      "temas": [
+        {
+          "titulo": "Punto de entrada y forma de estudiar",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad00-ruta/README.md"
+        },
+        {
+          "titulo": "Comunicación HTTP y contrato",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad01-http/README.md"
+        },
+        {
+          "titulo": "Interfaz y recorrido del usuario",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad02-interfaz/README.md"
+        },
+        {
+          "titulo": "React conectado a una API",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad03-consulta/README.md"
+        },
+        {
+          "titulo": "Escrituras, validación y persistencia",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad04-escrituras/README.md"
+        },
+        {
+          "titulo": "Errores, concurrencia y pruebas",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad05-calidad/README.md"
+        },
+        {
+          "titulo": "Build, configuración y entrega",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad06-entrega/README.md"
+        },
+        {
+          "titulo": "Proyecto propio y evaluación",
+          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/fullstack/unidad07-proyecto/README.md"
+        }
+      ]
+    },
+    {
+      "id": "arduino",
+      "titulo": "Arduino desde cero",
+      "area": "iot-robotica",
+      "nivel": "Principiante a intermedio",
+      "descripcion": "Aprende electrónica y programación construyendo circuitos progresivos, integrando sensores y actuadores y diseñando prototipos seguros y documentados.",
+      "tecnologias": [
+        "Arduino",
+        "C++",
+        "Electrónica",
+        "Sensores",
+        "Actuadores"
+      ],
+      "baseRecomendada": [
+        "algoritmos"
+      ],
+      "unidades": 24,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/arduino/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Seguridad, materiales y entorno",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad00-seguridad-entorno"
+        },
+        {
+          "titulo": "Unidad 01 — Electricidad y electrónica básica",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad01-electronica-basica"
+        },
+        {
+          "titulo": "Unidad 02 — Conoce Arduino y tu primer programa",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad02-primer-programa"
+        },
+        {
+          "titulo": "Unidad 03 — Salidas digitales y LED",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad03-salidas-digitales"
+        },
+        {
+          "titulo": "Unidad 04 — Entradas digitales y pulsadores",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad04-entradas-digitales"
+        },
+        {
+          "titulo": "Unidad 05 — Señales analógicas y potenciómetro",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad05-entradas-analogicas"
+        },
+        {
+          "titulo": "Unidad 06 — PWM: brillo y control proporcional",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad06-pwm"
+        },
+        {
+          "titulo": "Unidad 07 — Monitor serie y diagnóstico",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad07-monitor-serie"
+        },
+        {
+          "titulo": "Unidad 08 — Funciones y organización del código",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad08-funciones"
+        },
+        {
+          "titulo": "Unidad 09 — Tiempo con millis() y máquinas de estados",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad09-tiempo-estados"
+        },
+        {
+          "titulo": "Unidad 10 — Sensores digitales",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad10-sensores-digitales"
+        },
+        {
+          "titulo": "Unidad 11 — Sensores analógicos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad11-sensores-analogicos"
+        },
+        {
+          "titulo": "Unidad 12 — Distancia con ultrasonido",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad12-ultrasonido"
+        },
+        {
+          "titulo": "Unidad 13 — Temperatura y ambiente",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad13-temperatura-ambiente"
+        },
+        {
+          "titulo": "Unidad 14 — Buzzer y señales",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad14-buzzer"
+        },
+        {
+          "titulo": "Unidad 15 — Servomotores",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad15-servomotores"
+        },
+        {
+          "titulo": "Unidad 16 — Motores DC y etapa de potencia",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad16-motores-dc"
+        },
+        {
+          "titulo": "Unidad 17 — Pantallas y visualización",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad17-pantallas"
+        },
+        {
+          "titulo": "Unidad 18 — Comunicación serial entre dispositivos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad18-comunicacion-serial"
+        },
+        {
+          "titulo": "Unidad 19 — I2C y SPI: fundamentos",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad19-i2c-spi"
+        },
+        {
+          "titulo": "Unidad 20 — Diseño de prototipos y alimentación",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad20-diseno-alimentacion"
+        },
+        {
+          "titulo": "Unidad 21 — Proyecto: sistema de monitoreo",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad21-proyecto-monitoreo"
+        },
+        {
+          "titulo": "Unidad 22 — Proyecto: sistema automatizado",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad22-proyecto-automatizacion"
+        },
+        {
+          "titulo": "Unidad 23 — Proyecto final libre",
+          "url": "https://github.com/lelyliliana/Curso-Arduino/tree/main/unidad23-proyecto-final"
+        }
+      ]
+    },
+    {
+      "id": "esp32",
+      "titulo": "ESP32 e Internet de las Cosas",
+      "area": "iot-robotica",
+      "nivel": "Intermedio",
+      "descripcion": "Da el salto desde prototipos locales hacia dispositivos conectados con Wi‑Fi, HTTP, MQTT, BLE, persistencia, seguridad básica y gestión de energía.",
+      "tecnologias": [
+        "ESP32",
+        "Wi-Fi",
+        "MQTT",
+        "HTTP",
+        "BLE",
+        "IoT"
+      ],
+      "baseRecomendada": [
+        "arduino"
+      ],
+      "unidades": 24,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/",
+      "temas": [
+        {
+          "titulo": "Unidad 00 — Preparación, seguridad y placa",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad00-preparacion"
+        },
+        {
+          "titulo": "Unidad 01 — Arquitectura, GPIO y diferencias con Arduino",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad01-arquitectura-gpio"
+        },
+        {
+          "titulo": "Unidad 02 — Primer programa y diagnóstico serial",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad02-primer-programa"
+        },
+        {
+          "titulo": "Unidad 03 — Entradas, salidas, ADC y PWM",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad03-io-adc-pwm"
+        },
+        {
+          "titulo": "Unidad 04 — Sensores, I2C y SPI",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad04-sensores-buses"
+        },
+        {
+          "titulo": "Unidad 05 — Interrupciones, temporización y tareas",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad05-interrupciones-tareas"
+        },
+        {
+          "titulo": "Unidad 06 — Conexión Wi‑Fi y reconexión",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad06-wifi"
+        },
+        {
+          "titulo": "Unidad 07 — Cliente HTTP y consumo de APIs",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad07-cliente-http"
+        },
+        {
+          "titulo": "Unidad 08 — Servidor web en ESP32",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad08-servidor-web"
+        },
+        {
+          "titulo": "Unidad 09 — API REST básica en el dispositivo",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad09-api-rest"
+        },
+        {
+          "titulo": "Unidad 10 — Fundamentos de MQTT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad10-mqtt"
+        },
+        {
+          "titulo": "Unidad 11 — Telemetría y control con MQTT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad11-telemetria-control"
+        },
+        {
+          "titulo": "Unidad 12 — Diseño de mensajes y JSON",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad12-json-mensajes"
+        },
+        {
+          "titulo": "Unidad 13 — Arquitectura de un sistema IoT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad13-arquitectura-iot"
+        },
+        {
+          "titulo": "Unidad 14 — Bluetooth y BLE",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad14-ble"
+        },
+        {
+          "titulo": "Unidad 15 — Almacenamiento y configuración",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad15-almacenamiento"
+        },
+        {
+          "titulo": "Unidad 16 — Registro local y sincronización",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad16-registro-sincronizacion"
+        },
+        {
+          "titulo": "Unidad 17 — Manejo de fallos y reconexión",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad17-fallos-reconexion"
+        },
+        {
+          "titulo": "Unidad 18 — Credenciales y seguridad básica",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad18-seguridad"
+        },
+        {
+          "titulo": "Unidad 19 — Actualizaciones OTA",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad19-ota"
+        },
+        {
+          "titulo": "Unidad 20 — Consumo energético y deep sleep",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad20-energia"
+        },
+        {
+          "titulo": "Unidad 21 — Proyecto: nodo IoT ambiental",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad21-proyecto-nodo-iot"
+        },
+        {
+          "titulo": "Unidad 22 — Proyecto: control remoto",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad22-proyecto-control"
+        },
+        {
+          "titulo": "Unidad 23 — Proyecto final IoT",
+          "url": "https://github.com/lelyliliana/Curso-ESP32/tree/main/unidad23-proyecto-final"
+        }
+      ]
+    },
+    {
       "id": "bases-datos-sql",
       "titulo": "Bases de Datos y SQL desde cero",
-      "area": "programacion",
+      "area": "datos-ia",
       "nivel": "Principiante a intermedio",
       "descripcion": "Aprende modelado relacional, SQL, integridad, transacciones, índices y administración básica usando PostgreSQL.",
       "tecnologias": [
@@ -2191,6 +2322,7 @@
         "Transacciones"
       ],
       "baseRecomendada": [],
+      "unidades": 33,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/bases-datos-sql/",
       "temas": [
         {
@@ -2341,6 +2473,7 @@
         "Quarto"
       ],
       "baseRecomendada": [],
+      "unidades": 19,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/r/",
       "temas": [
         {
@@ -2515,6 +2648,7 @@
       "baseRecomendada": [
         "python"
       ],
+      "unidades": 36,
       "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/inteligencia-artificial/",
       "temas": [
         {
@@ -2664,180 +2798,67 @@
       ]
     },
     {
-      "id": "frontend",
-      "titulo": "Desarrollo Frontend",
-      "area": "desarrollo-web",
-      "nivel": "Principiante a intermedio",
-      "descripcion": "Comprende cómo funciona la Web y construye un proyecto que evoluciona desde HTML y CSS hasta JavaScript y una aplicación moderna con React.",
+      "id": "git-github",
+      "titulo": "Git, GitHub y VS Code",
+      "area": "herramientas",
+      "nivel": "Principiante",
+      "descripcion": "Aprende a gestionar tus proyectos de forma segura: registra cambios, publica repositorios, colabora con otras personas y resuelve problemas frecuentes.",
       "tecnologias": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Local Storage"
+        "Git",
+        "GitHub",
+        "Visual Studio Code"
       ],
       "baseRecomendada": [],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/frontend/",
+      "unidades": 12,
+      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/git-github/",
       "temas": [
         {
-          "titulo": "Ruta y entorno",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad00-entorno/README.md"
+          "titulo": "Instalación y configuración",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/01-instalacion-y-configuracion"
         },
         {
-          "titulo": "Estructura y accesibilidad con HTML",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad01-html/README.md"
+          "titulo": "Preparar Visual Studio Code",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/02-preparar-vscode"
         },
         {
-          "titulo": "Diseño responsivo con CSS",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad02-css/README.md"
+          "titulo": "Crear el primer repositorio",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/03-primer-repositorio"
         },
         {
-          "titulo": "Interacción con JavaScript y DOM",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad03-javascript/README.md"
+          "titulo": "Subir un proyecto existente",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/04-subir-proyecto-existente"
         },
         {
-          "titulo": "Datos locales y reglas del proyecto",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad04-persistencia/README.md"
+          "titulo": "Flujo de trabajo diario",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/05-flujo-trabajo-diario"
         },
         {
-          "titulo": "Del DOM a componentes React",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad05-react/README.md"
+          "titulo": "Clonar un repositorio",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/06-clonar-repositorio"
         },
         {
-          "titulo": "Consulta de datos y estados remotos",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad06-api/README.md"
+          "titulo": "Actualizar con git pull",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/07-actualizar-repositorio"
         },
         {
-          "titulo": "Pruebas, publicación y proyecto propio",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/frontend/unidad07-proyecto/README.md"
-        }
-      ]
-    },
-    {
-      "id": "backend-java",
-      "titulo": "Backend y APIs con Java",
-      "area": "desarrollo-web",
-      "nivel": "Intermedio",
-      "descripcion": "Construye servicios REST con Spring Boot, incorpora persistencia e integraciones y aprende a probar, observar y evaluar el comportamiento de tus aplicaciones.",
-      "tecnologias": [
-        "Java 21",
-        "Spring Boot",
-        "REST",
-        "JPA",
-        "Spring Security"
-      ],
-      "baseRecomendada": [
-        "java"
-      ],
-      "url": "https://lelyliliana.github.io/aprende-con-leli/cursos/backend-java/",
-      "temas": [
-        {
-          "titulo": "Punto de entrada y entorno",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/README.md"
+          "titulo": "Source Control en VS Code",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/08-source-control-vscode"
         },
         {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/DESARROLLO.md"
+          "titulo": "Trabajo colaborativo",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/09-trabajo-colaborativo"
         },
         {
-          "titulo": "Punto de entrada y entorno · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad00-ruta/PRACTICA.md"
+          "titulo": "Ramas",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/10-ramas"
         },
         {
-          "titulo": "Primera API y responsabilidades",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/README.md"
+          "titulo": "Resolver conflictos",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/11-conflictos"
         },
         {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/DESARROLLO.md"
-        },
-        {
-          "titulo": "Primera API y responsabilidades · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad01-fundamentos/PRACTICA.md"
-        },
-        {
-          "titulo": "Contratos REST, validación y capas",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/DESARROLLO.md"
-        },
-        {
-          "titulo": "Contratos REST, validación y capas · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad02-rest/PRACTICA.md"
-        },
-        {
-          "titulo": "Persistencia y concurrencia",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/DESARROLLO.md"
-        },
-        {
-          "titulo": "Persistencia y concurrencia · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad03-persistencia/PRACTICA.md"
-        },
-        {
-          "titulo": "Servicios externos y fallos",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/DESARROLLO.md"
-        },
-        {
-          "titulo": "Servicios externos y fallos · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad04-integracion/PRACTICA.md"
-        },
-        {
-          "titulo": "Identidad, permisos y CSRF",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/DESARROLLO.md"
-        },
-        {
-          "titulo": "Identidad, permisos y CSRF · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad05-seguridad/PRACTICA.md"
-        },
-        {
-          "titulo": "Pruebas y evidencia de comportamiento",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/DESARROLLO.md"
-        },
-        {
-          "titulo": "Pruebas y evidencia de comportamiento · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad06-pruebas/PRACTICA.md"
-        },
-        {
-          "titulo": "Observabilidad y rendimiento",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/DESARROLLO.md"
-        },
-        {
-          "titulo": "Observabilidad y rendimiento · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad07-operacion/PRACTICA.md"
-        },
-        {
-          "titulo": "Entrega y proyecto propio",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/README.md"
-        },
-        {
-          "titulo": "Desarrollo del caso",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/DESARROLLO.md"
-        },
-        {
-          "titulo": "Entrega y proyecto propio · Práctica",
-          "url": "https://github.com/lelyliliana/aprende-con-leli/blob/main/cursos/backend-java/unidad08-proyecto/PRACTICA.md"
+          "titulo": "Errores frecuentes",
+          "url": "https://github.com/lelyliliana/Guia-Git-GitHub-VSCode/tree/main/12-errores-frecuentes"
         }
       ]
     }

@@ -69,6 +69,10 @@ python scripts/sincronizar-cursos.py --fuente ../aprende-con-leli
 
 El script utiliza el catálogo y las páginas de cursos de esa copia, registra su revisión en recursos/catalogo.json y conserva los enlaces complementarios de ejemplos e investigación. Antes de publicar, comprueba las nuevas unidades y la correspondencia con el sitio de aprendizaje.
 
+La organización editorial se mantiene en el generador: SQL aparece en Datos e IA, PHP en Desarrollo web y las tarjetas siguen las rutas sugeridas. Los prerrequisitos enlazan a otras tarjetas y los recuentos distinguen unidades o módulos de accesos a temas y prácticas.
+
+Después de revisar los enlaces y la organización, puedes registrar la fecha real con `--fecha-revision AAAA-MM-DD`. Sin ese argumento se conserva la fecha de la revisión anterior. Esa fecha no certifica la ejecución de ejercicios ni la compatibilidad de dependencias.
+
 ## Metadatos para compartir y mapa del sitio
 
 Después de añadir o actualizar páginas públicas, ejecuta:
