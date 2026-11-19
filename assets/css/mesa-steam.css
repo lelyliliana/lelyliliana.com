@@ -25,12 +25,12 @@
 .mesa-gallery-feature { padding: clamp(20px, 4vw, 40px); border-radius: 20px; background: var(--color-light); text-align: center; }
 .mesa-gallery-secondary { background: var(--color-background); }
 .mesa-shot { min-width: 0; margin: 0; text-align: center; }
-.mesa-shot-placeholder, .mesa-shot-link { display: grid; place-items: center; width: min(100%, 220px); aspect-ratio: 9 / 16; margin-inline: auto; border: 2px dashed var(--color-border); border-radius: 16px; background: var(--color-light); color: var(--color-muted); }
+.mesa-shot-placeholder, .mesa-shot-link { display: grid; place-items: center; width: min(100%, 270px); margin-inline: auto; border: 2px dashed var(--color-border); border-radius: 16px; background: var(--color-light); color: var(--color-muted); }
 .mesa-shot-placeholder { padding: 18px; }
 .mesa-gallery-feature .mesa-shot-placeholder, .mesa-gallery-feature .mesa-shot-link { width: min(100%, 270px); background: var(--color-background); }
 .mesa-shot-link { display: block; border-style: solid; overflow: hidden; }
 .mesa-shot-link:hover { border-color: var(--color-accent); }
-.mesa-shot-link img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.mesa-shot-link img { display: block; width: 100%; height: auto; object-fit: contain; }
 .mesa-shot figcaption { margin-top: 12px; font-size: .875rem; color: var(--color-muted); }
 .mesa-lightbox { width: min(900px, calc(100% - 32px)); max-height: calc(100dvh - 32px); padding: 20px; border: 1px solid var(--color-border); border-radius: 18px; background: var(--color-background); color: var(--color-text); box-shadow: 0 24px 70px #0007; }
 .mesa-lightbox::backdrop { background: #07182ecc; }
